@@ -1,7 +1,7 @@
 let DATABASE = {};
 DATABASE.daily = `
-DATE      IMG TITL                        TXT
-301230
+DATE   PICT TERM                NOTE                             END
+301230 0000 What                Description of work
 301229
 301228
 301227
@@ -395,5 +395,5 @@ DATE      IMG TITL                        TXT
 300104
 300103
 300102
-300101    000 What did you work on?       Description of work
+300101 000 What did you work on?       Description of work
 `;
