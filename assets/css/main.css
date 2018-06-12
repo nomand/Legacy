@@ -1,2 +1,55 @@
-body { font-family: 'SourceSansPro_Regular'; background:#000; padding: 0px; overflow-x: hidden; transition: opacity 150ms; opacity: 1 !important; color: #fff}
+body { font-family: 'SourceSansPro_Regular'; background:#000; padding: 0px; overflow-x: hidden; transition: opacity 150ms; opacity: 1 !important; color: #fff; }
 a { cursor: pointer; }
+
+.fullscreen
+{
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  
+  -webkit-background-size: 100px 100px, cover, cover;
+  -moz-background-size: 100px 100px, cover, cover;
+  background-size: 100px 100px, cover, cover;
+  -o-background-size: 100px 100px, cover, cover;
+  background-position: top left, center center, bottom center;
+  background-repeat: repeat, no-repeat, no-repeat;
+  background-image: url("../img/noise.png"), url('../img/QVB.jpg');
+
+  text-align: center;
+  color: white;
+}
+
+.header
+{
+    position: relative;
+    top:0px;
+    left:0px;
+    width:100vw;
+    max-height:calc(100vh - 135px);
+    background-position: center;
+    background-size:cover;
+    transition: all 150ms;
+    min-height:100px;
+    background-color: #000;
+    margin-bottom: 100px;
+}
+.entry
+{
+    display: block;
+    margin: 4px auto;
+    padding: 20px;
+    width: 500px;
+    background: #000;
+    text-align: left;
+}
+.date .project
+{
+    display: block;
+    text-align: left;
+}
+.note
+{
+    display: block;
+    text-align: left;
+    margin-top: 6px;
+}

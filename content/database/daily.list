@@ -1,8 +1,8 @@
 DATABASE.daily = `
 DATE   PICT TERM                NOTE                             END
 
-301230 0000 Project             Description of work
-301229
+301230 0000 Webwebweb           Lets get this 150 chars long
+301229 0000 A Song              Never gona give you up
 301228
 301227
 301226
@@ -395,5 +395,5 @@ DATE   PICT TERM                NOTE                             END
 300104
 300103
 300102
-300101 000 What did you work on?       Description of work
+300101 0000 Project Name        What did you do today? A thing.
 `;
