@@ -1,7 +1,7 @@
-let DATABASE = {};
 DATABASE.daily = `
 DATE   PICT TERM                NOTE                             END
-301230 0000 What                Description of work
+
+301230 0000 Project             Description of work
 301229
 301228
 301227

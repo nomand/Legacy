@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <script src="lib/scribe.js"></script>
+  <script src="lib/weaver.js"></script>
 
   <script type="text/javascript" src="content/database/daily.list"></script>
 
@@ -16,7 +17,7 @@
 </head>
 <body>
   <script>
-    console.log(new Scribe(DATABASE.daily).parse());
+    let legacy = new Weaver();
   </script>
 </body>
 </html>
