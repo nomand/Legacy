@@ -41,15 +41,29 @@ a { cursor: pointer; }
     width: 500px;
     background: #000;
     text-align: left;
+    color: #fff;
 }
-.date .project
+.date
 {
     display: block;
-    text-align: left;
+    color: #999999;
+}
+.project
+{
+    display: block;
+    font-weight: bold;
 }
 .note
 {
     display: block;
     text-align: left;
     margin-top: 6px;
+}
+.pict
+{
+    display: inline-block;
+    border: none;
+    margin: 10px 0px 0px 0px;
+    width: 100%;
+    height: 100%;
 }
