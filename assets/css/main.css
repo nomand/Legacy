@@ -1,20 +1,16 @@
 body { font-family: 'SourceSansPro_Regular'; background:#ccc; margin: 0px; padding: 0px; overflow-x: hidden; transition: opacity 150ms; opacity: 1 !important; color: #fff; }
 a { cursor: pointer; }
 
-.fullscreen
+body
 {
-  position: absolute;
-  width: 100%;
-  min-height: 100%;
-  
   -webkit-background-size: 100px 100px, cover, cover;
   -moz-background-size: 100px 100px, cover, cover;
   background-size: 100px 100px, cover, cover;
   -o-background-size: 100px 100px, cover, cover;
   background-position: top left, center center, bottom center;
   background-repeat: repeat, no-repeat, no-repeat;
+  background-attachment: fixed;
   background-image: url("../img/noise.png"), url('../img/QVB.jpg');
-  color: white;
 }
 
 .header
@@ -70,6 +66,7 @@ a { cursor: pointer; }
 }
 .project
 {
+    font-family: 'SourceSansPro_Bold';
     font-size: 1.2em;
     display: inline-block;
     font-weight: bold;
