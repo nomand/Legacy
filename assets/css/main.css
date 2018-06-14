@@ -1,7 +1,7 @@
 body { font-family: 'SourceSansPro_Regular'; background:#000; margin: 0px; padding: 0px; overflow-x: hidden; transition: opacity 150ms; opacity: 1 !important; color: #fff; }
 a { cursor: pointer; }
 
-.header
+#header
 {
   -webkit-background-size: 100px 100px, cover, cover;
   -moz-background-size: 100px 100px, cover, cover;
@@ -11,7 +11,7 @@ a { cursor: pointer; }
   background-repeat: repeat, no-repeat, no-repeat;
 }
 
-.header
+#header
 {
     display: block;
     position: relative;
@@ -38,7 +38,6 @@ a { cursor: pointer; }
     background-color: #fff;
     padding: 0px 40px;
 }
-
 .entry
 {
     display: block;
@@ -99,3 +98,22 @@ a { cursor: pointer; }
 /* Theme */
 .round
 { -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; }
+
+#logo
+{
+    position: fixed;
+    width: 100px;
+    top: 10px;
+    left: 10px;
+    height: 100px;
+    background-image: url("../svg/nm.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+#logo.sticky
+{
+    position: absolute;
+    bottom: 20px;
+    top: initial;
+}
