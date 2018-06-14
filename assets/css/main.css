@@ -52,12 +52,6 @@ body
     -webkit-transition: transform 0.2s; /* For Safari 3.1 to 6.0 */
     transition: transform 0.2s;
 }
-.entry:hover
-{
-    -webkit-transform: translateY(6px);
-    -ms-transform: translateY(6px);
-    transform: translateX(6px);
-}
 
 .date
 {
