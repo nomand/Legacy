@@ -48,8 +48,6 @@ a { cursor: pointer; }
     background: #fff;
     text-align: left;
     color: #000;
-    -webkit-transition: transform 0.2s; /* For Safari 3.1 to 6.0 */
-    transition: transform 0.2s;
 }
 
 .date
@@ -78,9 +76,12 @@ a { cursor: pointer; }
     margin: 10px 0px 0px 0px;
     width: 100%;
     min-height: calc(100vh * 0.3);
+    -webkit-transition: min-height 0.2s; /* For Safari 3.1 to 6.0 */
+    transition: min-height 0.2s;
 }
 .pict:hover
 {
+    min-height: calc(100vh * 0.5);
     cursor: pointer;
 }
 .lightbox
