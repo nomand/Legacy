@@ -49,19 +49,23 @@ a { cursor: pointer; }
 #footer .logo
 {
     display: inline-block;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     background-color: black;
 }
 
 #footer a.icon
 {
-    background-color: #000;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: center;
     display: inline-block;
     width: 30px; height: 30px;
     float: right;
-    margin-left: 8px;
+    margin-left: 20px;
 }
+#footer a.icon.github { background-image: url("../svg/github.svg"); }
+#footer a.icon.twitter { background-image: url("../svg/twitter.svg"); }
 
 .entry
 {
