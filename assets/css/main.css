@@ -21,14 +21,7 @@ a { cursor: pointer; }
     max-height: calc(100vh - 100px);
     background-color: #000;
 }
-#header .logo
-{
-    position: fixed;
-    width: 100px;
-    top: 10px;
-    left: 10px;
-    height: 100px;
-}
+#header .logo { position: fixed; width: 80px; height: 80px; top: 20px; left: 20px; }
 #content
 {
     display: block;
@@ -42,67 +35,32 @@ a { cursor: pointer; }
     display: block;
     background-color: #fff;
     padding: 0px 40px;
-    clear: both;
 }
-#fwrap { display: block; padding: 30px 0px; margin: 0px; max-width: 100%; }
+#fwrap { display: block; padding: 50px 0px; margin: 0px; max-width: 100%; font-size: 20px; line-height: 20px; color: #000; }
+#fwrap::after {clear: both;}
+#fwrap .logo { display: block; width: 30px; height: 30px; background-color: black; margin: none; }
 
-#footer .logo
-{
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    background-color: black;
-}
-
-#footer a.icon
+#fwrap a.icon
 {
     background-size: contain;
     background-repeat: no-repeat;
     background-position-y: center;
-    display: inline-block;
-    width: 30px; height: 30px;
+    display: block;
+    width: 20px; height: 20px;
     float: right;
-    margin-left: 20px;
+    margin: 10px 0px 0px 20px;
 }
+
 #footer a.icon.github { background-image: url("../svg/github.svg"); }
 #footer a.icon.twitter { background-image: url("../svg/twitter.svg"); }
 
-.entry
-{
-    border-top: 1px solid #444 ;
-    display: block;
-    margin: 0px auto 2px auto;
-    padding: 20px 60px;
-    max-width: 700px;
-    background: #000;
-    text-align: left;
-    color: #fff;
-}
+#entry { border-top: 1px solid #444 ; display: block; margin: 0px auto 2px auto; padding: 20px 60px; max-width: 700px; background: #000; text-align: left; color: #fff; }
+#entry #date { display: inline-block; color: #999999; }
+#entry #project { display: inline-block; font-family: 'SourceSansPro_Bold'; font-size: 1.2em; font-weight: bold; margin-right: 10px; }
+#entry #note { display: block; text-align: left; margin-top: 6px; }
 
-.date
+#pict
 {
-    display: inline-block;
-    color: #999999;
-}
-
-.project
-{
-    font-family: 'SourceSansPro_Bold';
-    font-size: 1.2em;
-    display: inline-block;
-    font-weight: bold;
-    margin-right: 10px;
-}
-
-.note
-{
-    display: block;
-    text-align: left;
-    margin-top: 6px;
-}
-
-.pict
-{   
     background-position: center;
     background-size:cover;
     display: inline-block;
@@ -113,11 +71,7 @@ a { cursor: pointer; }
     transition: min-height 0.2s;
 }
 
-.pict:hover
-{
-    min-height: calc(100vh * 0.5);
-    cursor: pointer;
-}
+#pict:hover { min-height: calc(100vh * 0.5); cursor: pointer; }
 
 .lightbox
 {
@@ -137,13 +91,7 @@ a { cursor: pointer; }
     background-repeat: no-repeat;
     background-position-y: center;
 }
-
-#logo.sticky
-{
-    position: absolute;
-    bottom: 20px;
-    top: initial;
-}
+#logo.sticky { position: absolute; bottom: 20px; top: initial; }
 
 /* Theme */
 .round
