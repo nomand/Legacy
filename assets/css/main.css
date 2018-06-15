@@ -28,16 +28,32 @@ a { cursor: pointer; }
     min-height: calc(100vh - 200px);
     padding: 100px 0px 100px 0px;
 }
-.footer
+
+#footer
 {
     display: block;
-    position: relative;
-    width: 100%;
-    height: 200px;
-    bottom: 0; left: 0; right: 0;
     background-color: #fff;
     padding: 0px 40px;
+    clear: both;
 }
+#fwrap { display: block; padding: 30px 0px; max-width: 100%; }
+
+#footerlogo
+{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+}
+#footer a.icon
+{
+    background-color: #000;
+    display: inline-block;
+    width: 30px; height: 30px;
+    float: right;
+    margin-left: 8px;
+}
+
 .entry
 {
     display: block;
@@ -93,12 +109,6 @@ a { cursor: pointer; }
     background-color: #000;
     opacity: 0.5;
 }
-
-
-/* Theme */
-.round
-{ -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; }
-
 #logo
 {
     position: fixed;
@@ -117,3 +127,7 @@ a { cursor: pointer; }
     bottom: 20px;
     top: initial;
 }
+
+/* Theme */
+.round
+{ -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; }
