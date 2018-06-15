@@ -1,4 +1,4 @@
-body { font-family: 'SourceSansPro_Regular'; background:#000; margin: 0px; padding: 0px; overflow-x: hidden; transition: opacity 150ms; opacity: 1 !important; color: #fff; }
+body { font-family: 'SourceSansPro_Regular'; background:#000; margin: 0px; padding: 0px; transition: opacity 150ms; opacity: 1 !important; color: #fff; }
 a { cursor: pointer; }
 
 #header
@@ -21,12 +21,20 @@ a { cursor: pointer; }
     max-height: calc(100vh - 100px);
     background-color: #000;
 }
-.content
+#header .logo
+{
+    position: fixed;
+    width: 100px;
+    top: 10px;
+    left: 10px;
+    height: 100px;
+}
+#content
 {
     display: block;
     position: relative;
     min-height: calc(100vh - 200px);
-    padding: 100px 0px 100px 0px;
+    padding: 100px 10px 100px 10px;
 }
 
 #footer
@@ -36,15 +44,16 @@ a { cursor: pointer; }
     padding: 0px 40px;
     clear: both;
 }
-#fwrap { display: block; padding: 30px 0px; max-width: 100%; }
+#fwrap { display: block; padding: 30px 0px; margin: 0px; max-width: 100%; }
 
-#footerlogo
+#footer .logo
 {
     display: inline-block;
     width: 30px;
     height: 30px;
     background-color: black;
 }
+
 #footer a.icon
 {
     background-color: #000;
@@ -56,13 +65,14 @@ a { cursor: pointer; }
 
 .entry
 {
+    border-top: 1px solid #444 ;
     display: block;
-    margin: 2px auto;
-    padding: 20px;
-    width: 600px;
-    background: #fff;
+    margin: 0px auto 2px auto;
+    padding: 20px 60px;
+    max-width: 700px;
+    background: #000;
     text-align: left;
-    color: #000;
+    color: #fff;
 }
 
 .date
@@ -70,19 +80,23 @@ a { cursor: pointer; }
     display: inline-block;
     color: #999999;
 }
+
 .project
 {
     font-family: 'SourceSansPro_Bold';
     font-size: 1.2em;
     display: inline-block;
     font-weight: bold;
+    margin-right: 10px;
 }
+
 .note
 {
     display: block;
     text-align: left;
     margin-top: 6px;
 }
+
 .pict
 {   
     background-position: center;
@@ -94,11 +108,13 @@ a { cursor: pointer; }
     -webkit-transition: min-height 0.2s; /* For Safari 3.1 to 6.0 */
     transition: min-height 0.2s;
 }
+
 .pict:hover
 {
     min-height: calc(100vh * 0.5);
     cursor: pointer;
 }
+
 .lightbox
 {
     position: absolute;
@@ -109,18 +125,15 @@ a { cursor: pointer; }
     background-color: #000;
     opacity: 0.5;
 }
-#logo
+
+.logo
 {
-    position: fixed;
-    width: 100px;
-    top: 10px;
-    left: 10px;
-    height: 100px;
     background-image: url("../svg/nm.svg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position-y: center;
 }
+
 #logo.sticky
 {
     position: absolute;
