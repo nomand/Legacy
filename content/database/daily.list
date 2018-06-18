@@ -1,3 +1,5 @@
+DATABASE = {}
+
 DATABASE.daily = `
 DATE   PICT TERM                NOTE                             END
 
