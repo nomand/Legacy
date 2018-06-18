@@ -59,11 +59,22 @@ a { cursor: pointer; }
 {
     position: relative;
     display: block;
-    width: 80vw;
+    width: 60vw;
     height: 80vh;
     margin: auto auto;
     border-bottom: 1px solid #444;
     background-color: rgba(0, 0, 0, 1);
+    text-align: center;
+}
+#showcase #pict
+{
+    display: inline-block;
+    width: 90%;
+    height: 90%;
+    background-position: center center;
+    background-size:contain;
+    background-repeat: no-repeat;
+
 }
 
 .logo { background-image: url("../svg/nm.svg"); background-size: contain; background-repeat: no-repeat; background-position-y: center; }
