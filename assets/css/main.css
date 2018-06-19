@@ -16,19 +16,19 @@ a { cursor: pointer; }
 
 #stats { display: block; margin: 0px auto 20px auto; padding: 0px 60px; max-width: 700px; text-align: left; color: #fff; font-family: 'SourceSansPro_Bold' }
 #stats #stat { display: inline-block; margin: 0px 10px 10px 0px; background-color: #fff; color: #000; padding: 4px 8px; max-width: 100px}
-#stats #stat:hover { background-color: #666; color: #fff; cursor: pointer; }
+#stats #stat:hover { background-color: #333; color: #fff; cursor: pointer; }
 
 #entry { border-top: 1px solid #444 ; display: block; margin: 0px auto 2px auto; padding: 20px 60px; max-width: 700px; background: #000; text-align: left; color: #fff; }
 #date { display: inline-block; color: #999999; }
 #project { display: inline-block; font-family: 'SourceSansPro_Bold'; font-size: 1.2em; font-weight: bold; margin-right: 10px; }
-#note { display: block; text-align: left; margin: 6px 0px; }
-#pict { background-position: center; background-size:cover; display: inline-block; margin: 0px; width: 100%; min-height: calc(100vh * 0.3); -webkit-transition: min-height 0.2s; transition: min-height 0.2s; }
-#pict:hover { min-height: calc(100vh * 0.5); cursor: pointer; }
+#note { display: block; text-align: left; }
+#pict { background-position: center; background-size:cover; display: inline-block; margin-top: 10px; width: 100%; min-height: calc(100vh * 0.4); -webkit-transition: min-height 0.2s; transition: min-height 0.2s; }
+#pict:hover { min-height: calc(100vh * 0.45); cursor: pointer; }
 
-#lightbox { position: fixed; display: inline-flex; width: 100%; height: 100%; top: 0; left: 0; background-color: rgba(0, 0, 0, .4); text-align: center; }
+#lightbox { position: fixed; display: inline-flex; width: 100%; height: 100%; top: 0; left: 0; background-color: rgba(0, 0, 0, .8); text-align: center; }
 #showcase { position: relative; display: inline-block; margin: auto auto; background-color: rgba(0, 0, 0, 1); padding: 20px; }
 #showcase #img { display: block; max-width: 70vw; max-height: 80vh; background-position: center center; background-size:contain; background-repeat: no-repeat; margin: none; object-fit: contain; }
-#showcase #post { display: inline-block; width: 100%; bottom: 0px; background-color: rgba(0,0,0,0.5); text-align: left; margin-top: 20px; }
+#showcase #post { display: inline-block; width: 100%; bottom: 0px; background-color: rgba(0,0,0,0.5); text-align: left; margin-top: 10px; }
 
 .logo { background-image: url("../svg/nm.svg"); background-size: contain; background-repeat: no-repeat; background-position-y: center; }
 #logo.sticky { position: absolute; bottom: 20px; top: initial; }
