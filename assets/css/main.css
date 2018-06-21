@@ -6,9 +6,9 @@ a { cursor: pointer; }
 #header .logo { position: fixed; width: 80px; height: 80px; top: 20px; left: 20px; }
 #content { display: block; position: relative; min-height: calc(100vh - 200px); padding: 100px 10px 100px 10px; }
 #footer { display: block; background-color: #fff; padding: 0px 40px; }
-#footerwrap { display: block; padding: 50px 0px; margin: 0px; max-width: 100%; font-size: 20px; color: #000; }
-#footerwrap:after { clear: both; }
-#footerwrap .logo { display: block; width: 30px; height: 30px; background-color: #000; margin: none; }
+#footerwrap { display: block; padding: 60px 0px; margin: 0px; max-width: 100%; font-size: 20px; color: #000; }
+#footerwrap .logo { display: block; width: 30px; height: 30px; background-color: #000; margin: none; float: left;}
+#footerwrap .credit { display: inline-block;  margin-left: 20px; font-size: 14px; }
 #footerwrap a.icon { background-size: contain; background-repeat: no-repeat; background-position-y: center; display: block; width: 20px; height: 20px; float: right; margin: 10px 0px 0px 20px; }
 
 #footer a.icon.github { background-image: url("../svg/github.svg"); }
@@ -34,5 +34,5 @@ a { cursor: pointer; }
 #logo.sticky { position: absolute; bottom: 20px; top: initial; }
 
 /* Theme */
-.round
-{ -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; }
+.round { -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; }
+.grey { color: #888; }
