@@ -1,5 +1,6 @@
 body { font-family: 'SourceSansPro_Regular'; background:#020202; margin: 0px; padding: 0px; transition: opacity 150ms; opacity: 1 !important; color: #fff; }
 a { cursor: pointer; }
+hr { clear: both; }
 
 /* main */
 #header { -webkit-background-size: 100px 100px, cover, cover; -moz-background-size: 100px 100px, cover, cover; background-size: 100px 100px, cover, cover; -o-background-size: 100px 100px, cover, cover; background-position: top left, center center, bottom center; background-repeat: repeat, no-repeat, no-repeat; }
@@ -8,7 +9,7 @@ a { cursor: pointer; }
 .logo { background-image: url("../svg/nm.svg"); background-size: contain; background-repeat: no-repeat; background-position-y: center; }
 #logo.sticky { position: absolute; bottom: 20px; top: initial; }
 
-#content { display: block; position: relative; min-height: calc(60vh - 200px); padding: 100px 100px 100px 100px; }
+#content { display: block; position: relative; min-height: calc(60vh - 200px); padding: 100px 40px 100px 40px; }
 
 #footer { display: block; background-color: #fff; padding: 0px 40px; }
 #footerwrap { display: block; padding: 60px 0px; margin: 0px; max-width: 100%; font-size: 20px; color: #000; }
@@ -30,8 +31,8 @@ a { cursor: pointer; }
 #pict { background-position: center; background-size:cover; display: inline-block; margin-top: 20px; width: 100%; min-height: calc(100vh * 0.4); -webkit-transition: min-height 0.2s; transition: min-height 0.2s; }
 #pict:hover { min-height: calc(100vh * 0.45); cursor: pointer; }
 #gallerypic { display: block; width: 10vw; height: calc(10vw * 1.4); background-position: center; background-size:cover; float: left; margin: 10px; }
-#topicblock { display: block; max-width: 30vh; margin: 20px; }
-#topicalphabet { display: block; margin-bottom: 20px; border-bottom: 1px solid #444; padding: 6px; font-size: 20px; font-weight: bold; }
+#topicblock { display: block; min-width: 20vh; margin: 10px; float: left;}
+#topicalphabet { display: block; margin-bottom: 20px; border-bottom: 1px solid #444; padding: 6px; font-size: 20px; font-weight: bold; user-select: none; -moz-user-select: none; -moz-user-select: none; }
 #topic { display: block; margin-left: 20px; }
 
 /* lightbox */
