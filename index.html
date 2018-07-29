@@ -4,11 +4,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <script type="text/javascript" src="content/database/daily.list"></script>
+  <script src="lib/runic.js"></script>
+  <script src="lib/indental.js"></script>
 
-  <script src="lib/scribe.js"></script>
-  <script src="lib/weaver.js"></script>
-
+  <script type="text/javascript" src="content/database/data.ndtl"></script>
+  <script src="lib/wrap.js"></script>
+  <script src="lib/view.js"></script>
+  <script src="lib/main.js"></script>
 
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css"/>
   <link rel="stylesheet" type="text/css" href="assets/css/fonts.css"/>
@@ -18,7 +20,8 @@
 </head>
 <body>
   <script>
-    let legacy = new Weaver();
-  </script>
+    var main = new Main();
+    main.install();
+    main.start();  </script>
 </body>
 </html>
