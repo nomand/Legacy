@@ -2,6 +2,19 @@
 
 let DATABASE = `
 
+HOME
+  TYPE : collection
+
+GAMES
+  TYPE : collection
+
+PROJECTS
+  TYPE : collection
+
+FPV
+  TYPE : collection
+
+
 AGAINST BEAUTY IN PHYSICS
   PERS : faun
   SRCE : Merveilles
