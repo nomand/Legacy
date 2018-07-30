@@ -1,6 +1,19 @@
-// TYPE: article, podcast, video, list, book, game, service, lecture, quote, tool, music, image, encyclopedia
-
 let DATABASE = `
+
+HOME
+  TYPE : page
+
+GAMES
+  TYPE : collection
+
+HARDWARE
+  TYPE : collection
+
+FPV
+  TYPE : collection
+
+PROJECTS
+  TYPE : collection
 
 AGAINST BEAUTY IN PHYSICS
   PERS : faun
@@ -931,15 +944,6 @@ PRIVACY POSSUM
   DATE : 12018-07-12
   DONE : false
 
-KNOWLEDGE NOTES
-  LINK : https://github.com/yoshuawuyts/knowledge
-  TYPE : encyclopedia
-  DONE : false
-  REVI : true
-  DATE : 12018-07-13
-  NOTE : Notes on everything
-  TAGS : inspiration, research
-
 WONDERBOOK
   PERS : stephen
   SRCE : Merveilles
@@ -1342,15 +1346,6 @@ LOW TECH MAGAZINE
   DONE : false
   TAGS : history, solarpunk, env, offgrid
 
-GWERN
-  PERS : neauoire
-  SRCE : Merveilles
-  LINK : http://www.gwern.net/
-  TYPE : encyclopedia
-  DATE : 12018-07-16
-  DONE : false
-  TAGS : inspiration, history, psychology, science, ai, bitcoin, code, psychedelics, env
-
 MANSONRY GRID LIB
   LINK : https://masonry.desandro.com/
   TYPE : tool
@@ -1452,26 +1447,6 @@ EDUCATION
   DONE : true
   TAGS : philosophy
   TYPE : quote
-
-CODEX
-  LINK : https://github.com/uonai/Codex
-  TYPE : encyclopedia
-  QOTE 
-    > 'If someone contacts you, always respond.'
-    > 'Elevate the stories of the exiles.'
-    > 'Support your partner in all forms of growth.'
-    > 'Make time for yourself.'
-    > 'Don't idealize a future. Be there in the present.'
-    > 'Computers are difficult and struggling with technology means you're learning.'
-    > 'Programming languages are for building things. The more things you build, the more programming languages will make sense.'
-    > 'All technologists are both designers and developers.'
-    > 'Social media is a form of gambling. Treat it with caution.'
-    > 'Running away from technology is pointless. Build something better on top of existing technology.'
-    > 'Optimize for skills, not pay grade.'
-  DATE : 12018-07-17
-  DONE : true
-  REVI : true
-  TAGS : inspiration, philosophy, code, psychology
 
 LET'S ENCRYPT
   LINK : https://letsencrypt.org/
@@ -1769,20 +1744,6 @@ ETIDORHPA
   SRCE : Merveilles
   LINK : http://www.sacred-texts.com/earth/eti/index.htm
 
-KNOWLEDGE WIKI
-  PERS : Josh
-  SRCE : Merveilles
-  LINK : https://wiki.nikitavoloboev.xyz
-  TYPE : encyclopedia
-  TAGS : inspiration
-
-KNOWLEDGE
-  PERS : neauoire
-  SRCE : Merveilles
-  LINK : http://wiki.xxiivv.com/knowledge
-  TYPE : encyclopedia
-  TAGS : inspiration
-
 SAILING RESOURCES
   PERS : neauoire
   SRCE : Merveilles
@@ -1942,14 +1903,6 @@ JOURNALING NOTES
     > "i dont do pomodoro because i dont take orders from fucking robots" - floatvoit
     > "To add to the thread earlier in #the-lobby. The idea of rotating around different creative practices to match your flow and interests rang a bell for me. It reminded me of Jung's explanation of _circumambulation_. "There is no linear evolution; there is only a circumambulation of the self". It's mostly used in a spiritual context of finding enlightenment, and described as an orbit whose center is both the self and the goal. However, some can say that _the self_ is, in fact, partly the art that you are creating. It's an extension of you. And as a multidimensional person who has many different skills and interests, one can be seen as fleshing out the different faces of the self as they orbit through their varying interests. Your interests are different faces of the same object. Every time you make a rotation around the obelisk of _self_, you see a different version of you." - sebastian
     & "If the psychology can be mapped precisely. You can use the appropriate symbolism in a UI to help guide and prime movements in this metaphysical space and facilitate consistent workflow for users. This is one of my goals." - sebastian
-
-EVERYTHING
-  DATE : 12018-07-19
-  PERS : neauoire
-  SRCE : Merveilles
-  QOTE : 'have you tried writing down everything you know about everything?' - neauoire
-  TYPE : encyclopedia
-  TAGS : inspiration
 
 MUSIC THEORY
   DATE : 12018-07-20
