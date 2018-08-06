@@ -1,19 +1,25 @@
 let DATABASE = `
 
 HOME
-  TYPE : page
+  TYPE : home
 
 GAMES
   TYPE : collection
+  PRNT : home
 
 HARDWARE
   TYPE : collection
+  PRNT : home
 
 FPV
   TYPE : collection
+  PRNT : home
 
 PROJECTS
   TYPE : collection
+  
+PICOPICA
+  TYPE : project
 
 AGAINST BEAUTY IN PHYSICS
   PERS : faun
