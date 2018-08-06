@@ -5,102 +5,38 @@ HOME
 
 GAMES
   TYPE : collection
-  PRNT : home
+  UNDE : home
 
 HARDWARE
   TYPE : collection
-  PRNT : home
+  UNDE : home
 
 FPV
   TYPE : collection
-  PRNT : home
+  UNDE : home
 
-PROJECTS
+VIDEO
   TYPE : collection
-  
+  UNDE : home
+
 PICOPICA
   TYPE : project
+  UNDE : hardware
+  TAGS : raspberrypi
 
-AGAINST BEAUTY IN PHYSICS
-  PERS : faun
-  SRCE : Merveilles
-  LINK : http://rationallyspeakingpodcast.org/show/rs-211-sabine-hossenfelder-on-the-case-against-beauty-in-phy.html
-  TYPE : podcast
-  DATE : 12018-07-03
-  TAGS : philosophy, science
-  QOTE : 'It hit me pretty hard. Some of this stuff is really philosophically potent in a way that's easy to overlook.' - faun
-  DONE : true
-  REVI : true
+HSVLED
+  TYPE : project
+  UNDE : hardware
+  TAGS : arduino, led
 
-HACKETY HACK
-  PERS : cblgh
-  SRCE : Merveilles
-  LINK : https://vimeo.com/5047563
-  TYPE : lecture
-  DATE : 12018-07-03
-  TAGS : code
-  QOTE : 'It's super inspiring in general, but he also presents a game he made to teach programming without the players realizing until it's too late and they're already wizards' - cblgh
-  DONE : true
+EACHINEVR006
+  TYPE : project
+  UNDE : hardware
+  TAGS : drones, fpv
 
-FOR AND AGAINST EDU
-  PERS : neauoire
-  SRCE : Merveilles
-  LINK : https://80000hours.org/podcast/episodes/bryan-caplan-case-for-and-against-education/
-  TYPE : podcast
-  DATE : 12018-07-03
-  TAGS : philosophy
-  NOTE : Testing anti school sentiments
-  DONE : false
+SWORDY PINS
+  TYPE : project
+  UNDE : hardware
+  TAGS : jewelry
 
-OCCAM'S RAZOR
-  LINK : https://en.wikipedia.org/wiki/Occam%27s_razor
-  TYPE : article
-  TAGS : philosophy
-  DATE : 12018-07-03
-  DONE : false
-
-NEAUOIRE AESTHETICS
-  PERS : neauoire
-  SRCE : Merveilles
-  LINK : https://wiki.xxiivv.com/#aesthetics
-  TYPE : article
-  TAGS : philosophy, design, inspiration
-  DATE : 12018-07-03
-  DONE : true
-  REVI : true
-
-SLIDE
-  DATE : 12018-05-03
-  FILE : 0003.jpg
-  TYPE : image
-  DONE : true
-  WIDE : true
-  TAGS : log, hamish
-
-VAN
-  DATE : 12017-01-20
-  FILE : 0002.jpg
-  TYPE : image
-  PROJ : Van
-  TAGS : log
-  DONE : true
-
-FPV MOD
-  DATE : 12018-03-20
-  FILE : 0001.jpg
-  TYPE : image
-  PROJ : Drone
-  TAGS : log, kor
-  DONE : true
-  NOTE : Diy modified large battery and record module onto drone fpv headset
-
-SWITCH PANEL
-  DATE : 12018-03-20
-  FILE : 0000.jpg
-  TYPE : image
-  PROJ : Van
-  TAGS : arduino, log, hamish, kor
-  DONE : true
-  LINK : https://github.com/kormyen/VNS
-  NOTE : Self built light/fan/mode switch panel for RV IoT system.
 `
