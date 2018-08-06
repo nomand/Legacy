@@ -1,46 +1,46 @@
 let DATABASE = `
 
 HOME
-  TYPE : home
+  TMPL : home
 
 GAMES
-  TYPE : collection
+  TMPL : collection
   UNDE : home
 
 HARDWARE
-  TYPE : collection
+  TMPL : collection
   UNDE : home
 
 FPV
-  TYPE : collection
+  TMPL : collection
   UNDE : home
 
 VIDEO
-  TYPE : collection
+  TMPL : collection
   UNDE : home
 
 PICOPICA
-  TYPE : project
+  TMPL : project
   UNDE : hardware
   TAGS : raspberrypi
 
 HSVLED
-  TYPE : project
+  TMPL : project
   UNDE : hardware
   TAGS : arduino, led
 
 EACHINEVR006
-  TYPE : project
+  TMPL : project
   UNDE : hardware
   TAGS : drones, fpv
 
 SWORDY PINS
-  TYPE : project
+  TMPL : project
   UNDE : hardware
   TAGS : jewelry
 
 SWORDY
-  TYPE : project
+  TMPL : project
   UNDE : games
   HEAD : HEADSwordy.jpg
   TAGS : gamedev, unity, steam
