@@ -39,4 +39,10 @@ SWORDY PINS
   UNDE : hardware
   TAGS : jewelry
 
+SWORDY
+  TYPE : project
+  UNDE : games
+  HEAD : HEADSwordy.jpg
+  TAGS : gamedev, unity, steam
+
 `

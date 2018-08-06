@@ -18,7 +18,7 @@ hr { clear: both; }
 #content { display: block; position: relative; min-height: calc(60vh - 200px); padding: 20px 40px 100px 40px; }
 
 #footer { display: block; background-color: #fff; padding: 0px 40px; }
-#footerwrap { display: block; padding: 60px 0px; margin: 0px; max-width: 100%; font-size: 20px; color: #000; }
+#footerwrap { display: block; padding: 40px 0px; margin: 0px; max-width: 100%; font-size: 20px; color: #000; }
 #footerwrap .logo { display: block; width: 30px; height: 30px; background-color: #000; margin: none; float: left;}
 #footerwrap .credit { display: inline-block;  margin-left: 20px; font-size: 14px; }
 #footerwrap a.icon { background-size: contain; background-repeat: no-repeat; background-position-y: center; display: block; width: 20px; height: 20px; float: right; margin: 10px 0px 0px 20px; }
