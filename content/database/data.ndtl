@@ -20,6 +20,10 @@ VISUAL
   TMPL : collection
   UNDE : home
 
+FPV
+  TMPL : collection
+  UNDE : home
+
 PICOPICA
   TMPL : project
   UNDE : physical
@@ -83,16 +87,25 @@ PBRBLEND SHADER
 
 XBL3
   TMPL : project
-  UNDE : physical
+  UNDE : fpv
   TAGS : drones, fpv
 
 NOMV2
   TMPL : project
-  UNDE : physical
+  UNDE : fpv
   TAGS : drones, fpv
+
+FLIGHTS
+  TMPL : project
+  UNDE : fpv
+  TAGS : video, youtube
 
 GALLERY
   TMPL : gallery
+  UNDE : visual
+
+PHOTOS
+  TMLP : gallery
   UNDE : visual
   TAGS : photography
 `
