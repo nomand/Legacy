@@ -9,27 +9,28 @@ a { cursor: pointer; }
 hr { clear: both; }
 
 /* main */
-#header { -webkit-background-size: 100px 100px, cover, cover; -moz-background-size: 100px 100px, cover, cover; background-size: 100px 100px, cover, cover; -o-background-size: 100px 100px, cover, cover; background-position: top left, center center, bottom center; background-repeat: repeat, no-repeat, no-repeat; }
+#header { -webkit-background-size: cover, cover; -moz-background-size: cover, cover; background-size: cover, cover; -o-background-size: cover, cover; background-position: center center, bottom center; background-repeat: no-repeat, no-repeat; }
 #header { display: block; position: relative; width:100%; height:100%; min-height: 90vh; max-height: calc(100vh - 100px); background-color: #000;}
 #header .logo { position: fixed; width: 80px; height: 80px; top: 20px; left: 20px; }
 .logo { background-image: url("../svg/nm.svg"); background-size: contain; background-repeat: no-repeat; background-position-y: center; }
 #logo.sticky { position: absolute; bottom: 20px; top: initial; }
 
-#content { display: block; position: relative; min-height: calc(60vh - 200px); padding: 20px 40px 100px 40px; }
+#content { display: block; position: relative; min-height: calc(20vh); padding: 40px 40px 100px 40px; }
 
 #footer { display: block; background-color: #fff; padding: 0px 40px; }
 #footerwrap { display: block; padding: 40px 0px; margin: 0px; max-width: 100%; font-size: 20px; color: #000; }
 #footerwrap .logo { display: block; width: 30px; height: 30px; background-color: #000; margin: none; float: left;}
 #footerwrap .credit { display: inline-block;  margin-left: 20px; font-size: 14px; }
-#footerwrap a.icon { background-size: contain; background-repeat: no-repeat; background-position-y: center; display: block; width: 20px; height: 20px; float: right; margin: 10px 0px 0px 20px; }
+#footerwrap a.icon { background-size: contain; background-repeat: no-repeat; background-position-y: center; display: block; width: 22px; height: 20px; float: right; margin: 10px 0px 0px 20px; }
 #footer a.icon.github { background-image: url("../svg/github.svg"); }
 #footer a.icon.twitter { background-image: url("../svg/twitter.svg"); }
+#footer a.icon.webring { background-image: url("../svg/rotonde.svg"); }
 
 /* journal */
-#stats { display: block; margin: 50px auto 20px auto; padding: 0px 40px; text-align: left; color: #fff; font-family: 'SourceSansPro_Bold' }
+#stats { display: block; margin: 50px auto 20px auto; padding: 0px 40px; text-align: left; color: #fff; }
 #stats #stat { display: inline-block; margin: 0px 10px 10px 0px; background-color: #fff; color: #000; padding: 4px 8px; max-width: 100px}
 #stats #stat:hover { background-color: #1f1f1f; color: #fff; cursor: pointer; }
-#stats .tag { font-size: 1em; color: #999999; margin-left: 6px; }
+#stats .tag { font-family: 'SourceSansPro_Regular'; font-size: 1em; color: #999999; margin-left: 6px; }
 
 #logheading {  display: block; margin: 0px auto 30px auto; padding: 0px 60px; max-width: 700px; text-align: left; color: #fff; font-size: 2em; font-family: 'SourceSansPro_Bold' }
 
@@ -44,10 +45,10 @@ hr { clear: both; }
 #pagination { display: block; margin: 30px auto 30px auto; padding: 0px 60px; max-width: 700px; text-align: left; color: #fff; font-family: 'SourceSansPro_Bold'; font-size: 1.2em; font-weight: bold; }
 
 #gallerypic { display: block; width: 10vw; height: calc(10vw * 1.4); background-position: center; background-size:cover; float: left; margin: 10px; }
-#topicblock { display: block; min-width: 20vh; float: left; margin-bottom: 20px;}
+#topicblock { display: block; min-width: 20vh; float: left; margin-bottom: 20px; margin-right: 20px;}
 #topicahead { display: block; margin-bottom: 10px; font-size: 20px; font-weight: bold; user-select: none; -moz-user-select: none; -moz-user-select: none; }
 #topic { display: block; margin: 2px 0px; }
-#topic:hover { text-decoration: underline; }
+#topic a:hover { text-decoration: underline; }
 
 /* lightbox */
 #lightbox { position: fixed; display: inline-flex; width: 100%; height: 100%; top: 0; left: 0; background-color: rgba(0, 0, 0, .8); text-align: center; }

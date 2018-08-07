@@ -2,7 +2,7 @@ let DATABASE = `
 
 HOME
   TMPL : home
-  SHRT : Welcome to nomand's Legacy, a project depot and playspace.
+  DESC : Welcome to nomand's project depot and playspace.
 
 GAMES
   TMPL : collection
@@ -82,6 +82,11 @@ PBRBLEND SHADER
   TAGS : gamedev, unity3d, shader
 
 XBL3
+  TMPL : project
+  UNDE : physical
+  TAGS : drones, fpv
+
+NOMV2
   TMPL : project
   UNDE : physical
   TAGS : drones, fpv
