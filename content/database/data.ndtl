@@ -2,47 +2,92 @@ let DATABASE = `
 
 HOME
   TMPL : home
+  SHRT : Welcome to nomand's Legacy, a project depot and playspace.
 
 GAMES
   TMPL : collection
   UNDE : home
 
-HARDWARE
+PHYSICAL
   TMPL : collection
   UNDE : home
 
-FPV
+DIGITAL
   TMPL : collection
   UNDE : home
 
-VIDEO
+VISUAL
   TMPL : collection
   UNDE : home
 
 PICOPICA
   TMPL : project
-  UNDE : hardware
+  UNDE : physical
   TAGS : raspberrypi
 
 HSVLED
   TMPL : project
-  UNDE : hardware
+  UNDE : physical
   TAGS : arduino, led
 
 EACHINEVR006
   TMPL : project
-  UNDE : hardware
+  UNDE : physical
   TAGS : drones, fpv
 
 SWORDY PINS
   TMPL : project
-  UNDE : hardware
+  UNDE : physical
   TAGS : jewelry
 
 SWORDY
   TMPL : project
   UNDE : games
   HEAD : HEADSwordy.jpg
-  TAGS : gamedev, unity, steam
+  TAGS : gamedev, unity3d, steam
 
+THAT COW GAME
+  TMPL : project
+  UNDE : games
+  TAGS : gamedev, unity3d, itch, gamejam
+
+CONTRAIL ROMANTICS
+  TMPL : project
+  UNDE : games
+  TAGS : gamedev, unity3d, itch, gamejam
+
+DETRITUS MEMORY DUMP
+  TMPL : project
+  UNDE : games
+  TAGS : gamedev, unity3d, itch, gamejam
+
+GAEA
+  TMPL : project
+  UNDE : digital
+  TAGS : web, time
+
+LETNICE
+  TMPL : project
+  UNDE : digital
+  TAGS : web, time
+
+REVEAL SHADER
+  TMPL : project
+  UNDE : digital
+  TAGS : gamedev, unity3d, shader
+
+PBRBLEND SHADER
+  TMPL : project
+  UNDE : digital
+  TAGS : gamedev, unity3d, shader
+
+XBL3
+  TMPL : project
+  UNDE : physical
+  TAGS : drones, fpv
+
+GALLERY
+  TMPL : gallery
+  UNDE : visual
+  TAGS : photography
 `
