@@ -4,6 +4,12 @@
   --color-footer: #fff;
 }
 
+html
+{
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+
 body { font-family: 'SourceSansPro_Regular'; background-color: var(--color-almostblack); margin: 0px; padding: 0px; transition: opacity 150ms; opacity: 1 !important; color: #fff; }
 a { cursor: pointer; }
 
@@ -31,6 +37,8 @@ a { cursor: pointer; }
 #stats #stat:hover { background-color: #1f1f1f; color: #fff; cursor: pointer; }
 #stats .tag { display: inline-block; margin: 3px 3px; font-family: 'SourceSansPro_Regular'; font-size: 1em; color: #999999; }
 #stats .tag:hover { color: #000; background-color: #999999; }
+
+#description { font-size: 1.3em; display: block; margin-bottom: 30px; text-align: left; color: #fff; }
 
 #logheading {  display: block; margin: 0px auto 30px auto; padding: 0px 60px; max-width: 700px; text-align: left; color: #fff; font-size: 2em; font-family: 'SourceSansPro_Bold' }
 

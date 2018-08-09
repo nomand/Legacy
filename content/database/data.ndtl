@@ -2,7 +2,7 @@ let DATABASE = `
 
 HOME
   TMPL : home
-  DESC : Welcome to nomand's project depot and playspace.
+  DESC : nomand's project depot and interdisciplinary playspace.
 
 GAMES
   TMPL : collection
