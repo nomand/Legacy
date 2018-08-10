@@ -1,111 +1,126 @@
 let DATABASE = `
 
 HOME
-  TMPL : home
-  DESC : nomand's project depot and interdisciplinary playspace.
+  VIEW : home
 
 GAMES
-  TMPL : collection
-  UNDE : home
+  VIEW : collection
+  FROM : home
 
 PHYSICAL
-  TMPL : collection
-  UNDE : home
+  VIEW : collection
+  FROM : home
 
 DIGITAL
-  TMPL : collection
-  UNDE : home
+  VIEW : collection
+  FROM : home
 
 VISUAL
-  TMPL : collection
-  UNDE : home
+  VIEW : collection
+  FROM : home
 
 FPV
-  TMPL : collection
-  UNDE : home
+  VIEW : collection
+  FROM : home
+
+META
+  VIEW : collection
+  FROM : home
+
+ABOUT
+  VIEW : project
+  FROM : meta
+
+CONTACT
+  VIEW : project
+  FROM : meta
+
+SUPPORT
+  VIEW : project
+  FROM : meta
 
 PICOPICA
-  TMPL : project
-  UNDE : physical
+  VIEW : project
+  FROM : physical
   TAGS : raspberrypi
 
 HSVLED
-  TMPL : project
-  UNDE : physical
+  VIEW : project
+  FROM : physical
   TAGS : arduino, led
 
 EACHINEVR006
-  TMPL : project
-  UNDE : physical
+  VIEW : project
+  FROM : physical
   TAGS : drones, fpv
 
 SWORDY PINS
-  TMPL : project
-  UNDE : physical
+  VIEW : project
+  FROM : physical
   TAGS : jewelry
 
 SWORDY
-  TMPL : project
-  UNDE : games
+  VIEW : project
+  FROM : games
   HEAD : HEADSwordy.jpg
   TAGS : gamedev, unity3d, steam
 
 THAT COW GAME
-  TMPL : project
-  UNDE : games
+  VIEW : project
+  FROM : games
   TAGS : gamedev, unity3d, itch, gamejam
 
 CONTRAIL ROMANTICS
-  TMPL : project
-  UNDE : games
+  VIEW : project
+  FROM : games
   TAGS : gamedev, unity3d, itch, gamejam
 
 DETRITUS MEMORY DUMP
-  TMPL : project
-  UNDE : games
+  VIEW : project
+  FROM : games
   TAGS : gamedev, unity3d, itch, gamejam
 
 GAEA
-  TMPL : project
-  UNDE : digital
+  VIEW : project
+  FROM : digital
   TAGS : web, time
 
 LETNICE
-  TMPL : project
-  UNDE : digital
+  VIEW : project
+  FROM : digital
   TAGS : web, time
 
 REVEAL SHADER
-  TMPL : project
-  UNDE : digital
+  VIEW : project
+  FROM : digital
   TAGS : gamedev, unity3d, shader
 
 PBRBLEND SHADER
-  TMPL : project
-  UNDE : digital
+  VIEW : project
+  FROM : digital
   TAGS : gamedev, unity3d, shader
 
 XBL3
-  TMPL : project
-  UNDE : fpv
+  VIEW : project
+  FROM : fpv
   TAGS : drones, fpv
 
 NOMV2
-  TMPL : project
-  UNDE : fpv
+  VIEW : project
+  FROM : fpv
   TAGS : drones, fpv
 
 FLIGHTS
-  TMPL : project
-  UNDE : fpv
+  VIEW : project
+  FROM : fpv
   TAGS : video, youtube
 
 GALLERY
-  TMPL : gallery
-  UNDE : visual
+  VIEW : gallery
+  FROM : visual
 
 PHOTOS
   TMLP : gallery
-  UNDE : visual
+  FROM : visual
   TAGS : photography
 `
