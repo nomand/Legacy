@@ -2,10 +2,12 @@ let DATABASE = `
 
 HOME
   VIEW : home
+  DESC : # Welcome to {{nomand}}'s project depot and interdisciplinary playspace.
 
 GAMES
   VIEW : collection
   FROM : home
+  DESC : # A colleciton of video games, gamejams and playable game-like interactive projects.
 
 PHYSICAL
   VIEW : collection
@@ -32,6 +34,10 @@ ABOUT
   FROM : meta
 
 CONTACT
+  VIEW : project
+  FROM : meta
+
+NOMAND
   VIEW : project
   FROM : meta
 

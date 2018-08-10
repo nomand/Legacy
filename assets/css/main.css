@@ -56,6 +56,7 @@ a { cursor: pointer; }
 #topic { display: block; margin: 2px 0px; }
 #topic a:hover:after { margin-right: 2px; content: " •"; }
 
+
 /* lightbox */
 #lightbox { position: fixed; display: inline-flex; width: 100%; height: 100%; top: 0; left: 0; background-color: rgba(0, 0, 0, .8); text-align: center; }
 #showcase { position: relative; display: inline-block; margin: auto auto; background-color: rgba(0, 0, 0, 1); padding: 20px; }
@@ -64,3 +65,5 @@ a { cursor: pointer; }
 
 /* misc */
 .round { -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; }
+
+#content ln a { font-family: 'SourceSansPro_Bold'; }
