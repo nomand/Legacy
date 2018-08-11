@@ -2,12 +2,11 @@ let DATABASE = `
 
 HOME
   VIEW : home
-  DESC : # Welcome to {{nomand}}'s project depot and interdisciplinary playspace.
 
 GAMES
   VIEW : collection
   FROM : home
-  DESC : & A colleciton of video games, gamejams and playable game-like interactive projects.
+  DESC : & A colleciton of video games, game-jams and playable game-like interactive projects.
 
 PHYSICAL
   VIEW : collection
@@ -61,6 +60,7 @@ HSVLED
   VIEW : project
   FROM : physical
   TAGS : arduino, led
+  DESC : & An {{arduino|tag arduino}} based {{lighting|tag light}} project to illuminate my working space.
 
 EACHINEVR006
   VIEW : project
