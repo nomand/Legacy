@@ -2,6 +2,7 @@ let DATABASE = `
 
 HOME
   VIEW : home
+  DESC : & Welcome to {{nomand's|nomand}} project depot.
 
 GAMES
   VIEW : collection

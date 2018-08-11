@@ -4,12 +4,6 @@
   --color-footer: #fff;
 }
 
-html
-{
-  text-rendering: optimizeLegibility !important;
-  -webkit-font-smoothing: antialiased !important;
-}
-
 body { font-family: 'SourceSansPro_Regular'; background-color: var(--color-almostblack); margin: 0px; padding: 0px; transition: opacity 150ms; opacity: 1 !important; color: #fff; }
 a { cursor: pointer; }
 
@@ -20,7 +14,7 @@ a { cursor: pointer; }
 .logo { background-image: url("../svg/nm.svg"); background-size: contain; background-repeat: no-repeat; background-position-y: center; }
 #logo.sticky { position: absolute; bottom: 20px; top: initial; }
 
-#content { display: inline-block; position: relative; min-height: calc(20vh); padding: 40px 40px 100px 40px; }
+#content { display: block; width: 100%; min-height: calc(30vh); padding: 40px 40px 100px 40px; }
 
 #footer { display: block; background-color: var(--color-footer); padding: 0px 40px; }
 #footerwrap { display: block; padding: 40px 0px; margin: 0px; max-width: 100%; font-size: 20px; color: #000; }
