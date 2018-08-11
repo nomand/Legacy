@@ -7,27 +7,32 @@ HOME
 GAMES
   VIEW : collection
   FROM : home
-  DESC : # A colleciton of video games, gamejams and playable game-like interactive projects.
+  DESC : & A colleciton of video games, gamejams and playable game-like interactive projects.
 
 PHYSICAL
   VIEW : collection
   FROM : home
+  DESC : & Physical projects
 
 DIGITAL
   VIEW : collection
   FROM : home
+  DESC : & Digital made.
 
 VISUAL
   VIEW : collection
   FROM : home
+  DESC : & Static visual content.
 
 FPV
   VIEW : collection
   FROM : home
+  DESC : & UAV and drone related projects.
 
 META
   VIEW : collection
   FROM : home
+  DESC : & Information about this {{Legacy}}, it's creator and content stats.
 
 ABOUT
   VIEW : project
@@ -44,6 +49,8 @@ NOMAND
 SUPPORT
   VIEW : project
   FROM : meta
+  LONG
+    You can support me in a number of different ways.
 
 PICOPICA
   VIEW : project
@@ -58,7 +65,7 @@ HSVLED
 EACHINEVR006
   VIEW : project
   FROM : physical
-  TAGS : drones, fpv
+  TAGS : drones, fpv, guide
 
 SWORDY PINS
   VIEW : project
@@ -70,6 +77,7 @@ SWORDY
   FROM : games
   HEAD : HEADSwordy.jpg
   TAGS : gamedev, unity3d, steam
+  DESC : Swordy is a local-multiplayer physics based brawler.
 
 THAT COW GAME
   VIEW : project
