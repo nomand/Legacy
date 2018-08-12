@@ -1,5 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" baseProfile="full" version="1.1" width="300px" height="300px" style="fill: #fff; width: 300px; height: 300px; stroke-width: 25;">
-    <path d="" style="stroke-width: 10; stroke-linecap: round; stroke-linejoin: round; stroke: rgb(68, 68, 68); fill: none;"></path>
-    <path d="" style="stroke-width: 10; stroke-linecap: round; stroke-linejoin: round; stroke: rgb(119, 119, 119); fill: none;"></path>
-    <path d="M90,90 L90,90 L90,165 M120,90 L120,90 L120,210 M150,90 L150,90 L150,210 M180,90 L180,90 L180,210 M210,210 L210,210 L210,135 " style="stroke-width: 25; stroke-linecap: round; stroke-linejoin: round; stroke: rgb(255, 255, 255); fill: none;"></path>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 300 300" style="enable-background:new 0 0 300 300;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+</style>
+<path class="st0" d="M210,222.5c-6.9,0-12.5-5.6-12.5-12.5v-75c0-6.9,5.6-12.5,12.5-12.5s12.5,5.6,12.5,12.5v75
+	C222.5,216.9,216.9,222.5,210,222.5z M180,222.5c-6.9,0-12.5-5.6-12.5-12.5V90c0-6.9,5.6-12.5,12.5-12.5s12.5,5.6,12.5,12.5v120
+	C192.5,216.9,186.9,222.5,180,222.5z M150,222.5c-6.9,0-12.5-5.6-12.5-12.5V90c0-6.9,5.6-12.5,12.5-12.5s12.5,5.6,12.5,12.5v120
+	C162.5,216.9,156.9,222.5,150,222.5z M120,222.5c-6.9,0-12.5-5.6-12.5-12.5V90c0-6.9,5.6-12.5,12.5-12.5s12.5,5.6,12.5,12.5v120
+	C132.5,216.9,126.9,222.5,120,222.5z M90,177.5c-6.9,0-12.5-5.6-12.5-12.5V90c0-6.9,5.6-12.5,12.5-12.5s12.5,5.6,12.5,12.5v75
+	C102.5,171.9,96.9,177.5,90,177.5z"/>
 </svg>
