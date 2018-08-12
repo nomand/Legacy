@@ -78,22 +78,25 @@ SWORDY
   FROM : games
   HEAD : HEADSwordy.jpg
   TAGS : gamedev, unity3d, steam
-  DESC : Swordy is a local-multiplayer physics based brawler.
+  DESC : & Swordy is a local-multiplayer physics based brawler.
 
 THAT COW GAME
   VIEW : project
   FROM : games
   TAGS : gamedev, unity3d, itch, gamejam
+  DESC : & A game about a cow at a meat factory.
 
 CONTRAIL ROMANTICS
   VIEW : project
   FROM : games
   TAGS : gamedev, unity3d, itch, gamejam
+  DESC : & A game about drawing shapes in the sky.
 
 DETRITUS MEMORY DUMP
   VIEW : project
   FROM : games
   TAGS : gamedev, unity3d, itch, gamejam
+  DESC : & Memories of a space.
 
 GAEA
   VIEW : project
