@@ -27,7 +27,7 @@ VISUAL
 FPV
   VIEW : collection
   FROM : home
-  DESC : & UAV and drone related projects.
+  DESC : & UAV and {{drone}} related projects.
 
 META
   VIEW : collection
@@ -87,7 +87,7 @@ THAT COW GAME
   VIEW : project
   FROM : games
   TAGS : gamedev, unity3d, itch, gamejam
-  DESC : & A game about a cow at a meat factory.
+  DESC : & A cow at a meat factory.
 
 CONTRAIL ROMANTICS
   VIEW : project
@@ -100,6 +100,18 @@ DETRITUS MEMORY DUMP
   FROM : games
   TAGS : gamedev, unity3d, itch, gamejam
   DESC : & Memories of a space.
+
+MINDSCAPES OF LIZ RYERSON
+  VIEW : project
+  FROM : games
+  TAGS : gamedev
+  DESC : & Mashup of Liz Ryerson and Ian MacLarty's works.
+
+WHALEBUS
+  VIEW : project
+  FROM : games
+  TAGS : gamedev, unity3d, gamejam
+  DESC : & A game about two halves.
 
 GAEA
   VIEW : project
