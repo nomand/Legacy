@@ -56,6 +56,7 @@ PICOPICA
   VIEW : project
   FROM : physical
   TAGS : raspberrypi
+  DESC : & A {{raspberry pi|tag-raspberrypi}} based timelapse camera.
 
 HSVLED
   VIEW : project
@@ -67,11 +68,13 @@ EACHINEVR006
   VIEW : project
   FROM : physical
   TAGS : drones, fpv, guide
+  DESC : & A portable spectator {{fpv}} screen.
 
 SWORDY PINS
   VIEW : project
   FROM : physical
   TAGS : jewelry
+  DESC : & {{Swordy}} promotional merchandise.
 
 SWORDY
   VIEW : project
