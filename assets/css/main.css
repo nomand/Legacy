@@ -45,7 +45,12 @@ a { cursor: pointer; color: white; }
 #topichead { display: block; font-family: 'SourceSansPro_Bold'; margin-bottom: 10px; font-size: 20px; user-select: none; -moz-user-select: none; -moz-user-select: none; }
 #topic { display: block; margin: 2px 0px; }
 #topic a:after {  content: ""; }
-#topic a:hover:after, #content h2 a:hover:after { margin-right: 2px; content: " •"; transition: all 150ms;}
+
+#topic      a:hover:after,
+#content h2 a:hover:after,
+#topichead a:hover:after { margin-right: 2px; content: " •"; transition: all 150ms;}
+
+#content .collection, #content .intro { display: block; margin-bottom: 20px; }
 
 /* lightbox */
 #lightbox { position: fixed; display: inline-flex; width: 100%; height: 100%; top: 0; left: 0; background-color: rgba(0, 0, 0, .8); text-align: center; }
@@ -64,5 +69,6 @@ a { cursor: pointer; color: white; }
 #content p a { margin-bottom: -2px; display: inline-block; font-family: 'SourceSansPro_Bold'; position: relative; line-height: 90%; transition: all 150ms; border-bottom:1.5px solid transparent; }
 #content p a:hover { border-bottom-color: white }
 
+#content iframe { display: block; margin: 20px 0px; overflow: hidden;}
+
 #content h2 { font-size: 1.6em; font-family: 'SourceSansPro_Bold'; }
-.collection { display: block; margin-bottom: 20px; }

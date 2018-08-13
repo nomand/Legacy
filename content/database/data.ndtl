@@ -7,7 +7,7 @@ HOME
 GAMES
   VIEW : collection
   FROM : home
-  DESC : & A colleciton of video games, game-jams and playable game-like interactive projects.
+  DESC : & A colleciton of video games, {{game-jams|tag gamejam}} and playable game-like interactive projects.
 
 PHYSICAL
   VIEW : collection
@@ -48,11 +48,21 @@ SUPPORT
   LONG
     You can support me in a number of different ways.
 
+RUNNINGTAP
+  VIEW : project
+  FROM : meta
+  DESC : & A digital entity.
+
+FROGSHARK
+  VIEW : project
+  FROM : meta
+  DESC : & An indie game development studio.
+
 PICOPICA
   VIEW : project
   FROM : physical
   TAGS : raspberrypi
-  DESC : & A {{raspberry pi|tag-raspberrypi}} based timelapse camera.
+  DESC : & A {{raspberry pi|tag raspberrypi}} based timelapse camera.
 
 HSVLED
   VIEW : project
@@ -92,6 +102,9 @@ THAT COW GAME
   FROM : games
   TAGS : gamedev, unity3d, itch, gamejam
   DESC : & A cow at a meat factory.
+  LONG
+    & Made in 24 hours during {{ludum dare|tag gamejam}}.
+    % itchio 34330?bg_color=262626&amp;fg_color=e4e4e3&amp;link_color=e4e4e3&amp;border_color=262626&amp;
 
 CONTRAIL ROMANTICS
   VIEW : project
