@@ -2,7 +2,6 @@ let DATABASE = `
 
 HOME
   VIEW : home
-  DESC : & Welcome to {{nomand's|nomand}} project depot.
 
 GAMES
   VIEW : collection
@@ -17,7 +16,7 @@ PHYSICAL
 DIGITAL
   VIEW : collection
   FROM : home
-  DESC : & Digital made.
+  DESC : & Digitally made.
 
 VISUAL
   VIEW : collection
@@ -34,15 +33,11 @@ META
   FROM : home
   DESC : & Information about this {{Legacy}}, it's creator and content stats.
 
-ABOUT
-  VIEW : project
-  FROM : meta
-
-CONTACT
-  VIEW : project
-  FROM : meta
-
 NOMAND
+  VIEW : project
+  FROM : meta
+
+ABOUT
   VIEW : project
   FROM : meta
 
