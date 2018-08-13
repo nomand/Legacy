@@ -69,8 +69,16 @@ EACHINEVR006
 SWORDY PINS
   VIEW : project
   FROM : physical
+  HEAD : swordypins.jpg
   TAGS : jewelry
   DESC : & {{Swordy}} promotional merchandise.
+
+MERLIN FOB
+  VIEW : project
+  FROM : physical
+  HEAD : merlin.jpg
+  TAGS : fdm, prototyping, hardware
+  DESC : & 3D Printed case replacement for Merlin garage door.
 
 SWORDY
   VIEW : project
@@ -113,21 +121,31 @@ GAEA
   VIEW : project
   FROM : digital
   TAGS : web, time
+  DESC : & Planetary birthday {{clock|tag time}}.
 
 LETNICE
   VIEW : project
   FROM : digital
   TAGS : web, time
+  DESC : & Year progress calculator.
 
 REVEAL SHADER
   VIEW : project
   FROM : digital
   TAGS : gamedev, unity3d, shader
+  DESC : & Shader set for {{unity3d|tag unity3d}}.
 
 PBRBLEND SHADER
   VIEW : project
   FROM : digital
   TAGS : gamedev, unity3d, shader
+  DESC : & Shader set for blending pbr materials in {{unity3d|tag unity3d}}.
+
+VIZCERA
+  VIEW : project
+  FROM : digital
+  TAGS : unity3d, installation
+  DESC : & Interactive audiovisual installation driven by Kinect motion control.
 
 XBL3
   VIEW : project
