@@ -2,6 +2,7 @@ let DATABASE = `
 
 HOME
   VIEW : home
+  HEAD : 0000.jpg
 
 GAMES
   VIEW : collection
