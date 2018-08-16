@@ -87,7 +87,6 @@ HSVLED
   TAGS : arduino, led
   DESC : & An {{arduino|tag arduino}} based {{lighting|tag light}} project to illuminate my working space.
   LONG
-    
     & Code and STL files available on the project {{github|https://github.com/nomand/HSVStripController}} page.
 
 EACHINEVR006
@@ -96,6 +95,11 @@ EACHINEVR006
   HEAD : 0002.jpg
   TAGS : drones, fpv, guide
   DESC : & A portable spectator {{fpv}} screen.
+  LONG
+    & Made for spectators to see what I see when I fly.
+    % youtube 1_T4DhQ6De4
+    & STL files are available on the project's {{github|https://github.com/nomand/EachineVR006}} page.
+
 
 SWORDY PINS
   VIEW : project
@@ -130,7 +134,7 @@ THAT COW GAME
   DESC : & A cow at a meat factory.
   LONG
     & Made in 24 hours during {{ludum dare|tag gamejam}}.
-    % itchio 34330?bg_color=262626&amp;fg_color=e4e4e3&amp;link_color=e4e4e3&amp;border_color=262626&amp;
+    % itchio 34330
 
 CONTRAIL ROMANTICS
   VIEW : project

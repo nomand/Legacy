@@ -69,7 +69,7 @@ a:hover { color: white; }
 #content p a { margin-bottom: -2px; display: inline-block; font-family: 'SourceSansPro_Bold'; position: relative; line-height: 90%; transition: all 150ms; border-bottom:1.5px solid transparent; }
 #content p a:hover { border-bottom-color: white }
 
-#content iframe { display: block; margin: 20px 0px; overflow: hidden;}
+#content iframe { display: block; margin: 20px 0px 40px 0px; overflow: hidden;}
 
 #content h2 { font-size: 1.6em; font-family: 'SourceSansPro_Bold'; }
 #content h2 a { color: #fff; }
