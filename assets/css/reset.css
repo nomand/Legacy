@@ -29,11 +29,11 @@ html
 
 *:focus { outline: none}
 ::selection {
-    background: #eee;
-    opacity:1.0;
+    background-color: rgba(80,80,80,.99);
     color:#000;
-    padding:10px; /* Safari */
+    padding: 10px; /* Safari */
 }
+-moz--
 
 hr { clear:both; }
 

@@ -1,12 +1,12 @@
 :root
 {
   --color-almostblack: #181818;
-  --color-footer: #181818;
-  --color-pale: #e4e4e3; 
+  --color-pale: #e4e4e3;
 }
 
 body { font-family: 'SourceSansPro_Regular'; background-color: var(--color-almostblack); margin: 0px; padding: 0px; transition: opacity 150ms; opacity: 1 !important; color: var(--color-pale) }
-a { cursor: pointer; color: white; }
+a { cursor: pointer; color: var(--color-pale); }
+a:hover { color: white; }
 
 #header { -webkit-background-size: cover, cover; -moz-background-size: cover, cover; background-size: cover, cover; -o-background-size: cover, cover; background-position: center center, bottom center; background-repeat: no-repeat, no-repeat; }
 #header { display: block; position: relative; width:100%; height:100%; min-height: 90vh; max-height: calc(100vh - 100px); background-color: var(--color-almostblack); transition: all 150ms; }
@@ -17,7 +17,7 @@ a { cursor: pointer; color: white; }
 
 #content { display: inline-block; width: 100%; min-height: calc(30vh); padding: 40px 40px 100px 40px;  }
 
-#footer { display: block; background-color: var(--color-footer); padding: 0px 40px; }
+#footer { display: block; background-color: var(--color-almostblack); padding: 0px 40px; }
 #footerwrap { display: inline-block; width: 100%; padding: 40px 0px; margin: 0px; max-width: 100%; font-size: 20px; color: #fff; }
 #footerwrap .logo { width: 30px; height: 30px; margin: none; float: left;}
 #footerwrap .credit { display: inline-block; margin-left: 20px; font-size: 14px; }
@@ -72,3 +72,4 @@ a { cursor: pointer; color: white; }
 #content iframe { display: block; margin: 20px 0px; overflow: hidden;}
 
 #content h2 { font-size: 1.6em; font-family: 'SourceSansPro_Bold'; }
+#content h2 a { color: #fff; }
