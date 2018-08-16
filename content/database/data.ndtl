@@ -37,6 +37,9 @@ META
 NOMAND
   VIEW : project
   FROM : meta
+  LONG
+    & Nomand is my alias and online persona across various networks.
+    & I am most active on {{twitter|http://twitter.com}}.
 
 ABOUT
   VIEW : project
@@ -46,7 +49,7 @@ SUPPORT
   VIEW : project
   FROM : meta
   LONG
-    You can support me in a number of different ways.
+    & You can support me in a number of different ways.
 
 RUNNINGTAP
   VIEW : project
