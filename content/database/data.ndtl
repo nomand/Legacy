@@ -38,8 +38,9 @@ META
 NOMAND
   VIEW : project
   FROM : meta
-  DESC : & Nomand is my alias and online persona across various networks.
+  DESC : & My real name is Alexey Botkov.
   LONG
+    & nomand is my alias and the name I go by on various networks.
     & I am most responsive on {{twitter|http://twitter.com}}.
     & You can support me {{here|support}}
 
@@ -195,24 +196,29 @@ XBL3
   FROM : fpv
   HEAD : 0000.jpg
   TAGS : drones, fpv
+  DESC : & A powerful 3" drone.
 
 NOMV2
   VIEW : project
   FROM : fpv
   TAGS : drones, fpv
+  DESC : & A custom 2.5" drone.
 
 FLIGHTS
   VIEW : project
   FROM : fpv
   TAGS : video, youtube
+  DESC : & Memorable flights.
 
 GALLERY
   VIEW : gallery
   FROM : visual
+  DESC : & Miscellaneous visual artefacts.
 
 PHOTOS
   VIEW : gallery
   FROM : visual
   TAGS : photography
+  DESC : & Select photography artefacts.
 
 `
