@@ -55,8 +55,12 @@ ABOUT
 SUPPORT
   VIEW : project
   FROM : meta
+  DESC : & Ways you can support me and my research.
   LONG
-    & You can support me in a number of different ways.
+    & Follow me on {{twitter|https://twitter.com/nomand}}.
+    & Subscribe to my {{youtube|https://www.youtube.com/c/nomand}} channel.
+    & Pay what you want for my {{games|https://nomand.itch.io/}}.
+    & Donate in {{bitcoin}}
 
 RUNNINGTAP
   VIEW : project
@@ -77,12 +81,17 @@ PICOPICA
 HSVLED
   VIEW : project
   FROM : physical
+  HEAD : 0001.jpg
   TAGS : arduino, led
   DESC : & An {{arduino|tag arduino}} based {{lighting|tag light}} project to illuminate my working space.
+  LONG
+    
+    & Code and STL files available on the project {{github|https://github.com/nomand/HSVStripController}} page.
 
 EACHINEVR006
   VIEW : project
   FROM : physical
+  HEAD : 0002.jpg
   TAGS : drones, fpv, guide
   DESC : & A portable spectator {{fpv}} screen.
 
@@ -106,6 +115,9 @@ SWORDY
   HEAD : HEADSwordy.jpg
   TAGS : gamedev, unity3d, steam
   DESC : & Swordy is a local-multiplayer physics based brawler.
+  LONG
+    & Available on {{Steam|https://store.steampowered.com/app/467900/SWORDY/}}.
+    & I worked on the project from conception in 2014 until late 2016, creating 3D art, sound design, music and marketing material.
 
 THAT COW GAME
   VIEW : project
