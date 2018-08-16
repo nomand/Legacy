@@ -66,6 +66,8 @@ RUNNINGTAP
   VIEW : project
   FROM : meta
   DESC : & A digital entity.
+  LONG
+    & {{Runningtap|http://runningtap.com/}} is my business entity through which I offer consulting, R&D and design services.
 
 FROGSHARK
   VIEW : project
@@ -101,6 +103,8 @@ SWORDY PINS
   HEAD : swordypins.jpg
   TAGS : jewelry
   DESC : & {{Swordy}} promotional merchandise.
+  LONG
+    & Originally created for PAX 2014 as giveaway merch.
 
 MERLIN FOB
   VIEW : project
@@ -185,6 +189,7 @@ VIZCERA
 XBL3
   VIEW : project
   FROM : fpv
+  HEAD : 0000.jpg
   TAGS : drones, fpv
 
 NOMV2
@@ -202,7 +207,8 @@ GALLERY
   FROM : visual
 
 PHOTOS
-  TMLP : gallery
+  VIEW : gallery
   FROM : visual
   TAGS : photography
+
 `
