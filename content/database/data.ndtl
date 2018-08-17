@@ -38,20 +38,12 @@ META
 NOMAND
   VIEW : project
   FROM : meta
+  HEAD : 0003.jpg
   DESC : & My real name is Alexey Botkov.
   LONG
     & nomand is my alias and the name I go by on various networks.
     & I am most responsive on {{twitter|http://twitter.com}}.
     & You can support me {{here|support}}
-
-ABOUT
-  VIEW : project
-  FROM : meta
-  DESC : & Legacy is a static wiki-like site that generates content from a readable flat file database.
-  LONG
-    & Inspired by Devine Lu Linvega's {{Oscean|https://github.com/XXIIVV/Oscean/tree/master}}, it's using his Runic and Idental frameworks to drive the content of the site.
-    & The repository for the site is hosted on {{github|https://github.com/nomand/Legacy}}, master branch is the live version.
-    & All code is licensed under {{MIT|https://github.com/nomand/Legacy/blob/master/LICENSE.md}}.
 
 SUPPORT
   VIEW : project
@@ -100,7 +92,6 @@ EACHINEVR006
     & Made for spectators to see what I see when I fly.
     % youtube 1_T4DhQ6De4
     & STL files are available on the project's {{github|https://github.com/nomand/EachineVR006}} page.
-
 
 SWORDY PINS
   VIEW : project
@@ -230,4 +221,13 @@ PHOTOS
   TAGS : photography
   DESC : & Select photography artefacts.
 
+LEGACY
+  VIEW : project
+  FROM : meta
+  DESC : & A wiki-like project depot.
+  LONG
+    & Legacy is an evolving static site dedicated to documenting my research, projects and creative output.
+    & Inspired by Devine Lu Linvega's {{Oscean|https://github.com/XXIIVV/Oscean/tree/master}}, it's using his Runic and Idental frameworks to drive the content of the site.
+    & The repository for the site is hosted on {{github|https://github.com/nomand/Legacy}}, master branch is the live version.
+    & The code is licensed under {{MIT|https://github.com/nomand/Legacy/blob/master/LICENSE.md}}.
 `
