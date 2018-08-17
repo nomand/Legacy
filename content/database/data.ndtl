@@ -4,7 +4,7 @@ HOME
   VIEW : home
   HEAD : 0000.jpg
 
-GAMES
+INTERACTIVE
   VIEW : collection
   FROM : home
   DESC : & A colleciton of video games, {{game-jams|tag gamejam}} and playable game-like interactive projects.
@@ -120,7 +120,7 @@ MERLIN FOB
 
 SWORDY
   VIEW : project
-  FROM : games
+  FROM : interactive
   HEAD : HEADSwordy.jpg
   TAGS : gamedev, unity3d, steam
   DESC : & Swordy is a local-multiplayer physics based brawler.
@@ -130,7 +130,7 @@ SWORDY
 
 THAT COW GAME
   VIEW : project
-  FROM : games
+  FROM : interactive
   TAGS : gamedev, unity3d, itch, gamejam
   DESC : & A cow at a meat factory.
   LONG
@@ -139,25 +139,25 @@ THAT COW GAME
 
 CONTRAIL ROMANTICS
   VIEW : project
-  FROM : games
+  FROM : interactive
   TAGS : gamedev, unity3d, itch, gamejam
   DESC : & A game about drawing shapes in the sky.
 
 DETRITUS MEMORY DUMP
   VIEW : project
-  FROM : games
+  FROM : interactive
   TAGS : gamedev, unity3d, itch, gamejam
   DESC : & Memories of a space.
 
 MINDSCAPES OF LIZ RYERSON
   VIEW : project
-  FROM : games
+  FROM : interactive
   TAGS : gamedev
   DESC : & Mashup of Liz Ryerson and Ian MacLarty's works.
 
 WHALEBUS
   VIEW : project
-  FROM : games
+  FROM : interactive
   TAGS : gamedev, unity3d, gamejam
   DESC : & A game about two halves.
 
@@ -196,13 +196,13 @@ XBL3
   FROM : fpv
   HEAD : 0000.jpg
   TAGS : drones, fpv
-  DESC : & A powerful 3" drone.
+  DESC : & A 3" racing drone.
 
 NOMV2
   VIEW : project
   FROM : fpv
   TAGS : drones, fpv
-  DESC : & A custom 2.5" drone.
+  DESC : & A custom 2.5" micro drone.
 
 FLIGHTS
   VIEW : project
