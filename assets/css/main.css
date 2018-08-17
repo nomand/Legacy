@@ -4,6 +4,7 @@
   --color-pale: #e4e4e3;
 }
 
+code { display: block; white-space: pre }
 body { font-family: 'SourceSansPro_Regular'; background-color: var(--color-almostblack); margin: 0px; padding: 0px; transition: opacity 150ms; opacity: 1 !important; color: var(--color-pale) }
 a { cursor: pointer; color: var(--color-pale); }
 a:hover { color: white; }
@@ -73,3 +74,4 @@ a:hover { color: white; }
 
 #content h2 { font-size: 1.6em; font-family: 'SourceSansPro_Bold'; }
 #content h2 a { color: #fff; }
+#content code.inline { display: inline; padding: 0 6px; font-size: 0.85em; font-family: 'SourceSansPro_Light'; background-color: #444; position: relative; }
