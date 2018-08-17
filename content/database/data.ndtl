@@ -178,8 +178,8 @@ LETNICE
   TAGS : web, time
   DESC : & Year progress calculator.
   LONG
+    & Live version {{here|https://nomand.github.io/Letnice}}
     & Letnice is a simple JavaScript Gregorian calendar visualizer that tracks year progress.
-    % custom https://nomand.github.io/Letnice/#2018
     & Created using JavaScript. Project is open source and available on {{github|https://github.com/nomand/letnice}}.
 
 REVEAL SHADER
