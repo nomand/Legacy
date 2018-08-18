@@ -2,6 +2,7 @@
 {
   --color-almostblack: #181818;
   --color-pale: #e4e4e3;
+  --color-accent: #ffffff;
 }
 
 code { display: block; white-space: pre }
@@ -67,8 +68,8 @@ a:hover { color: white; }
 #content p b { font-family: 'SourceSansPro_Bold'; font-weight: normal; }
 #content p b i { font-family: 'SourceSansPro_BoldItalic'; font-weight: normal; font-style: normal; }
 #content p i { font-family: 'SourceSansPro_Italic'; font-style: normal; }
-#content p a { margin-bottom: -2px; display: inline-block; font-family: 'SourceSansPro_Bold'; position: relative; line-height: 90%; transition: all 150ms; border-bottom:1.5px solid transparent; }
-#content p a:hover { border-bottom-color: white }
+#content p a { color: var(--color-accent); margin-bottom: -2px; display: inline-block; font-family: 'SourceSansPro_Bold'; position: relative; line-height: 90%; transition: all 150ms; border-bottom:1px solid transparent; }
+#content p a:hover { border-bottom-color: var(--color-accent) }
 
 #content iframe { display: block; margin: 20px 0px 40px 0px; overflow: hidden;}
 
