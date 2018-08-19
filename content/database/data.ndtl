@@ -168,11 +168,12 @@ GAEA
 LETNICE
   VIEW : project
   FROM : digital
+  HEAD : 0005.jpg
   TAGS : web, time
   DESC : & Year progress calculator.
   LONG
     & Live version {{here|https://nomand.github.io/Letnice}}
-    & Letnice is a simple JavaScript Gregorian calendar visualizer that tracks year progress.
+    & Letnice is a simple Gregorian calendar visualizer that tracks year progress.
     & Created using JavaScript. Project is open source and available on {{github|https://github.com/nomand/letnice}}.
 
 REVEAL SHADER
