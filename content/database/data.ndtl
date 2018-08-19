@@ -33,7 +33,7 @@ FPV
 META
   VIEW : collection
   FROM : home
-  DESC : & Information about this {{Legacy}}, it's creator and content stats.
+  DESC : & Information about this {{Legacy}}, it's creator and content.
 
 NOMAND
   VIEW : project
@@ -54,31 +54,36 @@ SUPPORT
     & Follow me on {{twitter|https://twitter.com/nomand}}.
     & Subscribe to my {{youtube|https://www.youtube.com/c/nomand}} channel.
     & Pay what you want for my {{games|https://nomand.itch.io/}}.
-    & Donate in {{bitcoin}}
+    & Donate {{bitcoin}}
 
 RUNNINGTAP
   VIEW : project
   FROM : meta
-  DESC : & A digital entity.
+  DESC : & A digital business entity.
   LONG
-    & {{Runningtap|http://runningtap.com/}} is my business entity through which I offer consulting, R&D and design services.
+    & {{Runningtap|http://runningtap.com/}} is my business entity through which I offer consulting, R&D, prototyping and design services.
+    & If you're interested in me working with you, contact me through the runningtap website.
 
 FROGSHARK
   VIEW : project
   FROM : meta
   DESC : & An indie game development studio.
+  LONG
+    & {{Frogshark|http://frogshark.com}} is a 3 person studio, co-founded by {{Hamish MacDonald|http://kor.co.nz/}}, Danny Lawrie and {{myself|nomand}} in 2014.
+    & Frogshark developed and published {{Swordy}}.
+    & I left Frogshark in 2017.
 
 PICOPICA
   VIEW : project
   FROM : physical
-  TAGS : raspberrypi
+  TAGS : raspberrypi, github
   DESC : & A {{raspberry pi|tag raspberrypi}} based timelapse camera.
 
 HSVLED
   VIEW : project
   FROM : physical
   HEAD : 0001.jpg
-  TAGS : arduino, led
+  TAGS : arduino, led, github
   DESC : & An {{arduino|tag arduino}} based {{lighting|tag light}} project to illuminate my working space.
   LONG
     & Code and STL files available on the project {{github|https://github.com/nomand/HSVStripController}} page.
@@ -87,7 +92,7 @@ EACHINEVR006
   VIEW : project
   FROM : physical
   HEAD : 0002.jpg
-  TAGS : drones, fpv, guide
+  TAGS : drones, fpv, guide, github
   DESC : & A portable spectator {{fpv}} screen.
   LONG
     & Made for spectators to see what I see when I fly.
@@ -151,13 +156,14 @@ MINDSCAPES OF LIZ RYERSON
 WHALEBUS
   VIEW : project
   FROM : interactive
+  HEAD : 0006.jpg
   TAGS : gamedev, unity3d, gamejam
   DESC : & A game about two halves.
 
 GAEA
   VIEW : project
   FROM : digital
-  TAGS : web, time
+  TAGS : web, time, github
   DESC : & Planetary birthday {{clock|tag time}}.
   LONG
     & Gaea calendar starts with your birth timestamp in Gregorean format and moves in sync with the Earth from then. Each Gaea day corresponds to 1 angular degree around the Sun.
@@ -169,7 +175,7 @@ LETNICE
   VIEW : project
   FROM : digital
   HEAD : 0005.jpg
-  TAGS : web, time
+  TAGS : web, time, github
   DESC : & Year progress calculator.
   LONG
     & Live version {{here|https://nomand.github.io/Letnice}}
@@ -179,19 +185,19 @@ LETNICE
 REVEAL SHADER
   VIEW : project
   FROM : digital
-  TAGS : gamedev, unity3d, shader
+  TAGS : gamedev, unity3d, shader, github
   DESC : & Shader set for {{unity3d|tag unity3d}}.
 
 PBRBLEND SHADER
   VIEW : project
   FROM : digital
-  TAGS : gamedev, unity3d, shader
+  TAGS : gamedev, unity3d, shader, github
   DESC : & Shader set for blending pbr materials in {{unity3d|tag unity3d}}.
 
 VIZCERA
   VIEW : project
   FROM : digital
-  TAGS : unity3d, installation
+  TAGS : unity3d
   DESC : & Interactive audiovisual installation driven by Kinect motion control.
 
 XBL3
@@ -227,6 +233,7 @@ PHOTOS
 LEGACY
   VIEW : project
   FROM : meta
+  TAGS : web, github
   DESC : & A wiki-like project depot.
   LONG
     & Legacy is an evolving static site dedicated to documenting my research, projects and creative output.
