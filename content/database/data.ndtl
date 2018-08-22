@@ -2,7 +2,7 @@ let DATABASE = `
 
 HOME
   VIEW : home
-  HEAD : 0000.jpg
+  HEAD : 0007.jpg
 
 INTERACTIVE
   VIEW : collection
@@ -153,7 +153,7 @@ MINDSCAPES OF LIZ RYERSON
   FROM : interactive
   HEAD : 0004.jpg
   TAGS : gamedev
-  DESC : & Mashup of Liz Ryerson and Ian MacLarty's works.
+  DESC : & A Mashup of Liz Ryerson and Ian MacLarty's works.
 
 WHALEBUS
   VIEW : project
