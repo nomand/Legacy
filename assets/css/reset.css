@@ -3,6 +3,8 @@ html
 {
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
+  height: 100%;
+  position: relative;
 }
 
 * {
@@ -26,13 +28,14 @@ html
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
-
+*:before, *:after { box-sizing: border-box; }
 *:focus { outline: none}
-::selection {
+::selection{
     background-color: rgba(80,80,80,.99);
     color:#000;
     padding: 10px; /* Safari */
 }
+
 -moz--
 
 hr { clear:both; }
@@ -61,6 +64,11 @@ hr { clear:both; }
   
   body {
     margin: 0;
+    padding: 0;
+    height: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: block;
   }
   
   /**
