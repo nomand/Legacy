@@ -75,4 +75,5 @@ a:hover { color: white; }
 
 #content h2 { font-size: 1.6em; font-family: 'SourceSansPro_Bold'; }
 #content h2 a { color: #fff; }
+#content h2 i { font-family: 'SourceSansPro_Italic'; }
 #content code.inline { display: inline; padding: 0 6px; font-size: 0.85em; font-family: 'SourceSansPro_Light'; background-color: #444; position: relative; }
