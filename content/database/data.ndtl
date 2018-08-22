@@ -42,9 +42,10 @@ NOMAND
   DESC : & My name is Alexey Botkov.
   LONG
     & {_nomand_} is my alias and the name I go by on various networks.
+    & I am of Russian descent, currently based in New Zealand.
     & I'm a technologist and multimedia artist with projects spanning various disciplines and mediums.
-    & To contact me, message me on {{twitter|http://twitter.com}} for the quickest response.
-    & Find how you can support me and my work {{here|support}}
+    - To contact me, message me on {{twitter|http://twitter.com}} for the quickest response.
+    - Find how you can support me and my work {{here|support}}
 
 SUPPORT
   VIEW : project
@@ -83,9 +84,10 @@ HSVLED
   VIEW : project
   FROM : physical
   HEAD : 0001.jpg
-  TAGS : arduino, led, github
+  TAGS : arduino, light, led, github
   DESC : & An {{arduino|tag arduino}} based {{lighting|tag light}} project to illuminate my working space.
   LONG
+    & Uses off the shelf components like {{led|tag led}} strips.
     & Code and STL files available on the project {{github|https://github.com/nomand/HSVStripController}} page.
 
 EACHINEVR006
