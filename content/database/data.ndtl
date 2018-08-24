@@ -44,7 +44,7 @@ NOMAND
     & {_nomand_} is my alias and the name I go by on various networks.
     & I am of Russian descent, currently based in New Zealand.
     & I'm a technologist and multimedia artist with projects spanning various disciplines and mediums.
-    - To contact me, message me on {{twitter|http://twitter.com}} for the quickest response.
+    - To contact me, message me on {{twitter|http://twitter.com/nomand}} for the quickest response.
     - Find how you can support me and my work {{here|support}}
 
 SUPPORT
@@ -163,20 +163,20 @@ WHALEBUS
   DESC : & A game about two halves.
 
 GAEA
-  VIEW : project
+  VIEW : embed
   FROM : digital
+  HEAD : https://nomand.github.io/Gaea
   TAGS : web, time, github
   DESC : & Planetary birthday {{clock|tag time}}.
   LONG
     & Gaea calendar starts with your birth timestamp in Gregorean format and moves in sync with the Earth from then. Each Gaea day corresponds to 1 angular degree around the Sun.
     & A year has {*12 months, 30 days*} each and as such, doesn't respect Gregorean calendar days and is out of phase with regular day/night cycles. There are no hours or minutes in Gaea, a day lasts {#360#} units, which is equal to {#87661536#} milliseconds. Year index is zero-based.
-    % custom https://nomand.github.io/Gaea
-    & Created using HTML canvas and JavaScript. Project is open source and available on {{github|https://github.com/nomand/Gaea}}.
+    & Created using HTML canvas and JavaScript. Project is open source and available on {{github|https://github.com/nomand/Gaea}}, standalone live view {{here|https://nomand.github.io/Gaea/}}
 
 LETNICE
-  VIEW : project
+  VIEW : embed
   FROM : digital
-  HEAD : 0005.jpg
+  HEAD : https://nomand.github.io/Letnice/
   TAGS : web, time, github
   DESC : & Year progress calculator.
   LONG
@@ -200,7 +200,7 @@ VIZCERA
   VIEW : project
   FROM : digital
   TAGS : unity3d
-  DESC : & Interactive audiovisual installation driven by Kinect motion control.
+  DESC : & Motion controlled audiovisual installation.
 
 XBL3
   VIEW : project
