@@ -163,7 +163,7 @@ WHALEBUS
   DESC : & A game about two halves.
 
 GAEA
-  VIEW : embed
+  VIEW : project
   FROM : digital
   HEAD : https://nomand.github.io/Gaea
   TAGS : web, time, github
@@ -174,7 +174,7 @@ GAEA
     & Created using HTML canvas and JavaScript. Project is open source and available on {{github|https://github.com/nomand/Gaea}}, standalone live view {{here|https://nomand.github.io/Gaea/}}
 
 LETNICE
-  VIEW : embed
+  VIEW : project
   FROM : digital
   HEAD : https://nomand.github.io/Letnice/
   TAGS : web, time, github
