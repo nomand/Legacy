@@ -1,10 +1,12 @@
 :root
 {
   --color-almostblack: #181818;
+  --color-1up: #1d1d1d;
   --color-pale: #d9d9d0;
   --color-accent: #ffffff;
 
   --footer-height: 110px;
+  --block-width: 900px;
 }
 
 code { display: block; white-space: pre }
@@ -65,7 +67,7 @@ a:hover { color: white; }
 .round { -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; }
 
 #content { display: inline-block; width: 100%; padding: 40px 40px 220px 40px;  }
-#content #presentation { margin-left: 220px; margin-right: 220px; }
+#content #presentation { display: block; margin-left: 220px; margin-right: 220px; }
 
 /* sidebar */
 #sidebar { display: block; float: left; width: 200px; height: 100%; padding: 0 0 20px 0; overflow-x: hidden; }
@@ -82,14 +84,24 @@ a:hover { color: white; }
 #content p a:hover, #content list ln a:hover { border-bottom-color: var(--color-accent) }
 
 #content iframe { display: block; margin: 20px 0px 40px 0px; overflow: hidden;}
+#content img { display: block; width: 100%; margin: 10px 0; }
 
 #content h2 { font-size: 1.6em; font-family: 'SourceSansPro_Bold'; }
 #content h2 a { color: #fff; }
 #content h2 i { font-family: 'SourceSansPro_Italic'; }
-#content code.inline { display: inline; padding: 0 6px; font-size: 0.85em; font-family: 'SourceSansPro_Light'; background-color: #444; position: relative; }
+#content h3 { font-size: 1.4em; font-family: 'SourceSansPro_Bold'; color: var(--color-accent); margin-bottom: 10px; }
 
-#content list { display: block; position: relative; margin: 10px 0px; padding-left:30px; }
+#content list { display: block; position: relative; margin: 10px 0px 20px 0px; padding-left:30px; }
 #content list ln { display: list-item; line-height: 1.3em; font-size: 1.4em; position: relative; list-style: circle; }
+
+#content code { font-family: 'SourceSansPro_Light'; font-size: 1em; background-color: var(--color-1up); padding: 30px; margin: 10px 0; line-height: 18px; }
+#content code b { font-family: 'input_mono_medium'; font-weight: normal;   }
+#content code ln { display: block; line-height: 20px; overflow-wrap: break-word; word-wrap: break-word; hyphens: auto; white-space: initial; }
+#content code ln a { font-family: 'SourceSansPro_Light'; text-decoration: underline;}
+#content code ln b { font-family: 'SourceSansPro_Regular'; font-weight: normal; }
+#content code.inline { display: inline; padding: 0 6px; font-size: 0.85em; font-family: 'SourceSansPro_Light'; background-color: #444; position: relative; }
+#content code comment { color:#60cc60; }
+
 
 /* widths */
 @media only screen and (max-width: 1440px)
