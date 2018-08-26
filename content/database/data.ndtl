@@ -7,106 +7,105 @@ HOME
 INTERACTIVE
   VIEW : collection
   FROM : home
-  DESC : & A colleciton of video games, {{game-jams|tag gamejam}} and playable game-like interactive projects.
+  DESC : A colleciton of video games, {game-jams(tag gamejam)} and playable game-like interactive projects.
 
 PHYSICAL
   VIEW : collection
   FROM : home
-  DESC : & Physical projects
+  DESC : Physical projects
 
 DIGITAL
   VIEW : collection
   FROM : home
-  DESC : & Collection of digital projects, software, shaders and virtual experiments.
+  DESC : Collection of digital projects, software, shaders and virtual experiments.
 
 VISUAL
   VIEW : collection
-  FROM : home
-  DESC : & Static visual content, photography, illustration & drawing.
+  DESC : Static visual content, photography, illustration & drawing.
 
 FPV
   VIEW : collection
   HEAD : 0000.jpg
   FROM : home
-  DESC : & UAV and {{drone|tag drone}} related projects.
+  DESC : UAV and {drone(tag drone)} related projects.
 
 META
   VIEW : collection
   FROM : home
-  DESC : & Information about this {{Legacy}}, it's creator and content.
+  DESC : Information about this {{Legacy}}, it's creator and content.
 
 NOMAND
   VIEW : project
   FROM : meta
   HEAD : 0003.jpg
-  DESC : & My name is Alexey Botkov.
+  DESC : My name is Alexey Botkov.
   LONG
     & {_nomand_} is my alias and the name I go by on various networks.
     & I am of Russian descent, currently based in New Zealand.
     & I'm a technologist and multimedia artist with projects spanning various disciplines and mediums.
-    - To contact me, message me on {{twitter|http://twitter.com/nomand}} for the quickest response.
-    - Find how you can support me and my work {{here|support}}
+    - To contact me, message me on {twitter(http://twitter.com/nomand)} for the quickest response.
+    - Find how you can support me and my work {here(support)}
 
 SUPPORT
   VIEW : project
   FROM : meta
-  DESC : & Ways you can support me and my research.
+  DESC : Ways you can support me and my research.
   LONG
-    & Follow me on {{twitter|https://twitter.com/nomand}}.
-    & Subscribe to my {{youtube|https://www.youtube.com/c/nomand}} channel.
-    & Pay what you want for my {{games|https://nomand.itch.io/}}.
-    & Donate {{bitcoin}}
+    & Follow me on {twitter(https://twitter.com/nomand)}.
+    & Subscribe to my {youtube(https://www.youtube.com/c/nomand)} channel.
+    & Pay what you want for my {games(https://nomand.itch.io/)}.
+    & Donate {(bitcoin)}
 
 RUNNINGTAP
   VIEW : project
   FROM : meta
-  DESC : & A digital business entity.
+  DESC : A digital business entity.
   LONG
-    & {{Runningtap|http://runningtap.com/}} is my business entity through which I offer consulting, R&D, prototyping and design services.
+    & {Runningtap(http://runningtap.com/)} is my business entity through which I offer consulting, R&D, prototyping and design services.
     & If you're interested in me working with you, contact me through the runningtap website.
 
 FROGSHARK
   VIEW : project
   FROM : meta
-  DESC : & An indie game development studio.
+  DESC : An indie game development studio.
   LONG
-    & {{Frogshark|http://frogshark.com}} is a 3 person studio, co-founded by {{Hamish MacDonald|http://kor.co.nz/}}, Danny Lawrie and {{myself|nomand}} in 2014.
-    & Frogshark developed and published {{Swordy}}.
+    & {Frogshark(http://frogshark.com)} is a 3 person studio, co-founded by {Hamish MacDonald(http://kor.co.nz/)}, Danny Lawrie and {myself(nomand)} in 2014.
+    & Frogshark developed and published {(Swordy)}.
     & I left Frogshark in 2017.
 
 PICOPICA
   VIEW : project
   FROM : physical
   TAGS : raspberrypi, github
-  DESC : & A {{raspberry pi|tag raspberrypi}} based timelapse camera.
+  DESC : A {raspberry pi(tag raspberrypi)} based timelapse camera.
 
 HSVLED
   VIEW : project
   FROM : physical
   HEAD : 0001.jpg
   TAGS : arduino, light, led, github
-  DESC : & An {{arduino|tag arduino}} based {{lighting|tag light}} project to illuminate my working space.
+  DESC : An {arduino(tag arduino)} based {lighting(tag light)} project to illuminate my working space.
   LONG
-    & Uses off the shelf components like {{led|tag led}} strips.
-    & Code and STL files available on the project {{github|https://github.com/nomand/HSVStripController}} page.
+    & Uses off the shelf components like {led(tag led)} strips.
+    & Code and STL files available on the project {github(https://github.com/nomand/HSVStripController)} page.
 
 EACHINEVR006
   VIEW : project
   FROM : physical
   HEAD : 0002.jpg
   TAGS : drones, fpv, guide, github
-  DESC : & A portable spectator {{fpv}} screen.
+  DESC : A portable spectator {(fpv)} screen.
   LONG
     & Made for spectators to see what I see when I fly.
     % youtube 1_T4DhQ6De4
-    & STL files are available on the project's {{github|https://github.com/nomand/EachineVR006}} page.
+    & STL files are available on the project's {github(https://github.com/nomand/EachineVR006)} page.
 
 SWORDY PINS
   VIEW : project
   FROM : physical
   HEAD : swordypins.jpg
   TAGS : jewelry
-  DESC : & {{Swordy}} promotional merchandise.
+  DESC : Promotional merchandise for {(Swordy)}.
   LONG
     & Originally created for PAX 2014 as giveaway merch.
 
@@ -115,101 +114,101 @@ MERLIN FOB
   FROM : physical
   HEAD : merlin.jpg
   TAGS : fdm, prototyping, hardware
-  DESC : & 3D Printed case replacement for Merlin garage door.
+  DESC : 3D Printed case replacement for Merlin garage door.
 
 SWORDY
   VIEW : project
   FROM : interactive
   HEAD : HEADSwordy.jpg
   TAGS : gamedev, unity3d, steam
-  DESC : & Swordy is a local-multiplayer physics based brawler.
+  DESC : Swordy is a local-multiplayer physics based brawler.
   LONG
-    & Available on {{Steam|https://store.steampowered.com/app/467900/SWORDY/}}.
+    & Available on {Steam(https://store.steampowered.com/app/467900/SWORDY/)}.
     & I worked on the project from conception in 2014 until late 2016, creating 3D art, sound design, music and marketing material.
 
 THAT COW GAME
   VIEW : project
   FROM : interactive
   TAGS : gamedev, unity3d, itch, gamejam
-  DESC : & A cow at a meat factory.
+  DESC : A cow at a meat factory.
   LONG
-    & Made in 24 hours during {{ludum dare|tag gamejam}}.
+    & Made in 24 hours during {ludum dare(tag gamejam)}.
     % itchio 34330
 
 CONTRAIL ROMANTICS
   VIEW : project
   FROM : interactive
   TAGS : gamedev, unity3d, itch, gamejam
-  DESC : & A game about drawing shapes in the sky.
+  DESC : A game about drawing shapes in the sky.
 
 DETRITUS MEMORY DUMP
   VIEW : project
   FROM : interactive
   TAGS : gamedev, unity3d, itch, gamejam
-  DESC : & Memories of a space.
+  DESC : Memories of a space.
 
 MINDSCAPES OF LIZ RYERSON
   VIEW : project
   FROM : interactive
   HEAD : 0004.jpg
   TAGS : gamedev
-  DESC : & A Mashup of Liz Ryerson and Ian MacLarty's works.
+  DESC : A Mashup of Liz Ryerson and Ian MacLarty's works.
 
 WHALEBUS
   VIEW : project
   FROM : interactive
   HEAD : 0006.jpg
   TAGS : gamedev, unity3d, gamejam
-  DESC : & A game about two halves.
+  DESC : A game about two halves.
 
 GAEA
   VIEW : project
   FROM : digital
   HEAD : https://nomand.github.io/Gaea
   TAGS : web, time, github
-  DESC : & Planetary birthday {{clock|tag time}}.
+  DESC : Planetary birthday {clock(tag time)}.
   LONG
     & Gaea calendar starts with your birth timestamp in Gregorean format and moves in sync with the Earth from then. Each Gaea day corresponds to 1 angular degree around the Sun.
     & A year has {*12 months, 30 days*} each and as such, doesn't respect Gregorean calendar days and is out of phase with regular day/night cycles. There are no hours or minutes in Gaea, a day lasts {#360#} units, which is equal to {#87661536#} milliseconds. Year index is zero-based.
-    & Created using HTML canvas and JavaScript. Project is open source and available on {{github|https://github.com/nomand/Gaea}}, standalone live view {{here|https://nomand.github.io/Gaea/}}
+    & Created using HTML canvas and JavaScript. Project is open source and available on {github(https://github.com/nomand/Gaea)}, standalone live view {here(https://nomand.github.io/Gaea/)}
 
 LETNICE
   VIEW : project
   FROM : digital
   HEAD : https://nomand.github.io/Letnice/
   TAGS : web, time, github
-  DESC : & Year progress calculator.
+  DESC : Year progress calculator.
   LONG
-    & Live version {{here|https://nomand.github.io/Letnice}}
+    & Live version {here(https://nomand.github.io/Letnice)}
     & Letnice is a simple Gregorian calendar visualizer that tracks year progress.
-    & Created using JavaScript. Project is open source and available on {{github|https://github.com/nomand/letnice}}.
+    & Created using JavaScript. Project is open source and available on {github(https://github.com/nomand/letnice)}.
 
 REVEAL SHADER
   VIEW : project
   FROM : digital
   TAGS : gamedev, unity3d, shader, github
-  DESC : & Shader set for {{unity3d|tag unity3d}}.
+  DESC : Shader set for {unity3d(tag unity3d)}.
 
 PBRBLEND SHADER
   VIEW : project
   FROM : digital
   TAGS : gamedev, unity3d, shader, github
-  DESC : & Shader set for blending pbr materials in {{unity3d|tag unity3d}}.
+  DESC : Shader set for blending pbr materials in {unity3d(tag unity3d)}.
 
 VIZCERA
   VIEW : project
   FROM : digital
   TAGS : unity3d
-  DESC : & Motion controlled audiovisual installation.
+  DESC : Motion controlled audiovisual installation.
 
 XBL3
   VIEW : project
   FROM : fpv
   HEAD : 0000.jpg
   TAGS : drones, fpv
-  DESC : & A 3" racing drone.
+  DESC : A 3" racing drone.
   LONG
-    & Fast, durable, small "{{everyday carry|tag edc}}" drone for racing and freestyle, for small parks and countries with sub-250g uav regulations.
+    & Fast, durable, small "{everyday carry(tag edc)}" drone for racing and freestyle, for small parks and countries with sub-250g uav regulations.
     - Dry Weight 135.5g
     - Betaflight 3.3+ firmware
     - 3 min flight time
@@ -218,12 +217,12 @@ XBL3
     - Recommended LiPo 650mAh - 800mAh
     - Speed 90mph+
     * Part List
-    - Frame: {{PUDA XBL140|https://www.banggood.com/PUDA-XBL140-140mm-3-Inch-Mini-RC-Drone-FPV-Racing-Frame-Kit-4mm-Arm-Carbon-Fiber-p-1243033.html}}
-    - Motors: {{RCX H1407|http://www.myrcmart.com/rcx-h1407-v2-5000kv-micro-outrunner-brushleass-motor-its-time-to-upgrade-your-1306-motor-p-9436.html}}
-    - FC: {{HGLRC XJB F440|https://www.banggood.com/HGLRC-XJB-F440-TX20_V2-Omnibus-F4-Flight-Controller-OSD-40A-Blheli_32-3-5S-ESC-25100200350mW-VTX-p-1242937.html}}
-    - RX: {{FRSky XM+|https://www.banggood.com/Frsky-XM-Micro-D16-SBUS-Full-Range-Receiver-Up-to-16CH-p-1110020.html}}
-    - FPV: {{Foxeer Predator Micro|http://surveilzone.com/Foxeer-Predator-Micro-Camera-FPV-OSD-1000TVL-Super-WDR-g-2120}}
-    - PROP: {{DALPROP Cyclone T3056C|http://surveilzone.com/2-Pairs-3-blade-DALPROP-CYCLONE-T3056C-Props-for-FPV-Racing-g-2137}}
+    - Frame: {PUDA XBL140(https://www.banggood.com/PUDA-XBL140-140mm-3-Inch-Mini-RC-Drone-FPV-Racing-Frame-Kit-4mm-Arm-Carbon-Fiber-p-1243033.html)}
+    - Motors: {RCX H1407(http://www.myrcmart.com/rcx-h1407-v2-5000kv-micro-outrunner-brushleass-motor-its-time-to-upgrade-your-1306-motor-p-9436.html)}
+    - FC: {HGLRC XJB F440(https://www.banggood.com/HGLRC-XJB-F440-TX20_V2-Omnibus-F4-Flight-Controller-OSD-40A-Blheli_32-3-5S-ESC-25100200350mW-VTX-p-1242937.html)}
+    - RX: {FRSky XM+(https://www.banggood.com/Frsky-XM-Micro-D16-SBUS-Full-Range-Receiver-Up-to-16CH-p-1110020.html)}
+    - FPV: {Foxeer Predator Micro(http://surveilzone.com/Foxeer-Predator-Micro-Camera-FPV-OSD-1000TVL-Super-WDR-g-2120)}
+    - PROP: {DALPROP Cyclone T3056C(http://surveilzone.com/2-Pairs-3-blade-DALPROP-CYCLONE-T3056C-Props-for-FPV-Racing-g-2137)}
     # Check your local RF regulations in regards to operating on these radio frequencies.
     # Check your local aviation authorities for UAV operating regulations.
     % 0008.jpg inline
@@ -234,33 +233,33 @@ NOMV2
   VIEW : project
   FROM : fpv
   TAGS : drones, fpv
-  DESC : & A custom 2.5" micro drone.
+  DESC : A custom 2.5" micro drone.
 
 FLIGHTS
   VIEW : project
   FROM : fpv
   TAGS : video, youtube
-  DESC : & Memorable flights.
+  DESC : Memorable flights.
 
 GALLERY
   VIEW : gallery
   FROM : visual
-  DESC : & Miscellaneous visual artefacts.
+  DESC : Miscellaneous visual artefacts.
 
 PHOTOS
   VIEW : gallery
   FROM : visual
   TAGS : photography
-  DESC : & Select photography artefacts.
+  DESC : Select photography artefacts.
 
 LEGACY
   VIEW : project
   FROM : meta
   TAGS : web, github
-  DESC : & A wiki-like project depot.
+  DESC : A wiki-like project depot.
   LONG
     & Legacy is an evolving static site dedicated to documenting my research, projects and creative output.
-    & Inspired by Devine Lu Linvega's {{Oscean|https://github.com/XXIIVV/Oscean/tree/master}}, it's using his Runic and Idental frameworks to drive the content of the site.
-    & The repository for the site is hosted on {{github|https://github.com/nomand/Legacy}}, master branch is the live version.
-    & The code is licensed under {{MIT|https://github.com/nomand/Legacy/blob/master/LICENSE.md}}.
+    & Inspired by Devine Lu Linvega's {Oscean(https://github.com/XXIIVV/Oscean/tree/master)}, it's using his Runic and Idental frameworks to drive the content of the site.
+    & The repository for the site is hosted on {github(https://github.com/nomand/Legacy)}, master branch is the live version.
+    & The code is licensed under {MIT(https://github.com/nomand/Legacy/blob/master/LICENSE.md)}.
 `
