@@ -99,7 +99,7 @@ a:hover { color: white; }
 #content code ln { display: block; line-height: 20px; overflow-wrap: break-word; word-wrap: break-word; hyphens: auto; white-space: initial; }
 #content code ln a { font-family: 'SourceSansPro_Light'; text-decoration: underline;}
 #content code ln b { font-family: 'SourceSansPro_Regular'; font-weight: normal; }
-#content code.inline { display: inline; padding: 0 6px; font-size: 0.85em; font-family: 'SourceSansPro_Light'; background-color: #444; position: relative; }
+#content p code { display: inline; padding: 0 6px; font-size: 0.85em; font-family: 'SourceSansPro_Light'; background-color: #444; position: relative; }
 #content code comment { color:#60cc60; }
 
 
