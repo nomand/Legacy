@@ -27,10 +27,16 @@ html
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
+    user-select: text;
+    -ms-user-select: text;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text; 
 }
 *:before, *:after { box-sizing: border-box; }
 *:focus { outline: none}
-::selection{
+
+*::selection, *::-moz-selection, *::-webkit-selection {
     background-color: rgba(80,80,80,.99);
     color:#000;
     padding: 10px; /* Safari */
