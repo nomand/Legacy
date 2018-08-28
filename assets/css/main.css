@@ -83,6 +83,7 @@ a:hover { color: white; }
 #content p i { font-family: 'SourceSansPro_Italic'; font-style: normal; }
 #content p a, #content list ln a { color: var(--color-accent); margin-bottom: -2px; display: inline-block; font-family: 'SourceSansPro_Bold'; position: relative; line-height: 90%; transition: all 150ms; border-bottom:1px solid transparent; }
 #content p a:hover, #content list ln a:hover { border-bottom-color: var(--color-accent) }
+#content p:last-child { margin-bottom: 20px; }
 
 #content iframe { display: block; margin: 20px 0px 40px 0px; overflow: hidden;}
 #content img { display: block; width: 100%; margin: 10px 0; }
@@ -95,7 +96,7 @@ a:hover { color: white; }
 #content list { display: block; position: relative; margin: 10px 0px 20px 0px; padding-left:30px; }
 #content list ln { display: list-item; line-height: 1.3em; font-size: 1.4em; position: relative; list-style: circle; }
 
-#content code { font-family: 'SourceSansPro_Light'; font-size: 1em; background-color: var(--color-1up); padding: 30px; margin: 10px 0; line-height: 18px; }
+#content code { font-family: 'SourceSansPro_Light'; font-size: 1em; background-color: var(--color-1up); padding: 30px; margin: 10px 0 20px 0; line-height: 18px; }
 #content code b { font-family: 'input_mono_medium'; font-weight: normal;   }
 #content code ln { display: block; line-height: 20px; overflow-wrap: break-word; word-wrap: break-word; hyphens: auto; white-space: initial; }
 #content code ln a { font-family: 'SourceSansPro_Light'; text-decoration: underline;}

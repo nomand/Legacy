@@ -103,11 +103,18 @@ EACHINEVR006
 SWORDY PINS
   VIEW : project
   FROM : physical
-  HEAD : swordypins.jpg
+  HEAD : 0015.jpg
   TAGS : jewelry
   DESC : Promotional merchandise for {(Swordy)}.
   LONG
     & Originally created for PAX 2014 as giveaway merch.
+    & Lazer cut from 5mm bamboo ply.
+    & Hand-glued 2600 pins.
+    % 0016.jpg inline
+    % 0017.jpg inline
+    % 0019.jpg inline
+    % 0020.jpg inline
+    % 0018.jpg inline
 
 MERLIN FOB
   VIEW : project
@@ -233,12 +240,17 @@ XBL3
 NOMV2
   VIEW : project
   FROM : fpv
+  HEAD : 0012.jpg
   TAGS : drones, fpv
   DESC : A custom 2.5" micro drone.
   LONG
     & Sub-50g micro FPV drone that could be safely operated in small parks in windless conditions.
     - Custom CNC carbon fiber frame
     - 45.5g dry weight
+    - 5.8Ghz fpv feed
+    - 7.2v 350mAh liPo
+    % 0013.jpg inline
+    % 0014.jpg inline
 
 FLIGHTS
   VIEW : project
