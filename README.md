@@ -1,6 +1,6 @@
 # Legacy
 Static web experiment.
 
-Based on neauoire's [indental.js](https://github.com/XXIIVV/Oscean/blob/master/scripts/lib/indental.js) parser and kormyen's [memex](https://github.com/kormyen/memex).
+Inspired by neauoire's [XXIIVV](https://github.com/XXIIVV/Oscean) and uses some of it's libraries.
 
-Work in progress [Live](http://nomand.github.io/Legacy).
+Work in progress. [Live version](http://nomand.github.io/Legacy).
