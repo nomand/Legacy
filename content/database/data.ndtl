@@ -25,7 +25,6 @@ VISUAL
 
 FPV
   VIEW : collection
-  HEAD : 0000.jpg
   FROM : home
   DESC : UAV and {drone(tag drone)} related projects.
 
@@ -231,9 +230,8 @@ LETNICE
   TAGS : web, time, github
   DESC : Year progress calculator.
   LONG
-    & Live version {here(https://nomand.github.io/Letnice)}
     & Letnice is a simple Gregorian calendar visualizer that tracks year progress.
-    & Created using JavaScript. Project is open source and available on {github(https://github.com/nomand/letnice)}.
+    & Created using JavaScript. Project is open source and available on {github(https://github.com/nomand/letnice)}. Standalone live version {here(https://nomand.github.io/Letnice)}
 
 REVEAL SHADER
   VIEW : project
