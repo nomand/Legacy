@@ -41,8 +41,7 @@ NOMAND
   DESC : My name is Alexey Botkov.
   LONG
     & {_nomand_} is my alias and the name I go by on various networks.
-    & I am of Russian descent, currently based in New Zealand.
-    & I'm a technologist and multimedia artist with projects spanning various disciplines and mediums.
+    & I am of Russian descent, currently based in New Zealand. I'm a technologist and multimedia artist with projects spanning various disciplines and mediums.
     - To contact me, message me on {twitter(http://twitter.com/nomand)} for the quickest response.
     - Find how you can support me and my work {here(support)}
 
@@ -51,10 +50,10 @@ SUPPORT
   FROM : meta
   DESC : Ways you can support me and my research.
   LONG
-    & Follow me on {twitter(https://twitter.com/nomand)}.
-    & Subscribe to my {youtube(https://www.youtube.com/c/nomand)} channel.
-    & Pay what you want for my {games(https://nomand.itch.io/)}.
-    & Donate {(bitcoin)}
+    - Follow me on {twitter(https://twitter.com/nomand)}.
+    - Subscribe to my {youtube(https://www.youtube.com/c/nomand)} channel.
+    - Pay what you want for my {games(https://nomand.itch.io/)}.
+    - Donate {(bitcoin)}
 
 RUNNINGTAP
   VIEW : project
@@ -76,8 +75,20 @@ FROGSHARK
 PICOPICA
   VIEW : project
   FROM : physical
+  HEAD : 0021.jpg
   TAGS : raspberrypi, github
   DESC : A {raspberry pi(tag raspberrypi)} based timelapse camera.
+  LONG
+    & Based on the wireless Pi Zero W, picopica consumes little power and is geared towards long-term timelapse photography.
+    & Designed as an experimental tool rather than photography equipment because the pi camera modules aren't high enough qulaity.
+    * Parts:
+    - Pi Zero W
+    - {Waveshare 1.44" hat(https://www.aliexpress.com/item/Waveshare-1-44-inch-LCD-Display-HAT-for-Raspberry-Pi-2B-3B-3B-Zero-Zero-W/32844614289.html)}
+    - Pi Camera module (any)
+    - Pi Zero camera flex cable 
+    - 3D printed parts.
+    & This project is work in progress.
+    & Code and STL files available on the project {github(https://github.com/nomand/picopica)} page.
 
 HSVLED
   VIEW : project
@@ -291,4 +302,35 @@ SOLAR
   HEAD : 0011.jpg
   TAGS : solar
   DESC : Polycrystalline solar cell.
+
+CAVIAR
+  VIEW : project
+  HEAD : 0022.jpg
+  TAGS : recipe
+  DESC : Salmon roe caviar recipe.
+  LONG
+    & Traditionally, caviar refers to Sturgeon roe, however has since been used interchangeably for other types of fish. The caviar I've known since childhood has been from Salmon roe and is considered a delicacy. This recipe describes a high yield processing and curing of すじこ into {_красная икра_}.
+    * Separation
+    & In raw form, most roe is bundled inside the egg sack.
+    % 0023.jpg inline
+    & The best way to remove the egg membranes and separate the eggs is to dissolve it. After a cold water rinse, soak the roe. The water should be hot to the touch, but not burning because here you will "massage" the eggs out and separate the membrane away. In hot water, roe turns solid and opaque. Cold water will make it soft and translucent.
+    % 0024.jpg inline
+    & Rinse in cold water to drain all the loose membraine bits and repeat the process untill the water is clear with no floating flakes. This process should take 5-7 repeats.
+    % 0025.jpg inline
+    % 0026.jpg inline
+    & Once free of debris, drain all water using a sieve.
+    * Curing
+    & Add {*3 table spoons of salt per kg*} of loose roe and hand-mix. Don't be shy with the mixing. Roe is tough but don't be too rough either, avoid breaking the eggs. The salt will give roe a vivid orange color. After a thorough mix, keep in the fridge for 20 minutes to soak.
+    % 0027.jpg inline
+    % 0028.jpg inline
+    & After soaking, the salt would have brought out a lot of moisture from the eggs. Drain as much liquid as possible. It helps to mix it a little to help the trapped moisture escape.
+    & Taste the roe! If it's not salty enough, you can add more salt and repeat the soaking process. If it's too salty, you can do a second pass below.
+    * Second Pass (optional)
+    & This is an optional step if you want to do a cleaner yield or reduce salt amount. Wash the roe in cold water. Salty eggs will make the water white and milky. At this stage the eggs are fragile, be gentle to avoid popping too many.
+    % 0029.jpg inline
+    & Repeat the salting process, ajusting amounts of salt as needed, soak, drain, taste, jar!
+    % 0030.jpg inline
+    * Serve
+    & Classic way to serve: a teaspoon worth on white or {бородинский(https://en.wikipedia.org/wiki/Borodinsky_bread)} bread with unsalted butter. Here, served on savory pancakes and cream cheese:
+    % 0031.jpg inline
 `
