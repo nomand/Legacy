@@ -3,6 +3,7 @@ let DATABASE = `
 HOME
   VIEW : home
   HEAD : 0007.jpg
+  DESC : Legacy home.
 
 INTERACTIVE
   VIEW : collection
