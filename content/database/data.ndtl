@@ -131,7 +131,7 @@ MERLIN FOB
   VIEW : project
   FROM : physical
   HEAD : 0032.jpg
-  TAGS : fdm, prototyping, hardware
+  TAGS : fdm, prototyping, hardware, repair
   DESC : 3D Printed case replacement for Merlin garage door.
   LONG
     & I was tasked with fabricating a replacement housing for Merlin M842 remote control for a garage door. Given that the device is most commonly carried on a key chain or thrashed around in a car glovebox, the housing ends up taking a beating with age and a replacement can cost as much as $60 to $90. My goal was to create a competent replacement that would:
