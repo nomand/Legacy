@@ -27,7 +27,7 @@ VISUAL
 FPV
   VIEW : collection
   FROM : home
-  DESC : UAV and {drone(tag drone)} related projects.
+  DESC : UAV and {drone(tag drones)} related projects.
 
 META
   VIEW : collection
