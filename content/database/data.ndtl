@@ -50,9 +50,9 @@ SUPPORT
   FROM : meta
   DESC : Ways you can support me and my research.
   LONG
+    & Support me and my research:
     - Follow me on {twitter(https://twitter.com/nomand)}.
     - Subscribe to my {youtube(https://www.youtube.com/c/nomand)} channel.
-    - Pay what you want for my {games(https://nomand.itch.io/)}.
     - Donate {(bitcoin)}
 
 RUNNINGTAP
@@ -60,8 +60,8 @@ RUNNINGTAP
   FROM : meta
   DESC : A digital business entity.
   LONG
-    & {Runningtap(http://runningtap.com/)} is my business entity through which I offer consulting, R&D, prototyping and design services.
-    & If you're interested in me working with you, contact me through the runningtap website.
+    & {_Runningtap_} is my business entity through which I offer consulting, R&D, prototyping and design services.
+    & If you're interested in me working with you, contact me through the runningtap {website(http://runningtap.com/)}.
 
 FROGSHARK
   VIEW : project
@@ -175,7 +175,8 @@ H WHITE
   TAGS : repair, time
   DESC : Vintage watch repair.
   LONG
-    & Breathing life into an old British pocket watch. Picked up at a Rotorua antique store, it came with a broken spring. A watch is a beautiful machine. It's amazing that 6 centuries ago we figured out how to release spring tension in measured intervals that can be synced up with rotation of the {Earth(Gaea)}.
+    & Breathing life into an old British pocket watch. Picked up at a Rotorua antique store, it came with a broken spring. A watch is a beautiful machine. It's amazing that centuries ago we figured out how to release spring tension in measured intervals that can be synced up with rotation of the {Earth(Gaea)}.
+    & This is a visual archive of the repair process.
     % 0041.jpg inline
     % 0042.jpg inline
     % 0043.jpg inline
@@ -352,6 +353,10 @@ SOLAR
   HEAD : 0011.jpg
   TAGS : solar
   DESC : Polycrystalline solar cell.
+
+BITCOIN
+  VIEW : photo
+  DESC : Bitcoin address.
 
 CAVIAR
   VIEW : project
