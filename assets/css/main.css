@@ -1,7 +1,7 @@
 :root
 {
   --color-almostblack: #181818;
-  --color-1up: #1d1d1d;
+  --color-code-bg: #1d1d1d;
   --color-pale: #d9d9d0;
   --color-accent: #ffffff;
 
@@ -14,11 +14,12 @@ body { font-family: 'SourceSansPro_Regular'; background-color: var(--color-almos
 a { cursor: pointer; color: var(--color-pale); }
 a:hover { color: white; }
 
+.logo { background-image: url("../svg/nm.svg"); background-size: contain; background-repeat: no-repeat; background-position-y: center; }
+
 #sense { display: block; z-index: -100; position: absolute; width: 100%; height: 100%; top: 0; right: 0; bottom: 0; left: 0; background-size: cover; background-position: center center; background-repeat: no-repeat; }
-#view { min-height:100%; position:relative; transition: all 200ms; }
+#view { min-height: 100%; position:relative; transition: all 200ms; }
 #header { display: block; position: relative; width: 100%; min-height: 120px; }
 #header #photo { display: block; position: relative; width:100%; height: 91vh; max-height: 1080px; -webkit-background-size: cover, cover; -moz-background-size: cover, cover; background-size: cover, cover; -o-background-size: cover, cover; background-position: center center, bottom center; background-repeat: no-repeat, no-repeat; transition: all 150ms; }
-        .logo { background-image: url("../svg/nm.svg"); background-size: contain; background-repeat: no-repeat; background-position-y: center; }
 #header #logo { display: block; position: fixed; z-index: 200; width: 35px; height: 35px; top: 40px; left: 40px; }
 #header #logo.sticky { position: absolute; top: initial; bottom: 44px }
 #header iframe { width: 100%; height: 100%; overflow: hidden; }
@@ -27,54 +28,27 @@ a:hover { color: white; }
 #footerwrap { display: inline-block; width: 100%; padding: 40px 0px; margin: 0px; max-width: 100%; font-size: 20px; color: #fff; }
 #footerwrap .logo { width: 17px; height: 30px; margin: none; float: left; }
 #footerwrap .credit { display: inline-block; margin-left: 20px; font-size: 14px; }
-#footerwrap a.icon { width: 20px; height: 30px; margin: 0px 8px; background-size: contain; background-repeat: no-repeat; background-position-y: center; display: block; float: right; }
-#footerwrap a.icon.github { background-image: url("../svg/github.svg"); }
+#footerwrap a.icon         { width: 20px; height: 30px; margin: 0px 8px; background-size: contain; background-repeat: no-repeat; background-position-y: center; display: block; float: right; }
+#footerwrap a.icon.github  { background-image: url("../svg/github.svg"); }
 #footerwrap a.icon.twitter { background-image: url("../svg/twitter.svg"); }
 #footerwrap a.icon.webring { background-image: url("../svg/rotonde.svg"); }
 
-#stats { display: block; margin: 50px auto 20px auto; padding: 0px 40px; text-align: left; color: #fff; }
-#stats #stat { display: inline-block; margin: 0px 10px 10px 0px; background-color: #fff; color: #000; padding: 4px 8px; max-width: 100px}
-#stats #stat:hover { background-color: #1f1f1f; color: #fff; cursor: pointer; }
-#stats .tag { display: inline-block; margin: 3px 3px; font-family: 'SourceSansPro_Regular'; font-size: 1em; color: #999999; }
-#stats .tag:hover { color: #000; background-color: #999999; }
-
-.entry { border-top: 1px solid #444; display: block; margin: 0px auto 2px auto; padding: 20px 60px; max-width: 700px; text-align: left; color: #fff; }
-.entry .title { display: inline-block; font-family: 'SourceSansPro_Bold'; font-size: 1.2em; font-weight: bold; margin-right: 10px; }
-.entry .pict { background-position: center; background-size:cover; display: inline-block; margin-top: 20px; width: 100%; min-height: calc(100vh * 0.4); -webkit-transition: min-height 0.2s; transition: min-height 0.2s; }
-.entry .pict:hover { cursor: pointer; }
-#date { display: inline-block; color: #999999; }
-#note { display: block; text-align: left; }
-#gallerypic { display: block; width: 10vw; height: calc(10vw * 1.4); background-position: center; background-size:cover; float: left; margin: 10px; }
-
 /* homepage listing */
-#topicblock { vertical-align: top; min-width: 200px; float: left; margin-bottom: 20px; margin-right: 20px;}
-#topichead { display: block; font-family: 'SourceSansPro_Bold'; margin-bottom: 10px; font-size: 20px; user-select: none; -moz-user-select: none; -moz-user-select: none; }
-#topic { display: block; margin: 2px 0px; }
-#topic a:after {  content: ""; }
-
-#topic      a:hover:after,
-#content h2 a:hover:after,
-#topichead  a:hover:after { margin-right: 2px; content: " •"; transition: all 150ms;}
-
-#content .collection, #content .intro { display: block; margin-bottom: 20px; }
-
-/* lightbox */
-#lightbox { position: fixed; display: inline-flex; width: 100%; height: 100%; top: 0; left: 0; background-color: rgba(0, 0, 0, .8); text-align: center; }
-#showcase { position: relative; display: inline-block; margin: auto auto; background-color: rgba(0, 0, 0, 1); padding: 20px; }
-#showcase #img { display: block; max-width: 70vw; max-height: 80vh; background-position: center center; background-size:contain; background-repeat: no-repeat; margin: none; object-fit: contain; }
-#showcase #post { display: inline-block; width: 100%; bottom: 0px; background-color: rgba(0,0,0,0.5); text-align: left; margin-top: 10px; }
-
-/* misc */
-.round { -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; }
-
-#content { display: inline-block; width: 100%; padding: 40px 40px 220px 40px;  }
-#content #presentation { display: block; margin-left: 220px; margin-right: 220px; }
+.topicblock { vertical-align: top; min-width: 200px; float: left; margin-bottom: 20px; margin-right: 20px;}
+.topicblock .topichead { display: inline-block; font-family: 'SourceSansPro_Bold'; margin-bottom: 10px; font-size: 20px; user-select: none; -moz-user-select: none; -webkit-user-select: none; }
+.topicblock .topic { display: block; margin-bottom: 2px; width:auto; }
+h2 a:after, .topicblock a:after { content: ""; }
+h2 a:hover:after, .topicblock a:hover:after { margin-right: 2px; content: " •"; transition: all 150ms;}
 
 /* sidebar */
 #sidebar { display: block; float: left; width: 200px; height: 100%; padding: 0 0 20px 0; overflow-x: hidden; }
 #sidebar #tags { font-size: 1em; }
 #sidebar #tags a { font-family: 'SourceSansPro_Italic'; transition: all 150ms; }
 #sidebar #tags a:hover { text-decoration: underline; }
+
+#content { display: inline-block; width: 100%; padding: 40px 40px 200px 40px;  }
+#content .collection, #content .desc { margin-bottom: 20px; }
+#content #presentation { display: block; margin-left: 220px; margin-right: 220px; }
 
 /* generated by runic */
 #content p { line-height: 1.3em; font-size: 1.4em; display: block; font-family: 'SourceSansPro_Regular'; margin-bottom: 20px; }
@@ -96,7 +70,7 @@ a:hover { color: white; }
 #content list { display: block; position: relative; margin: 0px 0px 20px 0px; padding-left:30px; }
 #content list ln { display: list-item; line-height: 1.3em; font-size: 1.4em; position: relative; list-style: circle; }
 
-#content code { font-family: 'SourceSansPro_Light'; font-size: 1em; background-color: var(--color-1up); padding: 30px; margin: 10px 0 20px 0; line-height: 18px; }
+#content code { font-family: 'SourceSansPro_Light'; font-size: 1em; background-color: var(--color-code-bg); padding: 30px; margin: 10px 0 20px 0; line-height: 18px; }
 #content code b { font-family: 'input_mono_medium'; font-weight: normal;   }
 #content code ln { display: block; line-height: 20px; overflow-wrap: break-word; word-wrap: break-word; hyphens: auto; white-space: initial; }
 #content code ln a { font-family: 'SourceSansPro_Light'; text-decoration: underline;}

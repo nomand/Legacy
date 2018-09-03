@@ -32,7 +32,7 @@ FPV
 META
   VIEW : collection
   FROM : home
-  DESC : Information about this {{Legacy}}, it's creator and content.
+  DESC : Information about this {(Legacy)}, it's creator and content.
 
 NOMAND
   VIEW : project
@@ -337,9 +337,8 @@ LEGACY
   TAGS : web, github
   DESC : A wiki-like project depot.
   LONG
-    & Legacy is an evolving static site dedicated to documenting my research, projects and creative output.
-    & Inspired by Devine Lu Linvega's {Oscean(https://github.com/XXIIVV/Oscean/tree/master)}, it's using his Runic, Idental and Curlic frameworks to parse the content of the site.
-    & The repository for the site is hosted on {github(https://github.com/nomand/Legacy)}, master branch is the live version.
+    & {_Legacy_} is an evolving static wiki-like site dedicated to documenting my research, projects and creative output.
+    & Inspired by Devine Lu Linvega's {Oscean(https://github.com/XXIIVV/Oscean/tree/master)}, the repository for the site is hosted on {github(https://github.com/nomand/Legacy)}, master branch is the live version.
     & The code is licensed under {MIT(https://github.com/nomand/Legacy/blob/master/LICENSE.md)}.
 
 BEAUTIFUL OBJECTS
@@ -359,7 +358,7 @@ BITCOIN
   HEAD : 0048.jpg
   DESC : Donate bitcoin
   LONG
-    &  {1FJYtVVw5WZvpMS6RkuxR3jxPonx7sAS6p(https://www.blockchain.com/btc/address/1FJYtVVw5WZvpMS6RkuxR3jxPonx7sAS6p)}
+    & {1FJYtVVw5WZvpMS6RkuxR3jxPonx7sAS6p(https://www.blockchain.com/btc/address/1FJYtVVw5WZvpMS6RkuxR3jxPonx7sAS6p)}
 
 CAVIAR
   VIEW : project
