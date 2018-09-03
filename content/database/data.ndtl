@@ -356,7 +356,10 @@ SOLAR
 
 BITCOIN
   VIEW : photo
-  DESC : Bitcoin address.
+  HEAD : 0048.jpg
+  DESC : Donate bitcoin
+  LONG
+    &  {1FJYtVVw5WZvpMS6RkuxR3jxPonx7sAS6p(https://www.blockchain.com/btc/address/1FJYtVVw5WZvpMS6RkuxR3jxPonx7sAS6p)}
 
 CAVIAR
   VIEW : project
