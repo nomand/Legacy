@@ -40,7 +40,7 @@ a:hover { color: white; }
 
 #content { display: inline-block; width: 100%; padding: 40px 40px 200px 40px;  }
 #content .collection, #content .desc { margin-bottom: 20px; }
-#content #presentation { display: block; margin-left: 220px; margin-right: 220px; }
+#content #presentation { display: block; margin: 0 240px; }
 
 /* homepage listing */
 #content #home { display: block; width: 100%; column-width: 220px; column-count: auto}
