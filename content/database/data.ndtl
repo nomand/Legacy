@@ -48,7 +48,7 @@ NOMAND
 SUPPORT
   VIEW : project
   FROM : meta
-  DESC : Ways you can support me and my research.
+  DESC : Ways you can support me and my work.
   LONG
     & Support me and my research:
     - Follow me on {twitter(https://twitter.com/nomand)}.
@@ -313,12 +313,6 @@ NOMV2
     - 7.2v 350mAh liPo
     % 0013.jpg inline
     % 0014.jpg inline
-
-FLIGHTS
-  VIEW : project
-  FROM : fpv
-  TAGS : video, youtube
-  DESC : Memorable flights.
 
 GALLERY
   VIEW : gallery
