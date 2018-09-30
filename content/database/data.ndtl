@@ -2,7 +2,7 @@ let DATABASE = `
 
 HOME
   VIEW : home
-  HEAD : 0007.jpg
+  HEAD : 0050.jpg
   DESC : Legacy home.
 
 INTERACTIVE
@@ -352,6 +352,13 @@ SOLAR
   HEAD : 0011.jpg
   TAGS : solar
   DESC : Polycrystalline solar cell.
+
+TANDY200
+  VIEW : photo
+  FROM : beautiful objects
+  HEAD : 0049.jpg
+  TAGS : cyberpunk, retro
+  DESC : RadioShack Tandy 200
 
 BITCOIN
   VIEW : photo
