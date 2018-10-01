@@ -5,12 +5,12 @@ HOME
   HEAD : 0050.jpg
   DESC : Legacy home.
 
-INTERACTIVE
+SOFTWARE
   VIEW : collection
   FROM : home
-  DESC : A colleciton of video games, {game-jams(tag gamejam)} and playable game-like interactive projects.
+  DESC : Colleciton of video games, software and interactive projects.
 
-PHYSICAL
+HARDWARE
   VIEW : collection
   FROM : home
   DESC : Collection of physical projects, hardware, DIY and repair builds.
@@ -18,16 +18,12 @@ PHYSICAL
 DIGITAL
   VIEW : collection
   FROM : home
-  DESC : Collection of digital projects, software, shaders and virtual experiments.
+  DESC : Collection of digital projects, shaders and virtual experiments.
 
-VISUAL
-  VIEW : collection
-  DESC : Static visual content, photography, illustration & drawing.
-
-FPV
+ANALOGUE
   VIEW : collection
   FROM : home
-  DESC : UAV and {drone(tag drones)} related projects.
+  DESC : Collection of projects that involve no computers.
 
 META
   VIEW : collection
@@ -65,7 +61,6 @@ RUNNINGTAP
 
 FROGSHARK
   VIEW : project
-  FROM : meta
   DESC : An indie game development studio.
   LONG
     & {Frogshark(http://frogshark.com)} is a 3 person studio, co-founded by {Hamish MacDonald(http://kor.co.nz/)}, Danny Lawrie and {myself(nomand)} in 2014.
@@ -74,7 +69,7 @@ FROGSHARK
 
 PICOPICA
   VIEW : project
-  FROM : physical
+  FROM : hardware
   HEAD : 0021.jpg
   TAGS : raspberrypi, github
   DESC : A {raspberry pi(tag raspberrypi)} based timelapse camera.
@@ -92,7 +87,7 @@ PICOPICA
 
 HSVLED
   VIEW : project
-  FROM : physical
+  FROM : hardware
   HEAD : 0001.jpg
   TAGS : arduino, light, led, github
   DESC : An {arduino(tag arduino)} based {lighting(tag light)} project to illuminate my working space.
@@ -102,7 +97,7 @@ HSVLED
 
 EACHINEVR006
   VIEW : project
-  FROM : physical
+  FROM : hardware
   HEAD : 0002.jpg
   TAGS : drones, fpv, guide, github
   DESC : A portable spectator {(fpv)} screen.
@@ -113,7 +108,7 @@ EACHINEVR006
 
 SWORDY PINS
   VIEW : project
-  FROM : physical
+  FROM : analogue
   HEAD : 0015.jpg
   TAGS : jewelry
   DESC : Promotional merchandise for {(Swordy)}.
@@ -129,7 +124,7 @@ SWORDY PINS
 
 MERLIN FOB
   VIEW : project
-  FROM : physical
+  FROM : hardware
   HEAD : 0032.jpg
   TAGS : fdm, prototyping, hardware, repair
   DESC : 3D Printed case replacement for Merlin garage door.
@@ -154,7 +149,7 @@ MERLIN FOB
 
 SHEFFIELD HANDLE
   VIEW : project
-  FROM : physical
+  FROM : analogue
   HEAD : 0036.jpg
   TAGS : woodwork, repair
   DESC : Wooden knife handle.
@@ -170,7 +165,7 @@ SHEFFIELD HANDLE
 
 H WHITE
   VIEW : project
-  FROM : physical
+  FROM : analogue
   HEAD : 0040.jpg
   TAGS : repair, time
   DESC : Vintage watch repair.
@@ -185,20 +180,19 @@ H WHITE
     % 0046.jpg inline
     % 0047.jpg inline
 
-
 SWORDY
   VIEW : project
-  FROM : interactive
+  FROM : software
   HEAD : HEADSwordy.jpg
   TAGS : gamedev, unity3d, steam
   DESC : Swordy is a local-multiplayer physics based brawler.
   LONG
-    & Available on {Steam(https://store.steampowered.com/app/467900/SWORDY/)}.
-    & I worked on the project from conception in 2014 until late 2016, creating 3D art, sound design, music and marketing material.
+    & A game I worked on as part of {(frogshark)} from conception in 2014 until late 2016, creating 3D art, sound design, music and marketing material among other things.
+    & It's available on {Steam(https://store.steampowered.com/app/467900/SWORDY/)}.
 
 THAT COW GAME
   VIEW : project
-  FROM : interactive
+  FROM : software
   TAGS : gamedev, unity3d, itch, gamejam
   DESC : A cow at a meat factory.
   LONG
@@ -207,33 +201,39 @@ THAT COW GAME
 
 CONTRAIL ROMANTICS
   VIEW : project
-  FROM : interactive
+  FROM : software
   TAGS : gamedev, unity3d, itch, gamejam
   DESC : A game about drawing shapes in the sky.
 
 DETRITUS MEMORY DUMP
   VIEW : project
-  FROM : interactive
+  FROM : software
   TAGS : gamedev, unity3d, itch, gamejam
   DESC : Memories of a space.
+  LONG
+    & A {memory palace(https://en.wikipedia.org/wiki/Method_of_loci)}.
+    & Made in 48 hours during Global Gamejam 2016.
 
 MINDSCAPES OF LIZ RYERSON
   VIEW : project
-  FROM : interactive
+  FROM : software
   HEAD : 0004.jpg
   TAGS : gamedev
   DESC : A Mashup of {Liz Ryerson(https://twitter.com/ellaguro)} and {Ian MacLarty(https://twitter.com/muclorty)}'s works.
+  LONG
+    & A mashup interactive experience that combines Ian MacLarty's experimental game {Southbank Portrait(https://ianmaclarty.itch.io/southbank-portrait)} and Liz Ryerson's {BAGAIJ10S(http://ludumdare.com/compo/ludum-dare-27/?action=preview&uid=4987)} works and her album {SCRAPS(https://ellaguro.bandcamp.com/album/scraps)}. 
+    & This experiment uses Ian’s engine and framework to expose a different way of traversing Ryerson's works.
 
 WHALEBUS
   VIEW : project
-  FROM : interactive
+  FROM : software
   HEAD : 0006.jpg
   TAGS : gamedev, unity3d, gamejam
   DESC : A game about two halves.
 
 GAEA
   VIEW : project
-  FROM : digital
+  FROM : software
   HEAD : https://nomand.github.io/Gaea
   TAGS : web, time, github
   DESC : Planetary birthday {clock(tag time)}.
@@ -244,7 +244,7 @@ GAEA
 
 LETNICE
   VIEW : project
-  FROM : digital
+  FROM : software
   HEAD : https://nomand.github.io/Letnice/
   TAGS : web, time, github
   DESC : Year progress calculator.
@@ -263,16 +263,22 @@ PBRBLEND SHADER
   FROM : digital
   TAGS : gamedev, unity3d, shader, github
   DESC : Shader set for blending pbr materials in {unity3d(tag unity3d)}.
+  LONG
+    & Due to ShaderForge discontinuation and current Unity incompatibilities this project is incomplete and released as-is.
+    & Code and Unity projects are available on {github(https://github.com/nomand/PBRBlendShader)}.
 
 VIZCERA
   VIEW : project
   FROM : digital
   TAGS : unity3d
   DESC : Motion controlled audiovisual installation.
+  LONG
+    & A collaboration with {Digital Art Live(https://www.aucklandlive.co.nz/digital-art-live)}.
+    & Vizcera is a Kinect driven interactive audiovisual installation. It was on display at Aotea Centre in November 2014.
 
 XBL3
   VIEW : project
-  FROM : fpv
+  FROM : hardware
   HEAD : 0000.jpg
   TAGS : drones, fpv
   DESC : A 3" racing drone.
@@ -301,7 +307,7 @@ XBL3
 
 NOMV2
   VIEW : project
-  FROM : fpv
+  FROM : hardware
   HEAD : 0012.jpg
   TAGS : drones, fpv
   DESC : A custom 2.5" micro drone.
@@ -313,17 +319,6 @@ NOMV2
     - 7.2v 350mAh liPo
     % 0013.jpg inline
     % 0014.jpg inline
-
-GALLERY
-  VIEW : gallery
-  FROM : visual
-  DESC : Miscellaneous visual artefacts.
-
-PHOTOS
-  VIEW : gallery
-  FROM : visual
-  TAGS : photography
-  DESC : Select photography artefacts.
 
 LEGACY
   VIEW : project
@@ -337,7 +332,7 @@ LEGACY
 
 BEAUTIFUL OBJECTS
   VIEW : collection
-  FROM : photography
+  FROM : analogue
   DESC : Phogotraphs of beautiful objects.
 
 SOLAR
