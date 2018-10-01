@@ -208,11 +208,12 @@ CONTRAIL ROMANTICS
 DETRITUS MEMORY DUMP
   VIEW : project
   FROM : software
+  HEAD : 0051.jpg
   TAGS : gamedev, unity3d, itch, gamejam
   DESC : Memories of a space.
   LONG
-    & A {memory palace(https://en.wikipedia.org/wiki/Method_of_loci)}.
-    & Made in 48 hours during Global Gamejam 2016.
+    & A {memory palace(https://en.wikipedia.org/wiki/Method_of_loci)} of a room I used to live in. Explore few fleeting snippets of a bygone space.
+    & Made in 48 hours during {Global Gamejam 2016(tag gamejam)}.
 
 MINDSCAPES OF LIZ RYERSON
   VIEW : project
