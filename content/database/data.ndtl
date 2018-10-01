@@ -263,12 +263,18 @@ PBRBLEND SHADER
   FROM : digital
   TAGS : gamedev, unity3d, shader, github
   DESC : Shader set for blending pbr materials in {unity3d(tag unity3d)}.
+  LONG
+    & Due to ShaderForge discontinuation and current Unity incompatibilities this project is incomplete and released as-is.
+    & Code and Unity projects are available on {github(https://github.com/nomand/PBRBlendShader)}.
 
 VIZCERA
   VIEW : project
   FROM : digital
   TAGS : unity3d
   DESC : Motion controlled audiovisual installation.
+  LONG
+    & A collaboration with {Digital Art Live(https://www.aucklandlive.co.nz/digital-art-live)}.
+    & Vizcera is a Kinect driven interactive audiovisual installation. It was on display at Aotea Centre in November 2014.
 
 XBL3
   VIEW : project
@@ -314,17 +320,6 @@ NOMV2
     % 0013.jpg inline
     % 0014.jpg inline
 
-GALLERY
-  VIEW : gallery
-  FROM : visual
-  DESC : Miscellaneous visual artefacts.
-
-PHOTOS
-  VIEW : gallery
-  FROM : visual
-  TAGS : photography
-  DESC : Select photography artefacts.
-
 LEGACY
   VIEW : project
   FROM : meta
@@ -337,7 +332,7 @@ LEGACY
 
 BEAUTIFUL OBJECTS
   VIEW : collection
-  FROM : photography
+  FROM : analogue
   DESC : Phogotraphs of beautiful objects.
 
 SOLAR
