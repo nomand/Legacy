@@ -205,6 +205,9 @@ CONTRAIL ROMANTICS
   HEAD : 0052.jpg
   TAGS : gamedev, unity3d, itch, gamejam
   DESC : A game about drawing shapes in the sky.
+  LONG
+    & Pilot a skywriting plane and fulfill contrail messages for the folks below.
+    & Created in 48 hours during {Global Gamejam 2017(tag gamejam)}.
 
 DETRITUS MEMORY DUMP
   VIEW : project
