@@ -260,8 +260,21 @@ LETNICE
 REVEAL SHADER
   VIEW : project
   FROM : digital
+  HEAD : 0053.jpg
   TAGS : gamedev, unity3d, shader, github
   DESC : Shader set for {unity3d(tag unity3d)}.
+  LONG
+    & A set of shaders for {Unity3D(tag unity3d)} that generates a render texture based on player position and re-projects it back onto game world as a mask for various shader effects.
+    & Features:
+    - Black and White to RGB texture reveal shader
+    - Transparent to Opaque RGB Texture reveal shader
+    - Displacement Tesselation shader
+    - Auto and Manual world bounds lookup
+    - Fading over time
+    - Adaptive RenderTexture aspect ratio
+    - Custom inspector
+    & Source code, license, usage guide and {_unitypackage_} downloads available on {github(https://github.com/nomand/RevealShader)}.
+
 
 PBRBLEND SHADER
   VIEW : project
