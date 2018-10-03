@@ -275,13 +275,13 @@ REVEAL SHADER
     - Custom inspector
     & Source code, license, usage guide and {_unitypackage_} downloads available on {github(https://github.com/nomand/RevealShader)}.
 
-
 PBRBLEND SHADER
   VIEW : project
   FROM : digital
   TAGS : gamedev, unity3d, shader, github
   DESC : Shader set for blending pbr materials in {unity3d(tag unity3d)}.
   LONG
+    & A set of shaders for {Unity3D(tag unity3d)} that implements vertex blending of PBR materials using Polybrush.
     & Due to ShaderForge discontinuation and current Unity incompatibilities this project is incomplete and released as-is.
     & Code and Unity projects are available on {github(https://github.com/nomand/PBRBlendShader)}.
 
