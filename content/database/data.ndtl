@@ -206,6 +206,9 @@ CONTRAIL ROMANTICS
   HEAD : 0052.jpg
   TAGS : gamedev, unity3d, itch, gamejam
   DESC : A game about drawing shapes in the sky.
+  LONG
+    & Pilot a skywriting plane and fulfill contrail messages for the folks below.
+    & Created in 48 hours during {Global Gamejam 2017(tag gamejam)}.
 
 DETRITUS MEMORY DUMP
   VIEW : project
@@ -258,8 +261,20 @@ LETNICE
 REVEAL SHADER
   VIEW : project
   FROM : digital
+  HEAD : 0053.jpg
   TAGS : gamedev, unity3d, shader, github
   DESC : Shader set for {unity3d(tag unity3d)}.
+  LONG
+    & A set of shaders for {Unity3D(tag unity3d)} that generates a render texture based on player position and re-projects it back onto game world as a mask for various shader effects.
+    & Features:
+    - Black and White to RGB texture reveal shader
+    - Transparent to Opaque RGB Texture reveal shader
+    - Displacement Tesselation shader
+    - Auto and Manual world bounds lookup
+    - Fading over time
+    - Adaptive RenderTexture aspect ratio
+    - Custom inspector
+    & Source code, license, usage guide and {_unitypackage_} downloads available on {github(https://github.com/nomand/RevealShader)}.
 
 PBRBLEND SHADER
   VIEW : project
@@ -267,6 +282,7 @@ PBRBLEND SHADER
   TAGS : gamedev, unity3d, shader, github
   DESC : Shader set for blending pbr materials in {unity3d(tag unity3d)}.
   LONG
+    & A set of shaders for {Unity3D(tag unity3d)} that implements vertex blending of PBR materials using Polybrush.
     & Due to ShaderForge discontinuation and current Unity incompatibilities this project is incomplete and released as-is.
     & Code and Unity projects are available on {github(https://github.com/nomand/PBRBlendShader)}.
 
