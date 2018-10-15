@@ -61,7 +61,7 @@ h2 a:hover:after, .topicblock a:hover:after { margin-right: 2px; content: " •"
 #content p:last-child { margin-bottom: 20px; }
 
 #content iframe { display: block; margin: 20px 0px 40px 0px; overflow: hidden;}
-#content img.inline { display: block; width: 100%; margin: 10px 0 40px 0; }
+#content img.inline { display: inline-block; width: 100%; margin: 20px 0 20px 0; }
 
 #content h2 { font-size: 1.6em; font-family: 'SourceSansPro_Bold'; }
 #content h2 a { color: #fff; }
