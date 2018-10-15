@@ -55,6 +55,7 @@ SUPPORT
 RUNNINGTAP
   VIEW : project
   FROM : meta
+  HEAD : 0007.jpg
   DESC : A digital business entity.
   LONG
     & {_Runningtap_} is my business entity through which I offer consulting, R&D, prototyping and design services.
