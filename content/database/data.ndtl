@@ -262,7 +262,7 @@ REVEAL SHADER
   VIEW : project
   FROM : digital
   HEAD : 0053.jpg
-  TAGS : gamedev, unity3d, shader, github
+  TAGS : unity3d, shader, github
   DESC : Shader set for {unity3d(tag unity3d)}.
   LONG
     & A set of shaders for {Unity3D(tag unity3d)} that generates a render texture based on player position and re-projects it back onto game world as a mask for various shader effects.
@@ -279,7 +279,7 @@ REVEAL SHADER
 PBRBLEND SHADER
   VIEW : project
   FROM : digital
-  TAGS : gamedev, unity3d, shader, github
+  TAGS : unity3d, shader, github
   DESC : Shader set for blending pbr materials in {unity3d(tag unity3d)}.
   LONG
     & A set of shaders for {Unity3D(tag unity3d)} that implements vertex blending of PBR materials using Polybrush.
