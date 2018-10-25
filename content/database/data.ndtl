@@ -279,12 +279,14 @@ REVEAL SHADER
 PBRBLEND SHADER
   VIEW : project
   FROM : digital
+  HEAD : 0058.jpg
   TAGS : unity3d, shader, github
   DESC : Shader set for blending pbr materials in {unity3d(tag unity3d)}.
   LONG
     & A set of shaders for {Unity3D(tag unity3d)} that implements vertex blending of PBR materials using Polybrush.
-    & Due to ShaderForge discontinuation and current Unity incompatibilities this project is incomplete and released as-is.
+    & Due to ShaderForge discontinuation and Unity discontinuation of native substance support, this project is incomplete and released as-is.
     & Code and Unity projects are available on {github(https://github.com/nomand/PBRBlendShader)}.
+    % 0059.gif inline
 
 VIZCERA
   VIEW : project
@@ -368,6 +370,11 @@ BEAUTIFUL THINGS
   FROM : analogue
   DESC : Phogotraphs of beautiful objects.
 
+EDIBLES
+  VIEW : collection
+  FROM : analogue
+  DESC : Food and recipes.
+
 SOLAR
   VIEW : photo
   FROM : beautiful things
@@ -391,6 +398,7 @@ BITCOIN
 
 CAVIAR
   VIEW : project
+  FROM : edibles
   HEAD : 0022.jpg
   TAGS : recipe
   DESC : Salmon roe caviar recipe.
