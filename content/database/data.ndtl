@@ -30,6 +30,20 @@ META
   FROM : home
   DESC : Information about this {(Legacy)}, it's creator and content.
 
+WORMHOLE
+  VIEW : collection
+  DESC : Possibilities.
+
+GARAGE
+  VIEW : collection
+  FROM : wormhole
+  DESC : Projects that are in progress, incomplete and in pieces.
+
+GRAVEYARD
+  VIEW : collection
+  FROM : wormhole
+  DESC : Projects I know I'll never start or ever finish.
+
 NOMAND
   VIEW : project
   FROM : meta
@@ -260,7 +274,6 @@ LETNICE
 
 HTADHD
   VIEW : project
-  FROM : software
   HEAD : 0060.jpg
   TAGS : unity3d, branding
   DESC : HTADHD
@@ -285,6 +298,7 @@ REVEAL SHADER
     - Adaptive RenderTexture aspect ratio
     - Custom inspector
     & Source code, license, usage guide and {_unitypackage_} downloads available on {github(https://github.com/nomand/RevealShader)}.
+    % 0062.gif inline
 
 PBRBLEND SHADER
   VIEW : project
