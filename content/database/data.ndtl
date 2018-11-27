@@ -32,6 +32,7 @@ META
 
 WORMHOLE
   VIEW : collection
+  FROM : meta
   DESC : Possibilities.
 
 GARAGE
@@ -77,6 +78,7 @@ RUNNINGTAP
 
 FROGSHARK
   VIEW : project
+  FROM : meta
   DESC : An indie game development studio.
   LONG
     & {Frogshark(http://frogshark.com)} is a 3 person studio, co-founded by {Hamish MacDonald(http://kor.co.nz/)}, Danny Lawrie and {myself(nomand)} in 2014.
@@ -245,12 +247,6 @@ MINDSCAPES OF LIZ RYERSON
     & A mashup interactive experience that combines Ian MacLarty's experimental game {Southbank Portrait(https://ianmaclarty.itch.io/southbank-portrait)} and Liz Ryerson's {BAGAIJ10S(http://ludumdare.com/compo/ludum-dare-27/?action=preview&uid=4987)} works and her album {SCRAPS(https://ellaguro.bandcamp.com/album/scraps)}. 
     & This experiment uses Ian’s engine and framework to expose a different way of traversing Ryerson's works.
 
-WHALEBUS
-  VIEW : project
-  HEAD : 0006.jpg
-  TAGS : gamedev, unity3d, gamejam
-  DESC : A game about two halves.
-
 GAEA
   VIEW : project
   FROM : software
@@ -271,15 +267,6 @@ LETNICE
   LONG
     & Letnice is a simple Gregorian calendar visualizer that tracks year progress.
     & Created using JavaScript. Project is open source and available on {github(https://github.com/nomand/letnice)}. Standalone live version {here(https://nomand.github.io/Letnice)}
-
-HTADHD
-  VIEW : project
-  HEAD : 0060.jpg
-  TAGS : unity3d, branding
-  DESC : HTADHD
-  LONG
-    & This branding brief had me overhaul a 10 year old stock art logo into a 3 dimensional model of a cartoon brain. I was the creator of the original stock art to be replaced.
-    & The end result was a piece of software that could render a high quality image of the brain from any angle.
 
 REVEAL SHADER
   VIEW : project
@@ -366,7 +353,7 @@ NOMV2
     % 0014.jpg inline
 
 LEGACY
-  VIEW : project
+  VIEW : summary
   FROM : meta
   TAGS : web, github
   DESC : A wiki-like project depot.
@@ -415,6 +402,7 @@ TANDY200
 
 BITCOIN
   VIEW : photo
+  FROM : nomand
   HEAD : 0048.jpg
   DESC : Donate bitcoin
   LONG

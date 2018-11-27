@@ -71,6 +71,10 @@ h2 a:hover:after, .topicblock a:hover:after { margin-right: 2px; content: " •"
 #content list { display: block; position: relative; margin: 0px 0px 20px 0px; padding-left:30px; }
 #content list ln { display: list-item; line-height: 1.3em; font-size: 1.4em; position: relative; list-style: circle; }
 
+#content ul { display: inline-block; margin: 20px 0px; }
+#content ul li { margin-bottom: 4px; }
+#content ul li a { display: inline-block; color: #fff; }
+
 #content code { font-family: 'SourceSansPro_Light'; font-size: 1em; background-color: var(--color-code-bg); padding: 30px; margin: 10px 0 20px 0; line-height: 18px; }
 #content code b { font-family: 'input_mono_medium'; font-weight: normal;   }
 #content code ln { display: block; line-height: 20px; overflow-wrap: break-word; word-wrap: break-word; hyphens: auto; white-space: initial; }
