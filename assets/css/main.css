@@ -74,6 +74,7 @@ h2 a:hover:after, .topicblock a:hover:after { margin-right: 2px; content: " •"
 #content ul { display: inline-block; margin: 20px 0px; }
 #content ul li { margin-bottom: 4px; }
 #content ul li a { display: inline-block; color: #fff; }
+#content ul ul { display: inline-block; margin-left: 6px; padding-left: 20px; border-left: 1px solid #444; }
 
 #content code { font-family: 'SourceSansPro_Light'; font-size: 1em; background-color: var(--color-code-bg); padding: 30px; margin: 10px 0 20px 0; line-height: 18px; }
 #content code b { font-family: 'input_mono_medium'; font-weight: normal;   }
