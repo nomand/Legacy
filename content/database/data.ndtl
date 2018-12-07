@@ -32,7 +32,6 @@ META
 
 WORMHOLE
   VIEW : collection
-  FROM : meta
   DESC : Possibilities.
 
 GARAGE
@@ -78,7 +77,6 @@ RUNNINGTAP
 
 FROGSHARK
   VIEW : project
-  FROM : meta
   DESC : An indie game development studio.
   LONG
     & {Frogshark(http://frogshark.com)} is a 3 person studio, co-founded by {Hamish MacDonald(http://kor.co.nz/)}, Danny Lawrie and {myself(nomand)} in 2014.
@@ -268,9 +266,14 @@ LETNICE
     & Letnice is a simple Gregorian calendar visualizer that tracks year progress.
     & Created using JavaScript. Project is open source and available on {github(https://github.com/nomand/letnice)}. Standalone live version {here(https://nomand.github.io/Letnice)}
 
+SHADERS
+  VIEW : collection
+  FROM : digital
+  DESC : Shader experiments, tools and examples.
+
 REVEAL SHADER
   VIEW : project
-  FROM : digital
+  FROM : shaders
   HEAD : 0053.jpg
   TAGS : unity3d, shader, github
   DESC : Shader set for {unity3d(tag unity3d)}.
@@ -289,7 +292,7 @@ REVEAL SHADER
 
 PBRBLEND SHADER
   VIEW : project
-  FROM : digital
+  FROM : shaders
   HEAD : 0058.jpg
   TAGS : unity3d, shader, github
   DESC : Shader set for blending pbr materials in {unity3d(tag unity3d)}.
