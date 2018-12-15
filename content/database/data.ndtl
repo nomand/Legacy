@@ -442,4 +442,26 @@ CAVIAR
     * Serve
     & Classic way to serve: a teaspoon worth on white or {бородинский(https://en.wikipedia.org/wiki/Borodinsky_bread)} bread with unsalted butter. Here, served on savory pancakes and cream cheese:
     % 0031.jpg inline
+
+INVENTORY
+  VIEW : collection
+  DESC : Objects and tools that help me creatively.
+
+CAMERA
+  VIEW : collection
+  DESC : Photography equipment I use.
+
+FILM
+  VIEW : project
+  FROM : camera
+  HEAD : 0062.jpg
+  DESC : Olympus OM-2n.
+  TAGS : photography, gear, edc
+  LONG
+    - Olympus OM-2n
+    - Zuiko 50mm 1f.4
+    & These can be found for quite cheap on eBay in pristine condition, especially from sellers in Japan. OM-2 often comes bundled with original Zuiko 50mm f1.8, but go for an upgraded f1.4 lens if you can find one. It uses 2x SR44/LR44 batteries, so it's very easy to service. No need to chase around to find mercury cell replacements.
+    & I think it's one of the most iconic designs and a prime example of "they just don't make them like they used to anymore" as modern industrial design transitioned away from premium materials towards plastics and metals that favor lighter weight and cheaper production costs.
+    % 0063.jpg inline
+
 `
