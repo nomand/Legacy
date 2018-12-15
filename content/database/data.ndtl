@@ -142,7 +142,7 @@ MERLIN FOB
   VIEW : project
   FROM : hardware
   HEAD : 0032.jpg
-  TAGS : fdm, prototyping, hardware, repair
+  TAGS : fdm, prototyping, repair
   DESC : 3D Printed case replacement for Merlin garage door.
   LONG
     & I was tasked with fabricating a replacement housing for Merlin M842 remote control for a garage door. Given that the device is most commonly carried on a key chain or thrashed around in a car glovebox, the housing ends up taking a beating with age and a replacement can cost as much as $60 to $90. My goal was to create a competent replacement that would:
@@ -464,4 +464,23 @@ FILM
     & I think it's one of the most iconic designs and a prime example of "they just don't make them like they used to anymore" as modern industrial design transitioned away from premium materials towards plastics and metals that favor lighter weight and cheaper production costs.
     % 0063.jpg inline
 
+TADA68
+  VIEW : project
+  FROM : garage
+  HEAD : 0064.jpg
+  DESC : Custom mechanical keyboard based on Tada68.
+  TAGS : gear, mods
+  LONG
+    & Lack of 1.5mm perspex in New Zealand is holding the project back. I can't cut Polycarbonate with a lazer because of toxic fumes, but waterjet or cnc aren't cost effective. Alternative is to CNC from carbon fiber in China, which I'm holding off from for now.
+    & Theme for this build is "Lava", using black and charcoal colors with orange LED lighting.
+    * Mods:
+    - Custom plate
+    - Micro usb conversion
+    - TOPK Magnetic cable
+    - KBDfans pcb mount stabilizers
+    - KBDfans cnc aluminum case
+    - Orange smd underglow
+    - Orange backlight leds
+    - Gateron Red switches
+    - PBT DSA blank keycaps black
 `
