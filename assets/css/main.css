@@ -84,6 +84,8 @@ h2 a:hover:after, .topicblock a:hover:after { margin-right: 2px; content: " •"
 #content p code { display: inline; padding: 0 6px; font-size: 0.85em; font-family: 'SourceSansPro_Light'; background-color: #444; position: relative; }
 #content code comment { color:#60cc60; }
 
+#content .note { font-family: 'SourceSansPro_Light'; font-size: 1.2em; background-color: var(--color-code-bg); padding: 30px; margin: 10px 0 20px 0; line-height: 18px; }
+
 #content #gallery { display: block; margin-bottom: 40px; line-height: 0; -webkit-column-count: 3; -moz-column-count: 3; column-count: 3; -webkit-column-width: 33%; -moz-column-width: 33%; column-width: 33%; column-gap: 2px;  }
 #content #gallery .image { display: block; margin-bottom: 2px;}
 #content #gallery img { max-width: 100%; height: auto; }

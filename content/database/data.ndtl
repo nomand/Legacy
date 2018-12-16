@@ -471,6 +471,7 @@ TADA68
   DESC : Custom mechanical keyboard based on Tada68.
   TAGS : gear, mods
   LONG
+    ? This project is work in progress.
     & Lack of 1.5mm perspex in New Zealand is holding the project back. I can't cut Polycarbonate with a lazer because of toxic fumes, but waterjet or cnc aren't cost effective. Alternative is to CNC from carbon fiber in China, which I'm holding off from for now.
     & Theme for this build is "Lava", using black and charcoal colors with orange LED lighting.
     * Mods:
