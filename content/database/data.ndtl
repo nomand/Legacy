@@ -454,7 +454,7 @@ CAMERA
 FILM
   VIEW : project
   FROM : camera
-  HEAD : 0062.jpg
+  HEAD : 0063.jpg
   DESC : Olympus OM-2n.
   TAGS : photography, gear, edc
   LONG
@@ -462,12 +462,12 @@ FILM
     - Zuiko 50mm 1f.4
     & These can be found for quite cheap on eBay in pristine condition, especially from sellers in Japan. OM-2 often comes bundled with original Zuiko 50mm f1.8, but go for an upgraded f1.4 lens if you can find one. It uses 2x SR44/LR44 batteries, so it's very easy to service. No need to chase around to find mercury cell replacements.
     & I think it's one of the most iconic designs and a prime example of "they just don't make them like they used to anymore" as modern industrial design transitioned away from premium materials towards plastics and metals that favor lighter weight and cheaper production costs.
-    % 0063.jpg inline
+    % 0064.jpg inline
 
 TADA68
   VIEW : project
   FROM : garage
-  HEAD : 0064.jpg
+  HEAD : 0065.jpg
   DESC : Custom mechanical keyboard based on Tada68.
   TAGS : gear, mods
   LONG
