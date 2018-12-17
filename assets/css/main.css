@@ -29,9 +29,10 @@ a:hover { color: white; }
 #footerwrap .logo { width: 17px; height: 30px; margin: none; float: left; }
 #footerwrap .credit { display: inline-block; margin-left: 20px; font-size: 14px; }
 #footerwrap a.icon         { width: 20px; height: 30px; margin: 0px 8px; background-size: contain; background-repeat: no-repeat; background-position-y: center; display: block; float: right; }
-#footerwrap a.icon.github  { background-image: url("../svg/github.svg"); }
-#footerwrap a.icon.twitter { background-image: url("../svg/twitter.svg"); }
-#footerwrap a.icon.webring { background-image: url("../svg/rotonde.svg"); }
+#footerwrap a.icon.github     { background-image: url("../svg/github.svg"); }
+#footerwrap a.icon.twitter    { background-image: url("../svg/twitter.svg"); }
+#footerwrap a.icon.webring    { background-image: url("../svg/rotonde.svg"); }
+#footerwrap a.icon.merveilles { background-image: url("../svg/merveilles.svg"); }
 
 #sidebar { display: block; float: left; width: 200px; height: 100%; padding: 0 0 20px 0; overflow-x: hidden; }
 #sidebar #tags { font-size: 1em; }
