@@ -13,6 +13,7 @@ code { display: block; white-space: pre }
 body { font-family: 'SourceSansPro_Regular'; background-color: var(--color-almostblack); margin: 0px; padding: 0px; transition: opacity 150ms; opacity: 1 !important; color: var(--color-pale) }
 a { cursor: pointer; color: var(--color-pale); }
 a:hover { color: white; }
+#content hr { display: block; margin: 40px 0 20px 0; border: 1px solid var(--color-pale); }
 
 .logo { background-image: url("../svg/nm.svg"); background-size: contain; background-repeat: no-repeat; background-position-y: center; }
 
