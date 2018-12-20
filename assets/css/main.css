@@ -13,6 +13,7 @@ code { display: block; white-space: pre }
 body { font-family: 'SourceSansPro_Regular'; background-color: var(--color-almostblack); margin: 0px; padding: 0px; transition: opacity 150ms; opacity: 1 !important; color: var(--color-pale) }
 a { cursor: pointer; color: var(--color-pale); }
 a:hover { color: white; }
+#content hr { display: block; margin: 40px 0 20px 0; border: 1px solid var(--color-pale); }
 
 .logo { background-image: url("../svg/nm.svg"); background-size: contain; background-repeat: no-repeat; background-position-y: center; }
 
@@ -32,9 +33,10 @@ a:hover { color: white; }
 #footerwrap .logo { width: 17px; height: 30px; margin: none; float: left; }
 #footerwrap .credit { display: inline-block; margin-left: 20px; font-size: 14px; }
 #footerwrap a.icon         { width: 20px; height: 30px; margin: 0px 8px; background-size: contain; background-repeat: no-repeat; background-position-y: center; display: block; float: right; }
-#footerwrap a.icon.github  { background-image: url("../svg/github.svg"); }
-#footerwrap a.icon.twitter { background-image: url("../svg/twitter.svg"); }
-#footerwrap a.icon.webring { background-image: url("../svg/rotonde.svg"); }
+#footerwrap a.icon.github     { background-image: url("../svg/github.svg"); }
+#footerwrap a.icon.twitter    { background-image: url("../svg/twitter.svg"); }
+#footerwrap a.icon.webring    { background-image: url("../svg/rotonde.svg"); }
+#footerwrap a.icon.merveilles { background-image: url("../svg/merveilles.svg"); }
 
 #sidebar { display: block; float: left; width: 200px; height: 100%; padding: 0 0 20px 0; overflow-x: hidden; }
 #sidebar #tags { font-size: 1em; }
