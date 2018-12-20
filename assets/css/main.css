@@ -24,6 +24,9 @@ a:hover { color: white; }
 #header #logo.sticky { position: absolute; top: initial; bottom: 44px }
 #header iframe { width: 100%; height: 100%; overflow: hidden; }
 
+#header #photoplaceholder { display: block; position: relative; width:100%; height: 91vh; max-height: 1080px; -webkit-background-size: cover, cover; -moz-background-size: cover, cover; background-size: cover, cover; -o-background-size: cover, cover; background-position: center center, bottom center; background-repeat: no-repeat, no-repeat; }
+#header #photoplaceholder .loaded {display: none;}
+
 #footer { display: block; position:absolute; bottom: 0; width: 100%; padding: 0px 40px; }
 #footerwrap { display: inline-block; width: 100%; padding: 40px 0px; margin: 0px; max-width: 100%; font-size: 20px; color: #fff; }
 #footerwrap .logo { width: 17px; height: 30px; margin: none; float: left; }
@@ -40,6 +43,8 @@ a:hover { color: white; }
 
 #content { display: inline-block; width: 100%; padding: 40px 40px 200px 40px;  }
 #content .collection, #content .desc { margin-bottom: 20px; }
+#content .collection { width: 50%; float: left; }
+#content .collection:after{ content:""; clear: both; display: block; }
 #content #presentation { display: block; margin: 0 240px; }
 
 /* homepage listing */
@@ -62,6 +67,9 @@ h2 a:hover:after, .topicblock a:hover:after { margin-right: 2px; content: " •"
 
 #content iframe { display: block; margin: 20px 0px 40px 0px; overflow: hidden;}
 #content img.inline { display: inline-block; width: 100%; margin: 20px 0 20px 0; }
+
+#content .thumbbg { display: block; float: left; width: 192px; height: 120px; margin: 0 20px 0 0; }
+#content .thumb { display: block; width: 100%; height: 100%; background-blend-mode: hard-light; mix-blend-mode: multiply; }
 
 #content h2 { font-size: 1.6em; font-family: 'SourceSansPro_Bold'; }
 #content h2 a { color: #fff; }
@@ -95,4 +103,5 @@ h2 a:hover:after, .topicblock a:hover:after { margin-right: 2px; content: " •"
 {
   #sidebar { width: 100%; }
   #content #presentation { margin-left: 0px; margin-right: 0px; }
+  .collection { width: 100%; }
 }
