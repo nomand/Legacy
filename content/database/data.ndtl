@@ -32,7 +32,8 @@ META
 
 WORMHOLE
   VIEW : collection
-  DESC : Possibilities.
+  FROM : meta
+  DESC : Creative playground and possibility space.
 
 GARAGE
   VIEW : collection
