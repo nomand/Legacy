@@ -21,6 +21,7 @@ a:hover { color: white; }
 #view { min-height: 100%; position:relative; transition: all 200ms; }
 #header { display: block; position: relative; width: 100%; min-height: 120px; }
 #header #photo { display: block; position: relative; width:100%; height: 91vh; max-height: 1080px; -webkit-background-size: cover, cover; -moz-background-size: cover, cover; background-size: cover, cover; -o-background-size: cover, cover; background-position: center center, bottom center; background-repeat: no-repeat, no-repeat; transition: all 150ms; }
+#header video {  position: fixed; top: 50%; left: 50%; width: auto; height: auto; z-index: -100; transform: translate(-50%, -50%); }
 #header #logo { display: block; position: fixed; z-index: 200; width: 35px; height: 35px; top: 40px; left: 40px; }
 #header #logo.sticky { position: absolute; top: initial; bottom: 44px }
 #header iframe { width: 100%; height: 100%; overflow: hidden; }
@@ -44,7 +45,7 @@ a:hover { color: white; }
 #sidebar #tags a:hover { text-decoration: underline; }
 
 #content { display: inline-block; width: 100%; padding: 40px 40px 200px 40px;  }
-#content .collection, #content .desc { margin-bottom: 20px; }
+#content .collection, #content .desc { margin: 0 0 20px 0; padding-right: 20px;}
 #content .collection { width: 50%; float: left; }
 #content .collection:after{ content:""; clear: both; display: block; }
 #content #presentation { display: block; margin: 0 240px; }
@@ -70,7 +71,7 @@ h2 a:hover:after, .topicblock a:hover:after { margin-right: 2px; content: " •"
 #content iframe { display: block; margin: 20px 0px 40px 0px; overflow: hidden;}
 #content img.inline { display: inline-block; width: 100%; margin: 20px 0 20px 0; }
 
-#content .thumbbg { display: block; float: left; width: 192px; height: 120px; margin: 0 20px 0 0; }
+#content .thumbbg { display: block; float: left; width: 192px; height: 120px; margin: 0 20px 0 0; background-color: black; }
 #content .thumb { display: block; width: 100%; height: 100%; background-blend-mode: hard-light; mix-blend-mode: multiply; }
 
 #content h2 { font-size: 1.6em; font-family: 'SourceSansPro_Bold'; }

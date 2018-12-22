@@ -23,7 +23,7 @@ DIGITAL
 ANALOGUE
   VIEW : collection
   FROM : home
-  DESC : Collection of projects that involve no computers.
+  DESC : Collection of projects that don't revolve around computers.
 
 META
   VIEW : collection
@@ -403,6 +403,13 @@ TANDY200
   HEAD : 0049.jpg
   TAGS : cyberpunk, retro
   DESC : RadioShack Tandy 200
+
+SHATTERED LCD
+  VIEW : photo
+  FROM : beautiful things
+  HEAD : 0067.webm
+  TAGS : cyberpunk
+  DESC : Shattered LCD screen.
 
 BITCOIN
   VIEW : photo
