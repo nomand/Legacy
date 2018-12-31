@@ -45,7 +45,7 @@ a:hover { color: white; }
 #sidebar #tags a:hover { text-decoration: underline; }
 
 #content { display: inline-block; width: 100%; padding: 40px 40px 200px 40px;  }
-#content .collection, #content .desc { margin: 0 0 20px 0; padding-right: 20px;}
+#content .collection, #content .desc { margin: 0 0 40px 0; padding-right: 40px;}
 #content .collection { width: 50%; float: left; }
 #content .collection:after{ content:""; clear: both; display: block; }
 #content #presentation { display: block; margin: 0 240px; }
@@ -56,6 +56,7 @@ a:hover { color: white; }
 .topicblock { display:table; vertical-align: top; min-width: 200px; margin-bottom: 20px; -webkit-column-break-inside: avoid; page-break-inside: avoid; break-inside: avoid; }
 .topicblock .topichead { display: inline-block; font-family: 'SourceSansPro_Bold'; margin-bottom: 10px; font-size: 20px; user-select: none; -moz-user-select: none; -webkit-user-select: none; }
 .topicblock .topic { display: block; margin-bottom: 2px; width:auto; }
+h2 { margin-bottom: 10px; }
 h2 a:after, .topicblock a:after { content: ""; }
 h2 a:hover:after, .topicblock a:hover:after { margin-right: 2px; content: " •"; transition: all 150ms;}
 
@@ -106,5 +107,5 @@ h2 a:hover:after, .topicblock a:hover:after { margin-right: 2px; content: " •"
 {
   #sidebar { width: 100%; }
   #content #presentation { margin-left: 0px; margin-right: 0px; }
-  .collection { width: 100%; }
+  #content .collection { width: 100%; }
 }

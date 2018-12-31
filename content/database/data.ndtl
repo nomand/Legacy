@@ -6,42 +6,42 @@ HOME
   DESC : Legacy home.
 
 SOFTWARE
-  VIEW : collection
+  VIEW : index
   FROM : home
   DESC : Colleciton of video games, software and interactive projects.
 
 HARDWARE
-  VIEW : collection
+  VIEW : index
   FROM : home
-  DESC : Collection of physical projects, hardware, DIY and repair builds.
+  DESC : index of physical projects, hardware, DIY and repair builds.
 
 DIGITAL
-  VIEW : collection
+  VIEW : index
   FROM : home
-  DESC : Collection of digital projects, shaders and virtual experiments.
+  DESC : index of digital projects, shaders and virtual experiments.
 
 ANALOGUE
-  VIEW : collection
+  VIEW : index
   FROM : home
-  DESC : Collection of projects that don't revolve around computers.
+  DESC : index of projects that don't revolve around computers.
 
 META
-  VIEW : collection
+  VIEW : index
   FROM : home
   DESC : Information about this {(Legacy)}, it's creator and content.
 
 WORMHOLE
-  VIEW : collection
+  VIEW : index
   FROM : meta
   DESC : Creative playground and possibility space.
 
 GARAGE
-  VIEW : collection
+  VIEW : index
   FROM : wormhole
   DESC : Projects that are in progress, incomplete and in pieces.
 
 GRAVEYARD
-  VIEW : collection
+  VIEW : index
   FROM : wormhole
   DESC : Projects I know I'll never start or ever finish.
 
@@ -268,7 +268,7 @@ LETNICE
     & Created using JavaScript. Project is open source and available on {github(https://github.com/nomand/letnice)}. Standalone live version {here(https://nomand.github.io/Letnice)}
 
 SHADERS
-  VIEW : collection
+  VIEW : index
   FROM : digital
   DESC : Shader experiments, tools and examples.
 
@@ -381,12 +381,12 @@ GBA
     % 0057.jpg inline
 
 BEAUTIFUL THINGS
-  VIEW : collection
+  VIEW : index
   FROM : analogue
   DESC : Phogotraphs of beautiful objects.
 
 EDIBLES
-  VIEW : collection
+  VIEW : index
   FROM : analogue
   DESC : Food and recipes.
 
@@ -452,14 +452,30 @@ CAVIAR
     % 0031.jpg inline
 
 INVENTORY
-  VIEW : collection
+  VIEW : index
+  FROM : meta
   DESC : Objects and tools that help me creatively.
+
+WISHLIST
+  VIEW : project
+  FROM : inventory
+  DESC : Items I wish to own.
+  LONG
+    - Sony SELP18105G 18-105mm f4
+    - 
+
+COMPUTING
+  VIEW : collection
+  FROM : inventory
+  DESC : Computer hardware
 
 CAMERA
   VIEW : collection
-  DESC : Photography equipment I use.
+  FROM : inventory
+  HEAD : 0068.jpg
+  DESC : My primary photography and filming equipment.
 
-FILM
+FILM CAMERA
   VIEW : project
   FROM : camera
   HEAD : 0063.jpg
@@ -467,10 +483,25 @@ FILM
   TAGS : photography, gear, edc
   LONG
     - Olympus OM-2n
-    - Zuiko 50mm 1f.4
-    & These can be found for quite cheap on eBay in pristine condition, especially from sellers in Japan. OM-2 often comes bundled with original Zuiko 50mm f1.8, but go for an upgraded f1.4 lens if you can find one. It uses 2x SR44/LR44 batteries, so it's very easy to service. No need to chase around to find mercury cell replacements.
-    & I think it's one of the most iconic designs and a prime example of "they just don't make them like they used to anymore" as modern industrial design transitioned away from premium materials towards plastics and metals that favor lighter weight and cheaper production costs.
+    - Zuiko 50mm f1.4
+    - Zuiko 28mm f2.8
+    & "They don't make them like they're used to". I think OM-2 is one of the most beautiful cameras ever made. Often comes bundled with a Zuiko 50mm f2.8, but get the f1.8 if you can find one.
     % 0064.jpg inline
+
+DIGITAL CAMERA
+  VIEW : project
+  FROM : camera
+  DESC : Sony a6500
+  TAGS : photography, gear, edc
+  LONG
+    - Sony a6500
+    - Sony SEL20F28 20mm f2.8
+    - Sony SEL35F18 35mm f1.8 OSS
+    - Gopro Session 5
+    & Other gear:
+    - Nikkor-s 50mm f1.4
+    - TAIR-3 300mm f4.5
+    - Rode micro
 
 TADA68
   VIEW : project
