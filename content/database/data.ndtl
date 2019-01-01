@@ -66,6 +66,7 @@ SUPPORT
     - Follow me on {twitter(https://twitter.com/nomand)}.
     - Subscribe to my {youtube(https://www.youtube.com/c/nomand)} channel.
     - Donate {(bitcoin)}
+    - Help me buy tools from my {(wishlist)}
 
 RUNNINGTAP
   VIEW : project
@@ -459,17 +460,18 @@ INVENTORY
 WISHLIST
   VIEW : project
   FROM : inventory
-  DESC : Items I wish to own.
+  DESC : Things I want to add to my toolkit.
   LONG
-    - Sony SELP18105G 18-105mm f4
-    - 
+    - {Sony SELP18105G 18-105mm f4(https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=SELP18105G)}
+    - {EleksMaker A3 laser engraver(https://www.amazon.com/s/ref=nb_sb_ss_i_1_11?url=search-alias%3Daps&field-keywords=eleksmaker+a3+laser+engraver&sprefix=eleksmaker+%2Caps%2C295&crid=HGKOATMTBX0E)}
+    - {Wanhao Duplicator 7 SLA DLP UV Resin printer(https://www.aliexpress.com/item/2018-NEW-Wanhao-Duplicator-7-PLUS-3D-Printer-V1-5-UV-Resin-DLP-SLA-Touch-Screen/32921090036.html)}
 
-COMPUTING
+LAPTOP BAG
   VIEW : collection
   FROM : inventory
   DESC : Computer hardware
 
-CAMERA
+CAMERA BAG
   VIEW : collection
   FROM : inventory
   HEAD : 0068.jpg
@@ -477,7 +479,7 @@ CAMERA
 
 FILM CAMERA
   VIEW : project
-  FROM : camera
+  FROM : camera bag
   HEAD : 0063.jpg
   DESC : Olympus OM-2n.
   TAGS : photography, gear, edc
@@ -485,12 +487,12 @@ FILM CAMERA
     - Olympus OM-2n
     - Zuiko 50mm f1.4
     - Zuiko 28mm f2.8
-    & "They don't make them like they're used to". I think OM-2 is one of the most beautiful cameras ever made. Often comes bundled with a Zuiko 50mm f2.8, but get the f1.8 if you can find one.
+    & "They don't make them like they're used to". I think OM-2 is one of the most beautiful cameras ever made. Often comes bundled with a Zuiko 50mm f2.8, but get the f1.4 if you can find one.
     % 0064.jpg inline
 
 DIGITAL CAMERA
   VIEW : project
-  FROM : camera
+  FROM : camera bag
   DESC : Sony a6500
   TAGS : photography, gear, edc
   LONG
@@ -502,6 +504,8 @@ DIGITAL CAMERA
     - Nikkor-s 50mm f1.4
     - TAIR-3 300mm f4.5
     - Rode micro
+    - Godox LED32 Mini
+    - 
 
 TADA68
   VIEW : project

@@ -45,7 +45,7 @@ a:hover { color: white; }
 #sidebar #tags a:hover { text-decoration: underline; }
 
 #content { display: inline-block; width: 100%; padding: 40px 40px 200px 40px;  }
-#content .collection, #content .desc { margin: 0 0 40px 0; padding-right: 40px;}
+#content .collection, #content .desc { margin: 0 0 20px 0; padding-right: 40px;}
 #content .collection { width: 50%; float: left; }
 #content .collection:after{ content:""; clear: both; display: block; }
 #content #presentation { display: block; margin: 0 240px; }
