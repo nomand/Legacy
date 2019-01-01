@@ -466,12 +466,26 @@ WISHLIST
     - {EleksMaker A3 laser engraver(https://www.amazon.com/s/ref=nb_sb_ss_i_1_11?url=search-alias%3Daps&field-keywords=eleksmaker+a3+laser+engraver&sprefix=eleksmaker+%2Caps%2C295&crid=HGKOATMTBX0E)}
     - {Wanhao Duplicator 7 SLA DLP UV Resin printer(https://www.aliexpress.com/item/2018-NEW-Wanhao-Duplicator-7-PLUS-3D-Printer-V1-5-UV-Resin-DLP-SLA-Touch-Screen/32921090036.html)}
 
-LAPTOP BAG
+COMPUTER KIT
   VIEW : collection
   FROM : inventory
   DESC : Computer hardware
 
-CAMERA BAG
+LAPTOP
+  VIEW : project
+  FROM : computer kit
+  HEAD : 0069.jpg
+  DESC : Portable design and development workstation.
+  LONG
+    & My portable setup is a lightweight Xiaomi Air 13" i7-8550U Windows laptop.
+    & Other hardware:
+    - Drevo Excalibur 84 keys
+    - Logitech G703 wireless mouse
+    - Audio Technica ATH-M50x
+    - Raspberry Pi B3+
+    % 0070.jpg inline
+
+CAMERA KIT
   VIEW : collection
   FROM : inventory
   HEAD : 0068.jpg
@@ -479,7 +493,7 @@ CAMERA BAG
 
 FILM CAMERA
   VIEW : project
-  FROM : camera bag
+  FROM : camera kit
   HEAD : 0063.jpg
   DESC : Olympus OM-2n.
   TAGS : photography, gear, edc
@@ -492,7 +506,7 @@ FILM CAMERA
 
 DIGITAL CAMERA
   VIEW : project
-  FROM : camera bag
+  FROM : camera kit
   DESC : Sony a6500
   TAGS : photography, gear, edc
   LONG
@@ -505,7 +519,7 @@ DIGITAL CAMERA
     - TAIR-3 300mm f4.5
     - Rode micro
     - Godox LED32 Mini
-    - 
+    - Godox LED36
 
 TADA68
   VIEW : project
