@@ -460,9 +460,11 @@ INVENTORY
 WISHLIST
   VIEW : project
   FROM : inventory
-  DESC : Things I want to add to my toolkit.
+  DESC : Things I want to add to my toolkit.  
   LONG
     - {Sony SELP18105G 18-105mm f4(https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=SELP18105G)}
+    - {Rokinon 12mm f2.0(https://www.rokinon.com/lenses/digital-photo-lenses/12mm-f20)}
+    - {Rokinon 8mm f2.8(https://www.rokinon.com/lenses/digital-photo-lenses/8mm-f28)}
     - {EleksMaker A3 laser engraver(https://www.amazon.com/s/ref=nb_sb_ss_i_1_11?url=search-alias%3Daps&field-keywords=eleksmaker+a3+laser+engraver&sprefix=eleksmaker+%2Caps%2C295&crid=HGKOATMTBX0E)}
     - {Wanhao Duplicator 7 SLA DLP UV Resin printer(https://www.aliexpress.com/item/2018-NEW-Wanhao-Duplicator-7-PLUS-3D-Printer-V1-5-UV-Resin-DLP-SLA-Touch-Screen/32921090036.html)}
     - {Manfrotto BeFree CF Travel Tripod(https://www.amazon.com/Manfrotto-MKBFRC4-BH-Replacement-Release-Connect/dp/B011J8H7UW)}
