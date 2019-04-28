@@ -533,7 +533,7 @@ TADA68
   DESC : Custom mechanical keyboard based on Tada68.
   TAGS : gear, mods
   LONG
-    & This is a custom mechanical keyboard based on the TADA78.
+    & This is a custom mechanical keyboard based on the TADA68.
     & Theme for this build is "Lava", using black and charcoal colors with orange LED lighting.
     & Initially I wanted the plate to be made from carbon fiber, but it was hard to find a manufacturer that would do a one off at a reasonable price, so I cut the plate from PETG. It ended up working really well, scattering light and reflecting it off the white PCB.
     * Mods:
