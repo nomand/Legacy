@@ -528,22 +528,23 @@ DIGITAL CAMERA
 
 TADA68
   VIEW : project
-  FROM : garage
+  FROM : hardware
   HEAD : 0065.jpg
   DESC : Custom mechanical keyboard based on Tada68.
   TAGS : gear, mods
   LONG
-    ? This project is work in progress.
-    & Lack of 1.5mm perspex in New Zealand is holding the project back. I can't cut Polycarbonate with a lazer because of toxic fumes, but waterjet or cnc aren't cost effective. Alternative is to CNC from carbon fiber in China, which I'm holding off from for now.
+    & This is a custom mechanical keyboard based on the TADA78.
     & Theme for this build is "Lava", using black and charcoal colors with orange LED lighting.
+    & Initially I wanted the plate to be made from carbon fiber, but it was hard to find a manufacturer that would do a one off at a reasonable price, so I cut the plate from PETG. It ended up working really well, scattering light and reflecting it off the white PCB.
     * Mods:
-    - Custom plate
-    - Micro usb conversion
-    - TOPK Magnetic cable
+    - Custom PETG plate
     - KBDfans pcb mount stabilizers
     - KBDfans cnc aluminum case
     - Orange smd underglow
     - Orange backlight leds
     - Gateron Red switches
     - PBT DSA blank keycaps black
+    % 0071.jpg inline
+    % 0072.jpg inline
+    % 0073.jpg inline
 `
