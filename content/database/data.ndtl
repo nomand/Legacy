@@ -546,4 +546,15 @@ TADA68
     % 0071.jpg inline
     % 0072.jpg inline
     % 0073.jpg inline
+
+CONSTELLATIONS
+  VIEW : project
+  FROM : software
+  HEAD : 0074.jpg
+  DESC : Constellation puzzle game prototype.
+  TAGS : gamedev, unity3d
+  LONG
+    & In this game, you rotate planet orbits to match up constellations based on pictographic hints. Orbits are procedurally generated, so while constellations themselves are pre-determined, the solar system is always random.
+    % 0076.gif inline
+    % 0075.gif inline
 `
