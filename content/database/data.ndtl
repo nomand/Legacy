@@ -412,6 +412,13 @@ SHATTERED LCD
   TAGS : cyberpunk
   DESC : Shattered LCD screen.
 
+WORKSPACE 01
+  VIEW : photo
+  FROM : beautiful things
+  HEAD : 0077.jpg
+  TAGS : battlestation
+  DESC : My workstation, iteration 1
+
 BITCOIN
   VIEW : photo
   FROM : nomand
