@@ -564,4 +564,26 @@ CONSTELLATIONS
     & In this game, you rotate planet orbits to match up constellations based on pictographic hints. Orbits are procedurally generated, so while constellations themselves are pre-determined, the solar system is always random.
     % 0076.gif inline
     % 0075.gif inline
+
+DUALITY
+  VIEW : project
+  FROM : software
+  HEAD : 0078.jpg
+  DESC : Duality is a two player Dash'n'Slash
+  TAGS : unity3d, gamedev, itch, gamejam
+  LONG
+    & Created in 48 hours for KiwiJam 2019 in collaboration with {Adam Thompson(https://www.emotiontheory.com/)}.
+    * Made using
+    - Unity3D
+    - Speed tree
+    - Quixel Mixer & Megascans
+    - Substance Painter
+    - MapMagic
+    - Adobe Mixamo
+    - Autodesk tools
+    
+    % itchio 453030
+    % 0079.jpg inline
+    % 0080.jpg inline
+    % 0081.jpg inline
 `
