@@ -17,7 +17,6 @@ HARDWARE
 
 DIGITAL
   VIEW : index
-  FROM : home
   DESC : index of digital projects, shaders and virtual experiments.
 
 ANALOGUE
@@ -74,8 +73,8 @@ RUNNINGTAP
   HEAD : 0007.jpg
   DESC : A digital business entity.
   LONG
-    & {_Runningtap_} is my business entity through which I offer consulting, R&D, prototyping and design services.
-    & If you're interested in me working with you, reach out through the runningtap {website(http://runningtap.com/)}.
+    & {_Runningtap_} is my business entity through which I sell game development resources, offer consulting, R&D, prototyping and design services.
+    & If you're interested in {me(nomand)} working with you, reach out through the runningtap {website(http://runningtap.com/)}.
 
 FROGSHARK
   VIEW : project
@@ -87,7 +86,7 @@ FROGSHARK
 
 PICOPICA
   VIEW : project
-  FROM : hardware
+  FROM : graveyard
   HEAD : 0021.jpg
   TAGS : raspberrypi, github
   DESC : A {raspberry pi(tag raspberrypi)} based timelapse camera.
@@ -211,11 +210,14 @@ SWORDY
 THAT COW GAME
   VIEW : project
   FROM : software
+  HEAD : 0082.jpg
   TAGS : gamedev, unity3d, itch, gamejam
   DESC : A cow at a meat factory.
   LONG
     & Made in 24 hours during {ludum dare(tag gamejam)}.
     % itchio 34330
+    % 0083.jpg inline
+    % 0084.jpg inline
 
 CONTRAIL ROMANTICS
   VIEW : project
@@ -270,7 +272,7 @@ LETNICE
 
 SHADERS
   VIEW : index
-  FROM : digital
+  FROM : software
   DESC : Shader experiments, tools and examples.
 
 REVEAL SHADER
@@ -306,12 +308,15 @@ PBRBLEND SHADER
 
 VIZCERA
   VIEW : project
-  FROM : digital
+  FROM : software
+  HEAD : 0088.jpg
   TAGS : unity3d
   DESC : Motion controlled audiovisual installation.
   LONG
     & A collaboration with {Digital Art Live(https://www.aucklandlive.co.nz/digital-art-live)}.
     & Vizcera is a Kinect driven interactive audiovisual installation. It was on display at Aotea Centre in November 2014.
+    % 0089.jpg inline
+    % 0090.jpg inline
 
 XBL3
   VIEW : project
@@ -491,10 +496,11 @@ LAPTOP
   LONG
     & My portable setup is a lightweight Xiaomi Air 13" i7-8550U Windows laptop.
     & Other hardware:
+    - {(tada68)}
     - Drevo Excalibur 84 keys
     - Logitech G703 wireless mouse
     - Audio Technica ATH-M50x
-    - Raspberry Pi B3+
+    - {Raspberry Pi(tag+raspberrypi)}
     % 0070.jpg inline
 
 CAMERA KIT
@@ -581,9 +587,21 @@ DUALITY
     - MapMagic
     - Adobe Mixamo
     - Autodesk tools
-    
     % itchio 453030
+    % youtube Mgo5n7YalgA
     % 0079.jpg inline
     % 0080.jpg inline
     % 0081.jpg inline
+
+UV PROJECTION
+  VIEW : project
+  FROM : shaders
+  HEAD : 0085.jpg
+  TAGS : unity3d, gamedev, shader, github
+  DESC : UV Projection Shader
+  LONG
+    & This shader demonstrates a method of using worldspace transforms (relative positions, scale and rotation) to remap texture UV's in XZ world axis. The technique can be used to create variety of shader effects.
+    & Example supplied uses a heightmap projection for vertex offset. Creted using Amplify Shader Editor.
+    % 0086.gif inline
+    % 0087.jpg inline
 `
