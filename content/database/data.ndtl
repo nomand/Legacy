@@ -615,4 +615,14 @@ DYNAMIC LIGHBEAMS
     & This project is a mesh generation system and a surface shader. It allows creation of procedural light impostors that automatically align with the main light direction and create a volumetric look. Everything is done dynamically, to avoid manually creating 3D meshes.
     % 0092.webm inline
     % 0093.webm inline
+
+THIS IS US
+  VIEW : project
+  HEAD : https://www.youtube.com/embed/0PgAVr5HmOA
+  FROM : software
+  TAGS : unity3d, gamedev, gamejam
+  DESC : Global Gamejam 2020 entry.
+  LONG
+    & A collaboration between{Adam(https://twitter.com/emotiontheory)}, {Marc(https://twitter.com/OldLoths)} and {myself(nomand)}.
+    & Our gamejam brainstorming session turned into a 2 hour conversation about sincerity, creative practice and the pursuit of mastery. This game is that conversation.
 `
