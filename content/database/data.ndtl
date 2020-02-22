@@ -604,4 +604,15 @@ UV PROJECTION
     & Example supplied uses a heightmap projection for vertex offset. Creted using Amplify Shader Editor.
     % 0086.gif inline
     % 0087.jpg inline
+
+DYNAMIC LIGHBEAMS
+  VIEW : project
+  HEAD : 0091.jpg
+  FROM : shaders
+  TAGS : unity3d, gamedev, shader
+  DESC : Procedural lighbteams for fake volumetrics.
+  LONG
+    & This project is a mesh generation system and a surface shader. It allows me to create procedural light impostors that automatically follow the main light direction and create a volumetric look. Everything is done dynamically, to avoid manual 3D lightcard creation.
+    % 0092.webm inline
+    % 0093.webm inline
 `
