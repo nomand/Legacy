@@ -612,7 +612,7 @@ DYNAMIC LIGHBEAMS
   TAGS : unity3d, gamedev, shader
   DESC : Procedural lighbteams for fake volumetrics.
   LONG
-    & This project is a mesh generation system and a surface shader. It allows me to create procedural light impostors that automatically follow the main light direction and create a volumetric look. Everything is done dynamically, to avoid manual 3D lightcard creation.
+    & This project is a mesh generation system and a surface shader. It allows creation of procedural light impostors that automatically align with the main light direction and create a volumetric look. Everything is done dynamically, to avoid manually creating 3D meshes.
     % 0092.webm inline
     % 0093.webm inline
 `
