@@ -568,7 +568,7 @@ CONSTELLATIONS
   DESC : Constellation puzzle game prototype.
   TAGS : gamedev, unity3d
   LONG
-    & In this game, you rotate planet orbits to match up constellations based on pictographic hints. Orbits are procedurally generated, so while constellations themselves are pre-determined, the solar system is always random.
+    & In this prototype, you rotate planet orbits to match up constellations based on pictographic hints. Orbits are procedurally generated, so while constellations themselves are pre-determined, the solar system is always random.
     % 0076.gif inline
     % 0075.gif inline
 
@@ -624,8 +624,9 @@ THIS IS US
   TAGS : unity3d, gamedev, gamejam
   DESC : Global Gamejam 2020 entry.
   LONG
-    & A collaboration between{Adam(https://twitter.com/emotiontheory)}, {Marc(https://twitter.com/OldLoths)} and {myself(nomand)}.
+    & A collaboration between {Adam(https://twitter.com/emotiontheory)}, {Marc(https://twitter.com/OldLoths)} and {myself(nomand)}.
     & Our gamejam brainstorming session turned into a 2 hour conversation about sincerity, creative practice and the pursuit of mastery. This game is that conversation.
+    & 
 
 VR
   VIEW : index
@@ -637,8 +638,8 @@ VRJAM 2013
   VIEW : project
   HEAD : 0095.jpg
   FROM : vr
-  TAGS : vr, gamedev
-  DESC : Oculus VR Jam.
+  TAGS : unity3d, vr, gamedev
+  DESC : DK1 Oculus VR Jam.
   LONG
-    & In 2013, Oculus held a gamejam for developers who owned the very first Oculus DK1 from Kickstarter. My friend {Hamish(https://kor.nz/)} and I submitted a head-aiming space shooter demo. It was showcased at DigitalNationz expo in 2013. These events contributed towards what evolved to become {(frogshark)}.
+    & In 2013, Oculus held a gamejam for developers who owned the very first Oculus DK1 from Kickstarter. My friend {Hamish(https://kor.nz/)} and I submitted a head-aiming space shooter demo called Warp. It was showcased at DigitalNationz expo in 2013. These events contributed towards what evolved to become {(frogshark)}.
 `
