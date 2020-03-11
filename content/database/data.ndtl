@@ -110,7 +110,7 @@ HSVLED
   TAGS : arduino, light, led, github
   DESC : An {arduino(tag arduino)} based {lighting(tag light)} project to illuminate my working space.
   LONG
-    & I made an arduino controlled light strip for my desk. It uses off the shelf components like {led(tag led)} strips and has 3 big comfy knobs to control color and brightness using HSV mapping.
+    & An arduino controlled light strip for my workspace. It uses off the shelf components, 3D-printed and lazer-cut parts. It has 3 knobs that control color and brightness using HSV mapping.
     & Code and STL files available on the project {github(https://github.com/nomand/HSVStripController)} page.
     % 0096.jpg inline
 
