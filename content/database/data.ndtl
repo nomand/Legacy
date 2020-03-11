@@ -78,9 +78,10 @@ RUNNINGTAP
 
 FROGSHARK
   VIEW : project
+  HEAD : 0094.jpg
   DESC : An indie game development studio.
   LONG
-    & {Frogshark(http://frogshark.com)} is a 3 person studio, co-founded by {Hamish MacDonald(http://kor.co.nz/)}, Danny Lawrie and {myself(nomand)} in 2014.
+    & {Frogshark(http://frogshark.com)} is a 3 person studio, co-founded by {Hamish MacDonald(http://kor.co.nz/)}, Danny Lawrie and {myself(nomand)} in 2014. Gordon Larson joined the team in 2015.
     & Frogshark developed and published {(Swordy)}.
     & I left Frogshark in 2017.
 
@@ -625,4 +626,19 @@ THIS IS US
   LONG
     & A collaboration between{Adam(https://twitter.com/emotiontheory)}, {Marc(https://twitter.com/OldLoths)} and {myself(nomand)}.
     & Our gamejam brainstorming session turned into a 2 hour conversation about sincerity, creative practice and the pursuit of mastery. This game is that conversation.
+
+VR
+  VIEW : index
+  FROM : software
+  TAGS : vr, gamedev
+  DESC : Virtual reality projects.
+
+VRJAM 2013
+  VIEW : project
+  HEAD : 0095.jpg
+  FROM : vr
+  TAGS : vr, gamedev
+  DESC : Oculus VR Jam.
+  LONG
+    & In 2013, Oculus held a gamejam for developers who owned the very first Oculus DK1 from Kickstarter. My friend {Hamish(https://kor.nz/)} and I submitted a head-aiming space shooter demo. It was showcased at DigitalNationz expo in 2013. These events contributed towards what evolved to become {(frogshark)}.
 `
