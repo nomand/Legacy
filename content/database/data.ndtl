@@ -15,10 +15,6 @@ HARDWARE
   FROM : home
   DESC : index of physical projects, hardware, DIY and repair builds.
 
-DIGITAL
-  VIEW : index
-  DESC : index of digital projects, shaders and virtual experiments.
-
 ANALOGUE
   VIEW : index
   FROM : home
@@ -107,10 +103,10 @@ HSVLED
   VIEW : project
   FROM : hardware
   HEAD : 0001.jpg
-  TAGS : arduino, light, led, github
+  TAGS : arduino, fdm, light, led, github
   DESC : An {arduino(tag arduino)} based {lighting(tag light)} project to illuminate my working space.
   LONG
-    & An arduino controlled light strip for my workspace. It uses off the shelf components, 3D-printed and lazer-cut parts. It has 3 knobs that control color and brightness using HSV mapping.
+    & An arduino controlled light strip for my workspace. It uses off the shelf components, {3D-printed(tag fdm)} and lazer-cut parts. It has 3 knobs that control color and brightness using HSV mapping.
     & Code and STL files available on the project {github(https://github.com/nomand/HSVStripController)} page.
     % 0096.jpg inline
 
@@ -118,7 +114,7 @@ EACHINEVR006
   VIEW : project
   FROM : hardware
   HEAD : 0002.jpg
-  TAGS : drones, fpv, guide, github
+  TAGS : drones, fpv, guide, github, fdm
   DESC : A portable spectator {(fpv)} screen.
   LONG
     & Made for spectators to see what I see when I fly.
