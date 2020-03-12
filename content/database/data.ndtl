@@ -108,7 +108,7 @@ HSVLED
   LONG
     & An arduino controlled light strip for my workspace. It uses off the shelf components, {3D-printed(tag fdm)} and lazer-cut parts. It has 3 knobs that control color and brightness using HSV mapping.
     & Code and STL files available on the project {github(https://github.com/nomand/HSVStripController)} page.
-    % 0096.jpg inline
+    % 0098.jpg inline
 
 EACHINEVR006
   VIEW : project
@@ -639,4 +639,7 @@ VRJAM 2013
   DESC : DK1 Oculus VR Jam.
   LONG
     & In 2013, Oculus held a gamejam for developers who owned the very first Oculus DK1 from Kickstarter. My friend {Hamish(https://kor.nz/)} and I submitted a head-aiming space shooter demo called Warp. It was showcased at DigitalNationz expo in 2013. These events contributed towards what evolved to become {(frogshark)}.
+    % 0096.jpg inline
+    % 0097.jpg inline
+
 `
