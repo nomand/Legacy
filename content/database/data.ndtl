@@ -495,11 +495,20 @@ LAPTOP
     & My portable setup is a lightweight Xiaomi Air 13" i7-8550U Windows laptop.
     & Other hardware:
     - {(tada68)}
-    - Drevo Excalibur 84 keys
+    - Durgod Aurora
     - Logitech G703 wireless mouse
     - Audio Technica ATH-M50x
+    - Sony WH-1000XM3
     - {Raspberry Pi(tag+raspberrypi)}
     % 0070.jpg inline
+
+IPAD PRO
+  VIEW : project
+  FROM : computer kit
+  HEAD : 0099.jpg
+  DESC : Ipad pro portable workstation
+  LONG
+    & I use the ipad primarily for freehand illustration, visual note-taking and digital painting studies. 
 
 CAMERA KIT
   VIEW : collection
@@ -642,4 +651,12 @@ VRJAM 2013
     % 0096.jpg inline
     % 0097.jpg inline
 
+Architecture Week
+  VIEW : project
+  HEAD : 0095.jpg
+  FROM : vr
+  TAGS : unity3d, vr, gamedev
+  DESC : Google Cardboard virtual tour.
+  LONG
+    & A project created for the 2016 Architecture week exhibit, in collaboration with The Roots makers organization.
 `
