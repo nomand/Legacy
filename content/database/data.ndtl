@@ -653,10 +653,17 @@ VRJAM 2013
 
 Architecture Week
   VIEW : project
-  HEAD : 0095.jpg
   FROM : vr
   TAGS : unity3d, vr, gamedev
   DESC : Google Cardboard virtual tour.
   LONG
     & A project created for the 2016 Architecture week exhibit, in collaboration with The Roots makers organization.
+
+Skills VR
+  VIEW : project
+  FROM : vr
+  TAGS : unity3d, vr, gamedev
+  DESC : A virtual reality learning platform.
+  LONG
+    & A series of projects I was an Art Lead on at Joy Business Academy.
 `
