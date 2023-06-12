@@ -27,6 +27,5 @@ Check your local aviation authorities for UAV operating regulations.
 
 ```
 
-![A 3" Drone sitting in palm of a hand, top-front view.](0008.jpg)
-![Closeup shot focusing ont he FPV camera of a 3" racing drone](XBL3DroneCamCloseup.webp)
-![Closeup shot of a 3" fpv racing drone, side view](XBL3DroneSideView.webp)
+![Closeup shot focusing ont he FPV camera of a 3 racing drone.](XBL3DroneCamCloseup.webp)
+![Closeup shot of a 3 fpv racing drone, side view.](XBL3DroneSideView.webp)
