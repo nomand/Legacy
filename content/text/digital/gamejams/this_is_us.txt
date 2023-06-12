@@ -1,0 +1,6 @@
+photo: ThisIsUs.webp
+header-height: 50
+---
+A collaboration between [Adam](https://twitter.com/emotiontheory), [Moth](https://twitter.com/OldLoths) and [myself](nomand).
+Our gamejam brainstorming session turned into a 2 hour conversation about sincerity, creative practice and the pursuit of mastery.
+This "game" is that conversation and can either be experienced in 3D on [GGJ](https://globalgamejam.org/2020/games/us-8) website or as a video capture on [youtube](https://www.youtube.com/watch?v=0PgAVr5HmOA)

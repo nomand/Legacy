@@ -1,0 +1,4 @@
+header-height: 50
+photo: woodshavings.webp
+---
+It's important that life doesn't just revolve around computers and I make sure to do things with my hands other than type. These projects may involve computers in some way, but their final manifistation is corporial and physical.

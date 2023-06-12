@@ -1,0 +1,6 @@
+photo: LetniceCalendarScreenshot.webp
+---
+Letnice is a simple Gregorian calendar visualizer that tracks year progress. I used it to add a sense of urgency for my final year students when I used to teach Game Development.
+
+Created using JavaScript. Project is open source and available on [github](https://github.com/nomand/letnice).
+Standalone live version can be seen [here](https://nomand.github.io/Letnice).

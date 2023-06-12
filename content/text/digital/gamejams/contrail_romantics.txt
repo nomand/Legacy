@@ -1,0 +1,9 @@
+photo: ContrailScreenshot01.webp
+---
+A game about drawing shapes in the sky.
+Pilot a skywriting plane and fulfill contrail messages for the folks below.
+
+Created in 48 hours during Global Gamejam 2017. Download on [GGJ](https://globalgamejam.org/2017/games/contrail-romantics)
+
+![Top down view of a purple map of Auckland with a plane writing an arc in the sky.](ContrailScreenshot02.webp)
+![Top down view of a pink map of Auckland with a plane collecting stars in the sky.](ContrailScreenshot03.webp)

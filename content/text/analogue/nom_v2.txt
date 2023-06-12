@@ -1,0 +1,11 @@
+photo: NomV2CloseupFront.webp
+---
+A sub-50g micro FPV drone that could be safely operated in small parks in windless conditions and large indoor spaces.
+
+* Custom design CNC carbon fiber frame
+* 45.5g dry weight
+* 5.8Ghz fpv feed
+* 7.2v 350mAh liPo
+
+![Closeup of the back of a 2.5" drone, 4 LEDs and antenna mounted on the back.](NomV2CloseupRear.webp)
+![Top down view of a 2.5" drone in the palm of a hand.](NomV2PalmDrone.webp)

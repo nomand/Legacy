@@ -1,0 +1,11 @@
+photo: GameboyAdvanceBacklit.webp
+---
+Before the release of Gameboy Advance SP AGS-101 in 2015, all previous gameboy models had no screen backlight. I've spent countless hours playing Link to the Past and F-Zero under poorly lit conditions in my teenage years.
+
+I've had this gameboy since I was 15 and I decided to give it a facelift with a custom aftermarket shell, glass screen cover and a backlit screen it deserved from the very beginning.
+
+The backlit screens used to be rare and had to be harvested from a specific model of a GBSP, but now freely available from China. Thanks to this modding guide by [gaggi](https://circuit-board.de/forum/index.php/Thread/9546-UR-GBA-Backlight-Screen-Mod-AGS-101-Display/?postID=593388#post593388) GBA's motherboard can display a vivid and clear image.
+
+![Photo of Gameboy Advance translucent magenta shell.](GameboyAdvanceShell.webp)
+![Back of a Gameboy Advance motherboard.](GameboyAdvanceCircuit.webp)
+![White Gameboy Advance next to a white Xbox one and PS4 controllers.](GameboyAdvanceKnoll.webp)

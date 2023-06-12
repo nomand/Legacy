@@ -1,0 +1,3 @@
+header-height: 20
+---
+The following is the sitemap by page hierarchy. Not every topic and page is exposed in the sidebar and as this site grows, things may move around and expand layers deep. Use this to help navigate my content.

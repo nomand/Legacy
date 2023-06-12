@@ -14,3 +14,9 @@ Thumbs.db
 
 .vs/
 .vscode
+__pycache__
+
+# framework
+
+build.py
+mde.py

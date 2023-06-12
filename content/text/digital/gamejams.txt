@@ -1,0 +1,3 @@
+header-height: 20
+---
+I occasionally participate in game jams to keep my skills sharp, to meet new people and get spontaneously creative.

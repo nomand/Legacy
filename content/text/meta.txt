@@ -1,0 +1,3 @@
+header-height: 50
+photo: LCDScreenCrack.webp
+---

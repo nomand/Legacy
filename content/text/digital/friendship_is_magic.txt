@@ -1,0 +1,6 @@
+photo: FriendshipIsMagicPonyville.webp
+---
+While at Gameloft as a Technical Artist, I helped release the official My Little Pony village building game for iOS using Gameloft's in-house engine and tooling. I was responsible for vfx and asset integration pipelines.
+
+![](FriendShipIsMagicRainbowDash.webp)
+![](FriendShipIsMagicAppleJack.webp)

@@ -1,0 +1,3 @@
+photo: PrintedPlaneSkeleton.webp
+---
+A 3D printed fixed wing glider. Designed to be printed on a minimal 100x100mm printing bed.

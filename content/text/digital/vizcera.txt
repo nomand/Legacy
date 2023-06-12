@@ -1,0 +1,9 @@
+photo: VizceraKids.webp
+---
+Motion controlled, Xbox Kinect driven audiovisual installation created as a collaboration with [Digital Art Live](https://www.aucklandlive.co.nz/digital-art-live) during my Masters of Creative Technologies study.
+
+Vizcera was on display at Aotea Centre in November 2014. A video of it in action can be seen [here](https://vimeo.com/118676473).
+
+![Streaks of various colors streaming off from the bottom of the screen.](VizceraScreenshot01.webp)
+![Red and purple streaks of color streaming off from a series of 10 color orbs.](VizceraScreenshot02.webp)
+![Streaks of yellow and green colors streaming up from the bottom of the screen.](VizceraScreenshot03.webp)

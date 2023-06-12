@@ -1,0 +1,3 @@
+debug: true
+---
+I love photography. I bring my [camera](camera_kit) almost everywhere I go.

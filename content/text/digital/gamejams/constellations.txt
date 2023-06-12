@@ -1,0 +1,7 @@
+photo: ConstellationsScreenshot01.webp
+---
+A first person puzzle mechanic prototype.
+In this prototype, you rotate planet orbits to match up constellations based on pictographic hints. Orbits are procedurally generated, so while constellations themselves are pre-determined, the solar system is always random.
+
+![Screen capture of the game mechanic, moving planets around by dragging their orbits.](ConstellationsDemo.gif)
+![Screen capture of random planet arrangements generating in-editor.](ConstellationsGenerationDemo.gif)

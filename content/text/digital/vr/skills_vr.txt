@@ -1,0 +1,11 @@
+photo: SkillsVR.webp
+---
+From 2019 to 2020, I worked as an Art Lead at what was then called [Joy Business Academy](https://skillsvr.com). I was overseeing the art team across all projects, with main hands-on focus on the new at the time VR initiative.
+
+We were developing a learning platform with a series of networked multiplayer learning-and-assessment experiences that were kickstarted by the [Ministry of Social Development](https://www.msd.govt.nz/).
+
+I was responsible for creating and maintaining an art style, workflow pipelines and tooling to deliver performant standalone VR experiences on the Oculus Quest 1 headset.
+
+Videos of these in action can be seen [here](https://vimeo.com/444398222) [here](https://vimeo.com/354073073) and [here](https://vimeo.com/465536146)
+
+![A 3D warehouse full of stuff with workers standing around.](SkillsVR_H&S.webp)

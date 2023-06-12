@@ -1,0 +1,3 @@
+header-height: 10
+---
+A Google Cardboard virtual tour created for the 2016 Architecture week exhibit, in collaboration with [The Roots](https://www.facebook.com/TheRootsCreativeEntrepreneurs/) creative entrepreneurs organization.

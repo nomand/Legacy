@@ -1,0 +1,9 @@
+photo: WarpScreenshot01.webp
+---
+DK1 Oculus VR Jam.
+In 2013, Oculus held a gamejam for developers who owned the very first Oculus DK1 from Kickstarter. My friend [Hamish](https://kor.nz/) and I submitted a head-aiming space shooter demo called Warp. It was showcased at DigitalNatioNZ expo in 2013.
+
+These events contributed towards what evolved to become [frogshark](frogshark).
+
+![A spaceship chasing a pack of hostile ships flying towards a misty asteroid field.](WarpScreenshot02.webp)
+![A spaceship flying towards a big blue planet.](WarpScreenshot03.webp)

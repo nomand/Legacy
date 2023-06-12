@@ -1,0 +1,12 @@
+photo: GaeaInterfaceScreenshot.webp
+---
+Experimental planetary birthday clock.
+
+Gaea calendar starts with your birth timestamp in Gregorean format and moves in sync with the Earth from then. Each Gaea day corresponds to 1 angular degree around the Sun.
+
+A year has **12 months & 30 days** each and as such, doesn't respect Gregorean calendar days and is out of phase with regular day/night cycles. There are no hours or minutes in Gaea, a day lasts `360` units, which is equal to `87661536` milliseconds. Year index is zero-based.
+
+Created using HTML canvas and JavaScript.
+
+* Project is open source and available on [github](https://github.com/nomand/Gaea)
+* Standalone live view [here](https://nomand.github.io/Gaea/)

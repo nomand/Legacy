@@ -1,0 +1,19 @@
+photo: DualityScreenshot01.webp
+---
+Duality is a two player Dash'n'Slash game, created in 48 hours for KiwiJam 2019 in collaboration with [Adam Thompson](https://www.emotiontheory.com/).
+
+Made using:
+* Unity3D
+* Speed tree
+* Quixel Mixer & Megascans
+* Substance Painter
+* MapMagic
+* Adobe Mixamo
+* Autodesk tools
+
+Watch gameplay video on [youtube](https://www.youtube.com/watch?v=Mgo5n7YalgA)
+Download and play on [itch.io](https://emotiontheory.itch.io/duality-2019)
+
+![Two neon characters glowing magenta and yellow clashing with sparks going everywhere.](DualityScreenshot02.webp)
+![A neon yellow character dashing away from the magenta one, surrounded by giant crystals and a dead tree.](DualityScreenshot03.webp)
+![Neon characters dashing towards each other leaving glowing trails behind them.](DualityScreenshot03.webp)

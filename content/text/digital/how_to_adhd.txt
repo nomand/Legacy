@@ -1,0 +1,3 @@
+photo: HowToADHD.webp
+---
+I created a 3D tool for [How To ADHD](https://www.youtube.com/@HowtoADHD), a youtube channel dedicated to knowledge about and advice living with ADHD. Part of the channel's style is animated cartoons of their main character depicted as a brain. To suit their 2D workflow using AfterEffects, I created a 3D model for their new logo and made a utility that could render it out from any angle.

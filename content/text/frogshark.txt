@@ -1,0 +1,7 @@
+debug: true
+photo: FrogsharkTeam.webp
+---
+_Frogshark_ was a 3 person studio, co-founded by [Hamish MacDonald](http://kor.co.nz/), Danny Lawrie and [myself](nomand) in 2014. Gordon Larson joined the team in 2015.
+
+* Frogshark developed and published [Swordy](Swordy) in Early Access.
+* I left Frogshark in 2017 which was consequently dissolved.

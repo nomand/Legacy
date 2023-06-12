@@ -1,0 +1,8 @@
+photo: BreezeBowsprit.webp
+header-height: 80
+---
+_nomand_ is my alias and the name I go by on various networks and communities online.
+
+I was born in Russia, currently based in New Zealand. I'm a technologist and multimedia artist with projects spanning various disciplines and mediums. [Work with me](runningtap)
+
+Find how you can support me and my work [here](support)

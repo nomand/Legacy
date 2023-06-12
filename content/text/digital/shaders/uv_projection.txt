@@ -1,0 +1,7 @@
+photo: UVProjectionShader.webp
+---
+This shader demonstrates a method of using worldspace transforms (relative positions, scale and rotation) to remap texture UV's in XZ world axis. The technique can be used to create variety of shader effects.
+Example supplied uses a heightmap projection for vertex offset. Creted using Amplify Shader Editor.
+
+![Animation of the shader in action moving around, scaling and rotating a height map.](UVProjectionShaderDemo.gif)
+![Screenshot of the shader graph.](UVProjectionShaderTree.webp)

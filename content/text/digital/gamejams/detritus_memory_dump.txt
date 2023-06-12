@@ -1,0 +1,8 @@
+photo: DetritusScreenshot01.webp
+---
+A [memory palace](https://en.wikipedia.org/wiki/Method_of_loci) of a room I used to live in. Explore few fleeting snippets of a bygone space.
+
+Made in 48 hours during Global Gamejam 2016. Download on the [GGJ](https://globalgamejam.org/2016/games/detritus-memory-dump) website.
+
+![Screenshot of a clay render of a room with real life photos floating in space.](DetritusScreenshot02.webp)
+![Picture of a notebook with game design scribbles.](DetritusScreenshot03.webp)

@@ -1,0 +1,26 @@
+photo: DeskLitRed.webp
+---
+An arduino controlled light strip for my former workspace. It used off the shelf components, 3D-printed and lazer-cut parts. It had 3 knobs that controlled color and brightness using HSV mapping.
+Code and STL files available on the project [github](https://github.com/nomand/HSVStripController) page.
+
+![Closeup of a rectangular controller with a bamboo faceplate and 3 rotary dials.](HSVController3Knobs.webp)
+
+#### Parts
+
+* P9813 LED controller
+* 1x Arduino nano
+* 3x Analogue Pots
+* 1x 5v or 3.3v (depending on your Arduino) Voltage regulator
+* 1x 12v power input jack
+* 1x 3D printed shell
+* 1x Lazer cut faceplate
+
+#### Dependancies:
+
+* [FastLED](https://github.com/FastLED/FastLED) Library
+* [ResponsiveAnalogRead](https://github.com/dxinteractive/ResponsiveAnalogRead) Library
+* [ArduinoAnalogueSmooth](https://github.com/MichaelThessel/arduino-analog-smooth) Library
+
+I had particularly low quality potentiometers, so the signal is over-filtered. I would use digital rotary encoders if I were to improve it.
+
+![The insides of the HSV controller with LED driver and wiring exposed.](HSVControllerCircuitry.webp)

@@ -1,0 +1,32 @@
+photo: XBL3DroneInHand.webp
+---
+A custom built small form factor "everyday carry" drone for racing and freestyle with focus on weight and durability. Ideal in small parks and countries with sub-250g uav regulations.
+
+* Dry Weight 135.5g
+* Betaflight 3.3+ firmware
+* 3 min flight time
+* 2.4Ghz Control link
+* 5.8Ghz Video link
+* Recommended LiPo 650mAh - 800mAh
+* Speed 90mph+
+
+### Part List
+
+* Frame: [PUDA XBL140](https://www.banggood.com/PUDA-XBL140-140mm-3-Inch-Mini-RC-Drone-FPV-Racing-Frame-Kit-4mm-Arm-Carbon-Fiber-p-1243033.html)
+* Motors: [RCX H1407](http://www.myrcmart.com/rcx-h1407-v2-5000kv-micro-outrunner-brushleass-motor-its-time-to-upgrade-your-1306-motor-p-9436.html)
+* Flight Controller: [HGLRC XJB F440](https://www.banggood.com/HGLRC-XJB-F440-TX20_V2-Omnibus-F4-Flight-Controller-OSD-40A-Blheli_32-3-5S-ESC-25100200350mW-VTX-p-1242937.html)
+* Reciever: [FRSky XM+](https://www.banggood.com/Frsky-XM-Micro-D16-SBUS-Full-Range-Receiver-Up-to-16CH-p-1110020.html)
+* Vision: [Foxeer Predator Micro](http://surveilzone.com/Foxeer-Predator-Micro-Camera-FPV-OSD-1000TVL-Super-WDR-g-2120)
+* Propellers: [DALPROP Cyclone T3056C](http://surveilzone.com/2-Pairs-3-blade-DALPROP-CYCLONE-T3056C-Props-for-FPV-Racing-g-2137)
+* Misc: [XT30](https://www.banggood.com/buy/xt30-connector.html), [18AWG](https://www.banggood.com/DANIU-2-Meter-Black-Silicone-Wire-Cable-10121416182022AWG-Flexible-Cable-p-1170287.html), [Strap](www.iflight-rc.com/iflight-battery-straps-10-130mm.html), [Nylon](https://www.banggood.com/300pcs-M3-Nylon-Black-Hex-Scre-p-984310.html)
+
+```
+
+Check your local RF regulations in regards to operating on these radio frequencies.
+Check your local aviation authorities for UAV operating regulations.
+
+```
+
+![A 3" Drone sitting in palm of a hand, top-front view.](0008.jpg)
+![Closeup shot focusing ont he FPV camera of a 3" racing drone](XBL3DroneCamCloseup.webp)
+![Closeup shot of a 3" fpv racing drone, side view](XBL3DroneSideView.webp)

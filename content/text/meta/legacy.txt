@@ -1,0 +1,15 @@
+header-height: 60
+photo: VintageComputers.webp
+---
+Legacy is a wiki-like static site generator written in Python.
+Designed to convert a folder hierarchy with .txt files written in Markdown with custom metadata and custom link parsers to a cross-linked wiki html site.
+
+Design philosophy:
+
+* Source content is plain text, markdown formatted and readable outside of html renderer.
+* Source folder structure reflects output page hierarchy.
+* Plain static html, no databases or javascript required.
+* Plain root output retains urls so that individual page relationships can change.
+* Changes over time can be tracked using [github commit tree](https://github.com/nomand/Legacy/commits/master)
+
+Inspired by [100r](https://100r.co) and [XXIIVV](https://wiki.xxiivv.com)

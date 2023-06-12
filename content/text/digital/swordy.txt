@@ -1,0 +1,11 @@
+photo: SwordyClifftopArena.webp
+---
+Swordy is a local-multiplayer physics based brawler, A game I worked on as part of an indie studio I co-founded called (frogshark)[frogshark].
+I was involved from conception in 2014 until late 2016, responsible for some 3D and technical art, level design, sound design, dynamic soundtrack, marketing materials, video editing among other things.
+
+It was made available on [Steam](https://store.steampowered.com/app/467900/SWORDY/) Early Access, but is not finished, nor  supported since the dissolution of the indie studio.
+
+![Two warriors facing off with sword and shields.](SwordyScreenshot01.webp)
+![Green man chasing a red man with swords surrounded by pixelated blood splatters of character colors.](SwordyScreenshot02.webp)
+![Top down veiw of a battle on a cliff top winter arena.](SwordyScreenshot03.webp)
+![Top down view of an ancient desert ruin arena.](SwordyScreenshot04.webp)

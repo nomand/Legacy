@@ -1,0 +1,19 @@
+photo: Tada68TopView.webp
+---
+If your everyday work involves computers, a keyboard is something you touch every day for hours on end.
+Objects that you interact with every day should be beautiful.
+
+Theme for this build is "Lava", using black and charcoal colors with orange LED lighting, assembled from individual components.
+Initially I wanted the plate to be made from carbon fiber, but it was hard to find a manufacturer that would do a one off at a reasonable price, so I cut the plate from PETG. It ended up working really well, scattering light and reflecting it off the white PCB.
+
+* Custom PETG plate
+* KBDfans pcb mount stabilizers
+* KBDfans cnc aluminum case
+* Orange smd underglow
+* Orange backlight leds
+* Gateron Red switches
+* PBT DSA blank keycaps black
+
+![Closeup of the red glow under the keycaps of a mechanical keyboard.](Tada68SideView.webp)
+![Closeup of matte black keycaps of a keyboard, with no legends printed on them.](Tada68Corner.webp)
+![Black and charcoal keyboard with red underglow on a wooden desktop.](Tada68DeskView.webp)

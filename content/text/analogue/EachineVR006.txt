@@ -1,0 +1,94 @@
+photo: EachineVR01.webp
+---
+This project offers 3D printing files and instructions to re-house the screen and electrical components extracted from a cheap FPV headset [Eachine VR006](https://www.banggood.com/Eachine-E013-VR006-VR-006-One-antenna-3-Inch-5_8G-40CH-Mini-FPV-Goggles-Build-in-3_7V-500mAh-Battery-p-1239625.html) to use as a stand-alone spectator screen for Drone Racing and other RF hobby applications.
+
+A video version of this guide is available on [youtube](https://youtu.be/1_T4DhQ6De4).
+3D CAD models licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+# Guide
+
+### Step 1
+
+Remove the SMA cover and the retaining brass nut.
+
+![EachineVR006 FPV Headset.](EachineVR02.webp)
+
+### Step 2
+
+Underneath, unscrew 4 phillips screws and lift the top half of the plastic body.
+
+![Bottom of the fpv headset.](EachineVR03.webp)
+
+### Step 3
+
+The battery is held in place with a piece of foam and double sticky tape. Remove the foam and carefully cut along the tape with a craft knife to avoid prying the lipo battery.
+Remove the control board and the fresnel lens. The screen assembly should freely slide out of the housing.
+
+![Inside of the FPV headset. LCD Display and fresnel lens.](EachineVR04.webp)
+
+### Step 4
+
+Be careful removing the screen, as it's not attached to the circuit board. Pull them gently together to avoid damaging the ribbon cable.
+
+![Electrical components of the headset laid out on a table.](EachineVR05.webp)
+
+There are two variants of this board - the "diversity" version with two antennas (not real RX diversity) and the single antenna version I have here, my case design is for this version.
+
+![Back of the motherboard with radio reciever visible.](EachineVR06.webp)
+
+### Step 5
+
+Next, you'll tape up the exposed breakout pins to avoid short circuiting them when you secure the screen to the surface (the back of the LCD is metal).
+
+![Other side of the motherboard, flat surface with no smd components.](EachineVR07.webp)
+
+Cut some pieces of electrical tape to cover the breakout pins and gently press the screen onto the board to secure it with double sticky tape.
+Use double sided tape, foam tape will make the assembly too thick.
+
+![](eachinevr_08.jpg)
+
+### Step 6
+
+Navigate to [/STL/](/STL/), download and 3D print the housing.
+
+![CAD render of the new shell.](EachineVR09.webp)
+
+![CAD render of the rear lid of the shell.](EachineVR10.webp)
+
+I created this to fit on a 10x10 printing platform, which is common among lowest-end printers. Due to this, the USB charging port sticks out a bit. If you want to make it flush with the side of the case, simply extrude the right wall by 3mm to the left.
+
+### Step 7
+
+Remove the metal frame from the LCD panel. It will only get caught in the ridges of the 3D print and may actually damage your screen.
+
+![Display with it's frame removed.](EachineVR10.webp)
+
+### Step 8
+
+Slot the assembly into the body of the case, ribbon cable side first, carefully allowing the case to bend it over the edge.
+
+![Motherboard fit into the new 3D printed case.](EachineVR12.webp)
+
+### Step 9
+
+De-solder the connector from the control board and re-attach the cables in order for the buttons to fit into the rear panel holes. Make sure to note which cable goes where, they're both black.
+
+![The control buttons circuit with connector removed next to pliers.](EachineVR13.webp)
+
+### Step 10
+
+Add some foam padding to the motherboard to sit against the control board to prevent it from sinking into the case when pressing the buttons.
+
+![Buttons circuit fitted to the rear lid 3D print.](EachineVR14.webp)
+
+### Step 11
+
+Slot the rear cover into the bottom rail, aligning the top rail gaps then push it in to mesh both rails and slide the cover on.
+
+![Rear lid assembly to the main 3D printed body.](EachineVR15.webp)
+
+### Done!
+
+Your screen assembly is now complete! Happy flying!
+
+![Final assembly shown displaying live FPV feed from a drone on the desk.](EachineVR16.webp)

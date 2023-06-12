@@ -1,0 +1,7 @@
+photo: LizRyerson3DWorld.webp
+---
+A Mashup of works by [Liz Ryerso](https://twitter.com/ellaguro) and [Ian MacLarty](https://twitter.com/muclorty).
+
+A mashup interactive experience that combines Ian MacLarty's experimental game [Southbank Portrait](https://ianmaclarty.itch.io/southbank-portrait) and Liz Ryerson's [BAGAIJ10S](http://ludumdare.com/compo/ludum-dare-27/?action=preview&uid=4987) works and her album [SCRAPS](https://ellaguro.bandcamp.com/album/scraps). 
+
+This experiment uses Ian’s engine and framework to expose a different way of traversing Ryerson's works.
