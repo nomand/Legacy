@@ -2,6 +2,6 @@ photo: LightbeamShaderRoom.webp
 ---
 This project is a mesh generation system and a surface shader. It allows creation of procedural light impostors that automatically align with the main light direction and create a volumetric look. Everything is done dynamically, to avoid manually creating 3D meshes.
 
-<video src="../input/images/LightbeamsDemoLight.webm" autoplay loop></video>
+<video src="../content/images/LightbeamsDemoLight.webm" autoplay loop></video>
 
-<video src="../input/images/LightbeamsDemoHandles.webm" autoplay loop></video>
+<video src="../content/images/LightbeamsDemoHandles.webm" autoplay loop></video>
