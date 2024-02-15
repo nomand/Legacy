@@ -1,0 +1,9 @@
+photo: RemotelyHQ.webp
+---
+Remotely was an online-first company developing immersive communication tools with a goal of improving emotional wellbeing and engagement of workers in online meetings. I was a Lead Artist on the self-titled project, a realtime 3D online web platform and meeting tool.
+
+Remotely was built using Unity3D and deployed on the web using WebGL. It was a challenging project from a technical perspective. Unity's WebGL deployment was buggy and underdeveloped at the time and there were huge compatibility and optimizations issues across platforms and browsers.
+
+![Remotely Screenshot](RemotelyMuseum.webp)
+
+![Remotely Screenshot](RemotelyMoleGame.webp)

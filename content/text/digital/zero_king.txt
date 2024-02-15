@@ -1,0 +1,6 @@
+photo: ZeroKing01.webp
+---
+I was a Technical Artist at Zero King, a studio with their first self-titled online competitive space shooter [Zero King](https://store.steampowered.com/app/2675370/Zero_King/).
+I was responsible for defining the early alpha stage visual design and realtime rendering techniques, visual effects and environment lighting.
+Zero King was build using Unity3D engine during my tenure.
+
