@@ -22,7 +22,7 @@ header { display: block; position: relative; width: 100%; min-height: var(--logo
 .logo { display: block; position: absolute; top: var(--panel-padding); left: var(--panel-padding); width: var(--logo-size); height: var(--logo-size); background-image: var(--svg-logo); background-size: contain; background-repeat: no-repeat; background-position-y: center; }
 
 nav { padding: var(--panel-padding); float: left; min-width: 300px;}
-main { padding: var(--panel-padding); float:left; max-width: 900px; }
+main { padding: var(--panel-padding); float:left; max-width: 900px; font-size: 1.1em; }
   main section { margin-bottom: var(--panel-padding); }
   main img, main video { width:100%; max-width: 900px; margin-bottom: 15px; user-select: none; }
 .date { color: var(--color-faded)}
@@ -73,6 +73,8 @@ code { background-color: var(--color-code); padding: 0px 4px; border-radius: 4px
 map  { background-color: var(--color-code); color: var(--color-faded); display: block; width: 100%; padding: 25px; line-height: 1.2em; border-radius: 4px; font-family: monospace; font-size: 1.1em; white-space: pre; -webkit-overflow-scrolling: touch; -webkit-text-size-adjust: none; overflow-x: scroll; }
   map a:after { content: ""; color: var(--color-pale); }
   map a:hover:after { margin-right: 2px; content: " •"; transition: all 150ms; text-decoration: none; }
+
+.youtube-embed { width: 100%; aspect-ratio: 16 / 9; }
 
 footer                  { width: 100%; box-sizing: border-box; line-height: 30px; padding: var(--panel-padding); clear: both; }
 footer a.icon           { width: 20px; height: 30px; margin: 0px 8px; background-size: contain; background-repeat: no-repeat; background-position-y: center; display: block; float: right; }
