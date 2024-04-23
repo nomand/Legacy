@@ -1,0 +1,63 @@
+debug: true
+header-height: 30;
+---
+
+I'm a technologist, balancing my creative practices between software, hardware, digital and analogue.
+
+Currently doing research in Stable Diffusion workflow design and AI pipelines for generative content authoring. Talk to me if you want to learn more about AI art pipelines and how you can leverage Open Source technologies of this domain at your business.
+
+I specialize in interactive applications, video games and digital media. I facilitate R&D, design, prototyping, development, user experience research, consulting and project management.
+
+I have experience with with VR and mobile application development, while primarily working in Unity game engine, doing everything from 2D/3D art and design, animation, motion tracking, motion control, shaders, sound design, music production and tool development.
+
+I have experience prototyping with IoT hardware such as Raspberry Pi, arduino and ESP32 and UAV drone technology. I've done CAD and small run manufacturing using CNC machines, working with wood, metal and carbon fibre.
+
+I've been involved in a number of social media campaigns for past projects, front-end web development, photography, podcasting, video production for interviews, video game trailers and youtube format content.
+
+I'm interested working with companies that aren't shy to invest in unknown futures and support R&D efforts to open new business opportunities.
+
+### [Zero King](Zero_King)
+#### *Technical Artist*
+_Aug 2023 - Dec 2023_  
+Helped define early stage visual identity for the Zero King game. Authored environment art, shaders and interactive visual effects. Conducted R&D in the field of generative AI and it's applications in early stage game prototyping.
+
+### [RemotelyHQ](Remotely)
+#### *Lead Technical Artist*
+_Jul 2020 - Aug 2022_  
+Was responsible for developing and optimizing the front-end of a virtual communication platform for the web. Using the Unity3D engine, we developed a voice-enabled virtual world for remote work and collaboration with customizable avatars. Responsible for environment and character creation pipelines.
+
+### [JBA (SkillsVR)](Skills_VR)
+#### *Art Lead*
+_Jan 2019 - Jul 2020_  
+Managing a team of artists, we delivered 6 learning modules in Construction, Traffic Management, Prefabricated housing, Health & Safety, Confined Spaces and Working at Heights industries.
+Dove deep into performance optimization for standalone VR, established art pipelines from git through to software and middleware workflow development, built and integrated 3D visuals and visual effects optimized for mobile, developed export pipelines and editor tooling for the art team.
+
+### Yoobee
+#### *Lecturer of Game Art & Development*
+_Feb 2017 - Dec 2018_  
+I Lead a re-development and NZQA compliance effort of the _Game Art and Development_ diploma curriculum.
+During the two years I taught a cohort of students the game development process from game design theory, playtesting methodologies, introduction to programming, 3D art and animation, rapid prototyping, basics of marketing and distribution.
+
+### [Frogshark](Frogshark)
+#### *Co-founder*
+_Feb 2014 - Dec 2016_  
+Co-founded an indie game studio in a team of 3.
+Business responsibilities include marketing, PR & video production, community management & social media.
+Production responsibilities include SFX design, music composition and 3D art.
+
+### Auckland University of technology
+#### *Lecturer*
+_Feb 2016 - Jun 2016_  
+Course leader for 3D Visualisation at AUT. Assisting students on their elective projects using Unity3D game engine to create interactive data visualizations.
+
+### Gameloft
+#### 3D Artist, Technical Artist
+_Sep 2010 - Feb 2014_  
+Environment artist on Silent Ops mobile game,
+VFX Artist on My Little Pony mobile game,
+Technical Artist on Ice Age Adventures mobile game.
+
+### Weta Productions
+#### VFX Artist
+_Dec 2009 - Apr 2010_  
+Visual effects artist on documentary films "Supercontinents" and "Mutant Planet".
