@@ -68,9 +68,9 @@ table { width: 100%; border-collapse: collapse; margin-bottom: 1.6em; }
   th { font-weight: bold; background-color: none; color: var(--color-accent) }
   td { vertical-align: top; }
 
-pre  { background-color: var(--color-code); border: none; padding: 10px; overflow-x: auto; margin-bottom: 1.6em; border-radius: 4px; }
-code { background-color: var(--color-code); padding: 0px 4px; border-radius: 4px; font-family: "Courier New", Courier, monospace; font-weight: 600; font-size: 1.1em; white-space: pre; -webkit-overflow-scrolling: touch; -webkit-text-size-adjust: none; overflow-x: scroll; }
-map  { background-color: var(--color-code); color: var(--color-faded); display: block; width: 100%; padding: 25px; line-height: 1.2em; border-radius: 4px; font-family: monospace; font-size: 1.1em; white-space: pre; -webkit-overflow-scrolling: touch; -webkit-text-size-adjust: none; overflow-x: scroll; }
+pre  { background-color: var(--color-code); order: none; padding: 10px; margin-bottom: 1.6em; border-radius: 4px; white-space: pre-wrap; }
+code { background-color: var(--color-code); padding: 0px 4px; border-radius: 4px; font-family: "Courier New", Courier, monospace; font-weight: 600; font-size: 1.1em; white-space: pre-wrap; }
+map  { background-color: var(--color-code); color: var(--color-faded); display: block; padding: 25px; line-height: 1.2em; border-radius: 4px; font-family: monospace; font-size: 1.1em; white-space: pre; }
   map a:after { content: ""; color: var(--color-pale); }
   map a:hover:after { margin-right: 2px; content: " •"; transition: all 150ms; text-decoration: none; }
 
