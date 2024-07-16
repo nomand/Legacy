@@ -1,5 +1,6 @@
 photo: StableDiffusion.webp
 ---
 I take huge interest in AI. I still cannot believe that the renaissance is happening in our lifetimes.  
-I took big interest in Stable Diffusion because of the toolset's ability to steer image generation and have incredible level of control over results.  
-I work using ComfyUI toolset, developing workflows and experimenting deeply with tuneability of the system and how to get creative and deliberate outputs.
+I took big interest in Stable Diffusion because of the toolset's ability to steer image generation and have incredible level of control over results.
+
+I work using ComfyUI toolset, developing scalable workflows and experimenting deeply with tuneability of the system and how to get creative and deliberate outputs. 
