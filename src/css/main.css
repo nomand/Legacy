@@ -89,3 +89,8 @@ footer a.icon.merveilles{ background-image: url("../svg/merveilles.svg");}
 {
   .topicblock { float: left; }
 }
+
+@media print
+{    
+    .no-print, .no-print * { display: none !important; }
+}
