@@ -11,7 +11,7 @@ I have experience with VR and mobile application development, 2D/3D art, animati
 
 On the hardware side I've worked with FDM prototyping and IoT hardware such as Raspberry Pi, arduino and ESP32 and UAV drone technology. I've done CAD and small run manufacturing using CNC machines, working with wood, metal and carbon fiber.
 
-I'm interested working with early stage startups and companies that invest in R&D efforts to open new creative and business opportunities.
+I'm interested in working with early stage startups and companies that invest in R&D efforts to open new creative and business opportunities.
 
 ### [Zero King](Zero_King)
 #### *Technical Artist*
