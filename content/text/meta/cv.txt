@@ -2,19 +2,16 @@ debug: true
 header-height: 30;
 ---
 
-I'm a technologist, balancing my creative practices between software, hardware, digital and analogue.
+I'm a technologist, and a multi-disciplinary tech artist specializing in interactive applications and digital media.
 
-Currently doing research in Stable Diffusion workflow design and AI pipelines for generative content authoring. Talk to me if you want to learn more about AI art pipelines and how you can leverage Open Source technologies of this domain at your business.
+Currently engaged in AI content creation pipelines, Stable Diffusion, ComfyUI workflow design and AI pipelines for generative content authoring. Talk to me if you want to learn more about AI and how you can leverage Open Source technologies at your business.
+I facilitate R&D, design, prototyping, development, user experience research, consulting and project management.
 
-I specialize in interactive applications, video games and digital media. I facilitate R&D, design, prototyping, development, user experience research, consulting and project management.
+I have experience with with VR and mobile application development, 2D/3D art, animation, motion tracking, motion control, shader and graphics pipeline development and tooling.
 
-I have experience with with VR and mobile application development, while primarily working in Unity game engine, doing everything from 2D/3D art and design, animation, motion tracking, motion control, shaders, sound design, music production and tool development.
+On the hardware side I've worked with FDM prototyping and IoT hardware such as Raspberry Pi, arduino and ESP32 and UAV drone technology. I've done CAD and small run manufacturing using CNC machines, working with wood, metal and carbon fiber.
 
-I have experience prototyping with IoT hardware such as Raspberry Pi, arduino and ESP32 and UAV drone technology. I've done CAD and small run manufacturing using CNC machines, working with wood, metal and carbon fibre.
-
-I've been involved in a number of social media campaigns for past projects, front-end web development, photography, podcasting, video production for interviews, video game trailers and youtube format content.
-
-I'm interested working with companies that aren't shy to invest in unknown futures and support R&D efforts to open new business opportunities.
+I'm interested working with early stage startups and companies that invest in R&D efforts to open new creative and business opportunities.
 
 ### [Zero King](Zero_King)
 #### *Technical Artist*
@@ -61,3 +58,12 @@ Technical Artist on Ice Age Adventures mobile game.
 #### VFX Artist
 _Dec 2009 - Apr 2010_  
 Visual effects artist on documentary films "Supercontinents" and "Mutant Planet".
+
+## Education
+### Auckland University of technology
+#### *Master's Degree, Creative Technologies*
+_2014 - 2016_
+
+### Auckland University of technology
+#### *Bachelor's Degree, Digital Design*
+_2006 - 2009_

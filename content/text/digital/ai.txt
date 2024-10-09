@@ -1,0 +1,6 @@
+photo: StableDiffusion.webp
+---
+I got into AI since Deepdream first imagined dog faces in 2016.
+
+Ever since ComfyUI github repo went live, I was hooked. This is a gift of our lifetimes.
+

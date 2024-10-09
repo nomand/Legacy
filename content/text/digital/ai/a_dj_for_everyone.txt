@@ -1,0 +1,7 @@
+photo: adjforeveryone.webp
+---
+**There's a DJ for Everyone** is an AI animation experiment.
+
+It utilizes Stable Diffusion, IPAdapter, AnimateDiff models along with various upscalers and interpolators to achieve a set of psychedelic morphing loops that explore a variety of visual and music styles.
+
+Animations can be seen on the project [TikTok](https://tiktok.com/@sreflab)
