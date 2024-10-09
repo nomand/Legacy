@@ -4,10 +4,10 @@ header-height: 30;
 
 I'm a technologist, and a multi-disciplinary tech artist specializing in interactive applications and digital media.
 
-Currently engaged in AI content creation pipelines, Stable Diffusion, ComfyUI workflow design and AI pipelines for generative content authoring. Talk to me if you want to learn more about AI and how you can leverage Open Source technologies at your business.
+Currently engaged in AI content creation pipelines, Stable Diffusion, ComfyUI workflow design and AI pipelines for generative content authoring.
 I facilitate R&D, design, prototyping, development, user experience research, consulting and project management.
 
-I have experience with with VR and mobile application development, 2D/3D art, animation, motion tracking, motion control, shader and graphics pipeline development and tooling.
+I have experience with VR and mobile application development, 2D/3D art, animation, motion tracking, motion control, shader and graphics pipeline development and tooling.
 
 On the hardware side I've worked with FDM prototyping and IoT hardware such as Raspberry Pi, arduino and ESP32 and UAV drone technology. I've done CAD and small run manufacturing using CNC machines, working with wood, metal and carbon fiber.
 
@@ -35,7 +35,7 @@ _Feb 2017 - Dec 2018_
 I Lead a re-development and NZQA compliance effort of the _Game Art and Development_ diploma curriculum.
 During the two years I taught a cohort of students the game development process from game design theory, playtesting methodologies, introduction to programming, 3D art and animation, rapid prototyping, basics of marketing and distribution.
 
-### [Frogshark](Frogshark)
+### [Frogshark](frogshark)
 #### *Co-founder*
 _Feb 2014 - Dec 2016_  
 Co-founded an indie game studio in a team of 3.
