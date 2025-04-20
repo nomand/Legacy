@@ -3,7 +3,6 @@ header-height: 80
 ---
 _nomand_ is my alias and the name I go by on various networks and communities online.
 
-I was born in USSR, moved to Aotearoa (New Zealand), living a nomadic life aboard [Irie](Irie). I'm a technologist and multimedia artist with projects spanning various disciplines and mediums. [Monist](https://en.wikipedia.org/wiki/Monism), [Cypherpunk](https://en.wikipedia.org/wiki/Cypherpunk) Spiritual being.
-[Work with me](runningtap)
+I was born in USSR, moved to Aotearoa (New Zealand), living a nomadic life aboard [Irie](Irie). I'm a technologist and multimedia artist with projects spanning various disciplines and mediums. [Burner](https://kiwiburn.com/the-event/culture/guiding-principles/), [Monist](https://en.wikipedia.org/wiki/Monism), [Cypherpunk](https://en.wikipedia.org/wiki/Cypherpunk) Spiritual being.
 
-Find how you can support me and my work [here](support)
+Support me and my work [here](support)
