@@ -1,0 +1,16 @@
+photo: GameOnParty.webp
+---
+I got to work with the talented people at [Luma Audiovisual](https://www.lumaaudiovisual.com/) that built a whole real-life sci-fi laser tag arena with some sophisticated audiovisual tech throughout.
+I was brought on to create a set of animated digital porthole views of space outside and a cinematic flight animation going from space to surface of a planet.
+
+The challenge of any business is iteration speed. Whether you're creating futuristic entertainment, SaaS or even sell "Analogue Services", one of your constraints will always be how fast you can create outputs to assess your inputs to make better decisions every time you iterate.
+
+Unity engine was the authoring environment which allowed me to bring together a variety of manually sculpted, pre-rendered, procedurally generated, scripted, kit-bashed and AI assisted assets, along with my realtime lighting, shading and graphics pipeline expertise. It enabled framing, layout, animation, lighting, and physics simulations to happen in real-time.
+
+If you don't have to wait seconds and minutes or hours to see what changes you just made, you can validate your decisions faster, allowing more time to be spent on style discovery, refinement and detailing.
+
+![](GameOnDropShip.webp)
+![](GameOnBowling.webp)
+![](GameOnGiant.webp)
+![](GameOnMoon.webp)
+![](GameOnStation.webp)
