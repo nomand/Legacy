@@ -4,4 +4,8 @@ photo: adjforeveryone.webp
 
 It utilizes Stable Diffusion, IPAdapter, AnimateDiff models along with various upscalers and interpolators to achieve a set of psychedelic morphing loops that explore a variety of visual and music styles.
 
-Animations can be seen on the project [TikTok](https://tiktok.com/@sreflab)
+In 2025, I exhibited a 25 minute version of this work at Dimension Festival in 2025. It seamlessly morphed between 50 different characters.
+
+Some of the individual animations can be seen on the project [TikTok](https://tiktok.com/@sreflab)
+
+youtube(https://www.youtube.com/watch?v=JRye3Sxys7s)
