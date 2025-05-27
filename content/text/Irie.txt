@@ -1,4 +1,4 @@
-photo: IrieFirstSplashdown.webp
+photo: IrieUrquharts2023.webp
 ---
 Irie is a 33ft steel sailboat that is my home, my workspace and my playground. It's the biggest project I've ever undertaken, the biggest object I own and marks the most exciting and challenging arc of my life.
 
@@ -11,4 +11,3 @@ This process will be documented in a sister-wiki dedicated to the journey.
 ![](IrieSchematic.webp)
 ![](IrieFogBridge.webp)
 ![](IrieForwardHatchSunBeam.webp)
-![](IrieUrquharts2023.webp)
