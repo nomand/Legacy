@@ -4,14 +4,27 @@ header-height: 30;
 
 I'm a technologist, and a multi-disciplinary tech artist specializing in interactive applications and digital media.
 
-Currently engaged in AI content creation pipelines, Stable Diffusion, ComfyUI workflow design and AI pipelines for generative content authoring.
 I facilitate R&D, design, prototyping, development, user experience research, consulting and project management.
 
-I have experience with VR and mobile application development, 2D/3D art, animation, motion tracking, motion control, shader and graphics pipeline development and tooling.
+I have experience with AI content authoring pipelines, VR and mobile application development, 2D/3D art, animation, shader and graphics pipeline development and tooling.
 
-On the hardware side I've worked with FDM prototyping and IoT hardware such as Raspberry Pi, arduino and ESP32 and UAV drone technology. I've done CAD and small run manufacturing using CNC machines, working with wood, metal and carbon fiber.
+I've worked with FDM prototyping and IoT hardware such as Raspberry Pi, arduino and ESP32 and UAV drone technology. I've done CAD and small run manufacturing using CNC machines, working with wood, metal and carbon fiber.
 
 I'm interested in working with early stage startups and companies that invest in R&D efforts to open new creative and business opportunities.
+
+---
+
+
+
+### CompanyX
+### Creative Lead
+_May 2025 - Current_
+Joined a Simulation & Training department at CompanyX. Assisting in the creative strategies, art direction, implementation pipelines and content creation workflows to deliver compelling training simulations for clients.
+
+### [GameOn](gameon)
+#### *Technicl Artist*
+_Feb 2025_
+I was brought on to create a set of animated digital set extensions and cinematic flight animations for a sci-fi laser tag arena.
 
 ### [Zero King](Zero_King)
 #### *Technical Artist*
