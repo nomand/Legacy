@@ -23,45 +23,48 @@
   <a class="logo" href="home.html"></a>
 </header>
     <nav class="no-print"><section class="site-nav"><section class="topicblock">
+<a class="topichead" href="analogue.html">Analogue</a>
+<a class="topic" href="3D_printing.html">3D Printing</a>
+<a class="topic" href="nom_v2.html">Nom V2</a>
+<a class="topic" href="swordy_pins.html">Swordy Pins</a>
+<a class="topic" href="tada68.html">Tada68</a>
+<a class="topic" href="tinkering.html">Tinkering</a>
+<a class="topic" href="xbl3.html">Xbl3</a>
+</section>
+<section class="topicblock">
 <a class="topichead" href="digital.html">Digital</a>
-<a class="topic" href="gameon.html">Gameon</a>
-<a class="topic" href="how_to_adhd.html">How To Adhd</a>
-<a class="topic" href="projection_mapping.html">Projection Mapping</a>
-<a class="topic" href="vizcera.html">Vizcera</a>
-<a class="topic" href="vr.html">Vr</a>
+<a class="topic" href="GameOn.html">Gameon</a>
 <a class="topic" href="ai.html">Ai</a>
 <a class="topic" href="gaea.html">Gaea</a>
 <a class="topic" href="gamedev.html">Gamedev</a>
+<a class="topic" href="how_to_adhd.html">How To Adhd</a>
 <a class="topic" href="letnice.html">Letnice</a>
+<a class="topic" href="projection_mapping.html">Projection Mapping</a>
+<a class="topic" href="vizcera.html">Vizcera</a>
+<a class="topic" href="vr.html">Vr</a>
 </section>
 <section class="topicblock">
 <a class="topichead" href="meta.html">Meta</a>
-<a class="topic" href="support.html">Support</a>
-<a class="topic" href="runningtap.html">Runningtap</a>
 <a class="topic" href="cv.html">Cv</a>
 <a class="topic" href="legacy.html">Legacy</a>
 <a class="topic" href="nomand.html">Nomand</a>
+<a class="topic" href="runningtap.html">Runningtap</a>
 <a class="topic" href="sitemap.html">Sitemap</a>
+<a class="topic" href="support.html">Support</a>
 </section>
 <section class="topicblock">
 <a class="topichead" href="offgrid.html">Offgrid</a>
 <a class="topic" href="irie.html">Irie</a>
-<a class="topic" href="van.html">Van</a>
 <a class="topic" href="lifestyle.html">Lifestyle</a>
-</section>
-<section class="topicblock">
-<a class="topichead" href="analogue.html">Analogue</a>
-<a class="topic" href="tada68.html">Tada68</a>
-<a class="topic" href="3d_printing.html">3D Printing</a>
-<a class="topic" href="tinkering.html">Tinkering</a>
-<a class="topic" href="swordy_pins.html">Swordy Pins</a>
-<a class="topic" href="nom_v2.html">Nom V2</a>
-<a class="topic" href="xbl3.html">Xbl3</a>
+<a class="topic" href="van.html">Van</a>
 </section>
 </section></nav>
 
 <main>
-<section><h1>Shaders</h1><p class="breadcrumb"><a href="digital.html">Digital</a>&nbsp ‣ &nbsp<a href="gamedev.html">Gamedev</a>&nbsp ‣ &nbsp<a href="shaders.html">Shaders</a></p><p><ul class='toc'><li><a href='#reveal_shader'>Reveal Shader</a></li><li><a href='#dynamic_lightbeams'>Dynamic Lightbeams</a></li><li><a href='#uv_projection'>Uv Projection</a></li></ul></p><p>Shader experiments.</p></section><section><h2><a id='reveal_shader' href=reveal_shader.html>Reveal Shader</a></h2><p><img src='../content/images/RevealShaderTerrain.webp' loading='lazy'></p><p>A set of shaders for Unity that generates a render texture based on player position and re-projects it back onto game world as a mask for various shader effects.</p>
+<section><h1>Shaders</h1><p class="breadcrumb"><a href="digital.html">Digital</a>&nbsp ‣ &nbsp<a href="gamedev.html">Gamedev</a>&nbsp ‣ &nbsp<a href="shaders.html">Shaders</a></p><p><ul class='toc'><li><a href='#dynamic_lightbeams'>Dynamic Lightbeams</a></li><li><a href='#reveal_shader'>Reveal Shader</a></li><li><a href='#uv_projection'>Uv Projection</a></li></ul></p><p>Shader experiments.</p></section><section><h2><a id='dynamic_lightbeams' href=dynamic_lightbeams.html>Dynamic Lightbeams</a></h2><p><img src='../content/images/LightbeamShaderRoom.webp' loading='lazy'></p><p>This project is a mesh generation system and a surface shader. It allows creation of procedural light impostors that automatically align with the main light direction and create a volumetric look. Everything is done dynamically, to avoid manually creating 3D meshes.</p>
+<video src="../content/images/LightbeamsDemoLight.webm" autoplay loop></video>
+
+<video src="../content/images/LightbeamsDemoHandles.webm" autoplay loop></video></section><section><h2><a id='reveal_shader' href=reveal_shader.html>Reveal Shader</a></h2><p><img src='../content/images/RevealShaderTerrain.webp' loading='lazy'></p><p>A set of shaders for Unity that generates a render texture based on player position and re-projects it back onto game world as a mask for various shader effects.</p>
 <p>Features:
 * Black and White to RGB texture reveal shader
 * Transparent to Opaque RGB Texture reveal shader
@@ -71,10 +74,7 @@
 * Adaptive RenderTexture aspect ratio
 * Custom inspector</p>
 <p>Source code, license, usage guide and <em>unitypackage</em> downloads available on <a href="https://github.com/nomand/RevealShader" target="_blank">github</a></p>
-<p><img alt="Animation of a ball rolling around a surface, revealing it's path with shader UI showcasing the rendertexture." loading="lazy" src="../content/images/RevealShaderDemo.gif" /></p></section><section><h2><a id='dynamic_lightbeams' href=dynamic_lightbeams.html>Dynamic Lightbeams</a></h2><p><img src='../content/images/LightbeamShaderRoom.webp' loading='lazy'></p><p>This project is a mesh generation system and a surface shader. It allows creation of procedural light impostors that automatically align with the main light direction and create a volumetric look. Everything is done dynamically, to avoid manually creating 3D meshes.</p>
-<video src="../content/images/LightbeamsDemoLight.webm" autoplay loop></video>
-
-<video src="../content/images/LightbeamsDemoHandles.webm" autoplay loop></video></section><section><h2><a id='uv_projection' href=uv_projection.html>Uv Projection</a></h2><p><img src='../content/images/UVProjectionShader.webp' loading='lazy'></p><p>This shader demonstrates a method of using worldspace transforms (relative positions, scale and rotation) to remap texture UV's in XZ world axis. The technique can be used to create variety of shader effects.
+<p><img alt="Animation of a ball rolling around a surface, revealing it's path with shader UI showcasing the rendertexture." loading="lazy" src="../content/images/RevealShaderDemo.gif" /></p></section><section><h2><a id='uv_projection' href=uv_projection.html>Uv Projection</a></h2><p><img src='../content/images/UVProjectionShader.webp' loading='lazy'></p><p>This shader demonstrates a method of using worldspace transforms (relative positions, scale and rotation) to remap texture UV's in XZ world axis. The technique can be used to create variety of shader effects.
 Example supplied uses a heightmap projection for vertex offset. Creted using Amplify Shader Editor.</p>
 <p><img alt="Animation of the shader in action moving around, scaling and rotating a height map." loading="lazy" src="../content/images/UVProjectionShaderDemo.gif" />
 <img alt="Screenshot of the shader graph." loading="lazy" src="../content/images/UVProjectionShaderTree.webp" /></p></section>
