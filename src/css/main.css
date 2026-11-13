@@ -13,22 +13,32 @@
   --panel-padding: 45px;
 }
 
+/*
+* { outline: 1px solid red; }
+*/
+
 ::selection { color: var(--color-almostblack); background: var(--color-pale); }
 
-body { width: 100%; box-sizing: border-box; overflow-x: hidden; font-family: helvetica, sans-serif; background-color: var(--color-almostblack); margin: 0px; padding: 0px; transition: opacity 150ms; opacity: 1 !important; color: var(--color-pale) }
+html { min-height: 100%; }
+body { min-height: 100%; width: 100%; box-sizing: border-box; line-height: 1.6; overflow-x: hidden; font-size: 16px; font-family: helvetica, sans-serif; background-color: var(--color-almostblack); margin: 0px; padding: 0px; transition: opacity 150ms; opacity: 1 !important; color: var(--color-pale) }
+
+#wrap { display: grid; grid-template-columns: minmax(900px, 100%); grid-template-areas: "header" "nav" "main" "footer"; }
+
 a { cursor: pointer; color: var(--color-pale); text-decoration: none; }
 a:hover { color: var(--color-accent); }
-header { display: block; position: relative; width: 100%; min-height: var(--logo-size); background-size: cover; background-position: calc(50% - var(--panel-padding)) center; background-repeat: no-repeat; padding: var(--panel-padding); }
+header { grid-area: header; box-sizing: border-box; position: relative; width: 100%; min-height: var(--logo-size); background-size: cover; background-position: 50%; center; background-repeat: no-repeat; padding: var(--panel-padding); }
 .logo { display: block; position: absolute; top: var(--panel-padding); left: var(--panel-padding); width: var(--logo-size); height: var(--logo-size); background-image: var(--svg-logo); background-size: contain; background-repeat: no-repeat; background-position-y: center; }
 
-nav { padding: var(--panel-padding); float: left; min-width: 300px;}
-main { padding: var(--panel-padding); float:left; max-width: 900px; font-size: 1.1em; }
+nav  { display: grid; box-sizing: border-box; overflow-x: auto; gap: 20px; padding: var(--panel-padding) var(--panel-padding) 0px var(--panel-padding); min-width: 300px; max-width: 900px; margin: 0px auto; grid-area: nav; }
+main { padding: var(--panel-padding); box-sizing: border-box; grid-area: main; max-width: 900px; margin: 0px auto; }
   main section { margin-bottom: var(--panel-padding); }
-  main img, main video { width:100%; max-width: 900px; margin-bottom: 15px; user-select: none; }
+  main img, main video { width:100%; max-width: 900px; display: block; margin-bottom: 15px; user-select: none; }
 .date { color: var(--color-faded)}
 
-.topicblock { display:table; vertical-align: top; min-width: 200px; margin-bottom: 20px; -webkit-column-break-inside: avoid; page-break-inside: avoid; break-inside: avoid; }
-.topicblock .topichead { display: inline-block; font-weight: bold; text-transform: uppercase; margin-bottom: 10px; font-size: 20px; user-select: none; -moz-user-select: none; -webkit-user-select: none; }
+.site-nav { display: flex; max-width: 900px; }
+
+.topicblock { display: block; min-width: 160px; margin-bottom: 20px; white-space: nowrap; -webkit-column-break-inside: avoid; page-break-inside: avoid; break-inside: avoid; }
+.topicblock .topichead { display: inline-block; font-weight: bold; text-transform: uppercase; margin-bottom: 10px; font-size: 24px; user-select: none; -moz-user-select: none; -webkit-user-select: none; }
 .topicblock .topic { display: block; margin-bottom: 5px; width:auto; }
 .topicblock a:after, h2 a:after { content: ""; }
 .topicblock a:hover:after, h2 a:hover:after { margin-right: 2px; content: " •"; transition: all 150ms; text-decoration: none; }
@@ -40,6 +50,7 @@ main { padding: var(--panel-padding); float:left; max-width: 900px; font-size: 1
 .toc { font-weight: bold; }
   .toc a { background: none; color: var(--color-pale); padding: 0px;}
   .toc a:hover { background: none; color: var(--color-accent); }
+  .toc li { line-height: 14px; }
 
 h1, h2, h3, h4, h5, h6 { padding: 0; margin: 0; }
 h1 { font-size:45px; text-transform: capitalize; font-weight: bold; margin-bottom: 15px;}
@@ -85,12 +96,16 @@ footer a.icon.instagram { background-image: url("../svg/instagram.svg"); }
 footer a.icon.rotonde   { background-image: url("../svg/rotonde.svg");}
 footer a.icon.merveilles{ background-image: url("../svg/merveilles.svg");}
 
-@media only screen and (max-width: 1440px)
-{
-  .topicblock { float: left; }
-}
-
 @media print
 {    
     .no-print, .no-print * { display: none !important; }
+}
+
+@media (max-width: 900px)
+{
+    :root { --panel-padding: 20px; }
+    #wrap { display:block; }
+    main { width: 100%; max-width: none; }
+    header { height:40vh !important; min-height:220px; }
+    .panorama { height: 30vh; }
 }
